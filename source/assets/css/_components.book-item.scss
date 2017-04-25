@@ -1,0 +1,88 @@
+.c-book-item {
+  display: block;
+  float: left;
+  width: 49.5%;
+  margin: 3em 0 0;
+  line-height: 1.2;
+  max-width: 22em;
+
+  @include breakpoint(tablet-sm) {
+    width: 33.2%;
+  }
+  @include breakpoint(tablet-lg) {
+    max-width: 16em;
+    width: 24.95%;
+  }
+  @include breakpoint(desktop-sm) {
+    width: 20%;
+  }
+  @include breakpoint(desktop-lg) {
+    width: 16%;
+  }
+  @include breakpoint(120em) {
+    width: 12.5%;
+  }
+
+  &:hover,
+  &:focus {
+    .c-book-item__title {
+      color: $base-link-color;
+    }
+
+    .c-book-item__image {
+      transform: scale(1.1);
+    }
+  }
+
+  &:active {
+    .c-book-item__image {
+      transition: all .1s ease-out;
+      transform: scale(1.05);
+    }
+  }
+
+  &__cover {
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+  }
+
+  &__image {
+    position: absolute;
+    bottom: 0;
+    left: 1em;
+    width: 60%;
+    transition: all .2s ease-out;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .1);
+    -webkit-backface-visibility: hidden;
+  }
+
+  &__title {
+    padding: 1.1em 1rem 0;
+    margin-top: 0;
+    line-height: 1.5;
+    margin-bottom: .2em;
+    border-top: .5em solid $gray-opacity1;
+    font-weight: 300;
+    font-family: $font-serif;
+    color: $base-text-color;
+    font-size: .95em;
+  }
+
+  &__meta {
+    margin: 0;
+    line-height: 1.4;
+    padding: 0 1rem;
+    color: $gray2;
+    font-family: $font-sans;
+    font-weight: 300;
+    font-size: .85em;
+  }
+}
+
+@supports(display: grid) {
+  .c-book-item {
+    margin-top: 0;
+    max-width: none;
+  }
+}

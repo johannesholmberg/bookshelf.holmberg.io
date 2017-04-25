@@ -1,0 +1,23 @@
+{% capture title %}{{ page.title }}{% if page.title != 'Johannes Holmberg’s Reading' %}, book read by {{ site.author }}{% endif %}{% endcapture %}<title>{{ title }}</title>
+<meta property="og:title" content="{{ title }}">
+{% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  <meta property="og:description" content="{{ page.description }}">
+{% endif %}
+
+{% if page.cover %}
+  {% assign image_path = "/uploads/reading/" | append: page.cover | append: ".jpg" %}
+  <meta property="og:image" content="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000.jpg">
+{% elsif page.has_cover %}
+  {% assign title = page.url | split: '/' %}
+  {% assign titleNew = title | last %}
+  {% assign cover = titleNew | replace: '-read-2', '' %}
+  {% assign image_path = "/uploads/reading/" | append: cover | append: ".jpg" %}
+  <meta property="og:image" content="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000.jpg">
+
+{% else %}
+  {% assign image_path = "/uploads/others/johannes-square.jpg" %}
+  <meta property="og:image" content="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=400&amp;refresh=2592000.jpg">
+{% endif %}
+
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">

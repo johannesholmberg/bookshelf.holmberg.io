@@ -1,0 +1,53 @@
+.c-book-list {
+  padding: 0 5.5vw;
+  margin-bottom: 4em;
+
+  &__title {
+    @extend %clearfix;
+    width: 100%;
+    color: $base-text-color;
+    margin: 2em .2em .8em 0;
+    position: relative;
+
+    &:after {
+      content: '';
+      height: 1px;
+      background: rgba(100, 100, 100, .25);
+      display: block;
+      width: 100%;
+      position: absolute;
+      top: 52%;
+    }
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    span {
+      background: $light-brand-color;
+      position: relative;
+      z-index: 99;
+      padding: 0 .4em 0 0;
+    }
+  }
+
+  &__section {
+    @extend %clearfix;
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+
+
+@supports(display: grid) {
+  .c-book-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12.5em, 1fr));
+    grid-gap: 3em 0px;
+
+    &__title {
+      grid-column: 1 / -1;
+    }
+  }
+}

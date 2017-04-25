@@ -1,0 +1,53 @@
+{% assign critical_css_file = false %}
+
+{% if page.active == 'index' %}
+  {% assign critical_css_file = "criticalcss/index.css" %}
+
+{% elsif page.layout == 'post' %}
+  {% assign critical_css_file = "criticalcss/post.css" %}
+
+{% elsif page.layout == 'book' %}
+  {% assign critical_css_file = "criticalcss/book.css" %}
+
+{% elsif page.layout == 'case' %}
+  {% assign critical_css_file = "criticalcss/case.css" %}
+
+{% elsif page.active == 'notebook' %}
+  {% assign critical_css_file = "criticalcss/notebook.css" %}
+
+{% elsif page.active == 'reading' %}
+  {% assign critical_css_file = "criticalcss/reading.css" %}
+
+{% elsif page.active == 'work' %}
+  {% assign critical_css_file = "criticalcss/work.css" %}
+
+{% endif %}
+
+{% capture critical_css_file_full_path %}_includes/{{ critical_css_file }}{% endcapture %}
+{% capture critical_css_file_exists %}{% file_exists {{ critical_css_file_full_path }} %}{% endcapture %}
+
+{% if site.environment == 'production' %}
+  {% assign path = "/assets/css/styles.min.css" %}
+  {% capture fullCSS %}{{ site.url }}{{ path }}{% endcapture %}
+
+  {% if critical_css_file_exists == "true" %}
+    <style>
+      {% include {{ critical_css_file }} %}
+    </style>
+
+    <script>
+      window.enhance = {};
+      !function(){function e(e,n,t){function o(){for(var n,r=0;r<d.length;r++)d[r].href&&d[r].href.indexOf(e)>-1&&(n=!0);n?i.media=t||"all":setTimeout(o)}var i=window.document.createElement("link"),r=n||window.document.getElementsByTagName("script")[0],d=window.document.styleSheets;return i.rel="stylesheet",i.href=e,i.media="only x",r.parentNode.insertBefore(i,r),o(),i}window.enhance.loadCSS=e}();
+      window.enhance.loadCSS( "{{ fullCSS }}" );
+
+      // Since it will be faster to fetch the stylesheet from the cache on subsequent pageviews, set a cookie as a proxy for the primed cache:
+      document.cookie = 'stylesCached=true; expires=0; path=/';
+    </script>
+
+  {% else %}
+    <link rel="stylesheet" href="{{ fullCSS }}">
+  {% endif %}
+
+{% else %}
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
+{% endif %}

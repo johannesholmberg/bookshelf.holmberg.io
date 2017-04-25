@@ -1,0 +1,27 @@
+---
+layout: default
+active: book
+---
+
+<article class="o-main-layout">
+  {% assign title = page.title %}
+  {% capture meta %}
+    {% assign thedate = page.date %}
+    {% include nice-date.html %} — <span>by</span> {{ page.author }}
+  {% endcapture %}
+	{% include page-header.html %}
+
+  <div class="s-main-content s-main-content--book s-main-content--intro">
+    {% if page.has_cover == "" or page.has_cover == nil %}
+      {% include book-cover.html %}
+    {% endif %}
+
+    {{ content }}
+  </div>
+
+  <aside class="o-sidebar">
+    {% include author-card.html %}
+    {% assign cat = "reading" %}
+    {% include post-navigation.html %}
+  </aside>
+</article>

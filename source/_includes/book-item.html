@@ -1,0 +1,32 @@
+{% assign title = post.url | split: '/' %}
+{% assign titleNew = title | last %}
+{% if post.cover == "" or post.cover == nil %}
+  {% assign cover = titleNew | replace: '-read-2', '' %}
+{% else %}
+  {% assign cover = post.cover %}
+{% endif %}
+
+<a href="{{ post.url }}" class="c-book-item">
+  <div class="c-book-item__cover">
+    {% assign image_path = "/uploads/reading/" | append: cover | append: ".jpg" %}
+    <img
+      class="c-book-item__image"
+      {% if site.environment == 'production' %}
+        src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=140&amp;refresh=2592000.jpg"
+        srcset="
+        https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=140&amp;refresh=2592000 140w,
+        https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=240&amp;refresh=2592000 240w"
+      {% else %}
+        src="{{ site.url }}{{ image_path }}"
+      {% endif %}
+      sizes="190px"
+      alt="{{ post.title }}"
+    >
+  </div>
+  <h3 class="c-book-item__title">
+    {{ post.title }}{% if post.subtitle == "" or post.subtitle == nil %}{% else %}: {{ post.subtitle }}{% endif %}
+  </h3>
+  <p class="c-book-item__meta">
+    {{ post.author }}
+  </p>
+</a>

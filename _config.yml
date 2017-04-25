@@ -1,0 +1,69 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+author: Johannes Holmberg
+email: johannes@holmberg.io
+environment: development
+
+
+# ----------------------- #
+#   Global media queries  #
+# ----------------------- #
+
+mobile-lg:   'min-width: 34em'
+tablet-sm:   'min-width: 45em'
+tablet-lg:   'min-width: 57em'
+desktop-sm:  'min-width: 67em'
+desktop-lg:  'min-width: 84em'
+desktop-xl:  'min-width: 118em'
+
+
+# ------------ #
+#    Jekyll    #
+# ------------ #
+
+source: source
+destination: _site
+plugins_dir: plugins
+permalink: /:categories/:year/:month/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "book"
+
+
+linenos: true
+highlight:
+  linenos: true
+highlight_options:
+  linenos: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude: [
+  "assets/css/*.scss",
+  "assets/js/source",
+  "assets/icons"
+]
+
+# ------------- #
+#    Plugins    #
+# ------------- #
+
+compress_html:
+  ignore:
+    envs: [development]
+
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+google_analytics: UA-20488297-7

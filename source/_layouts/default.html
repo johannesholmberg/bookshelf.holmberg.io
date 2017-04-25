@@ -1,0 +1,30 @@
+---
+layout: compress
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  {% include head/head-sharing.html %}
+  {% include head/head-favicons.html %}
+  {% include head/head-css.html %}
+  {% include head/head-js.html %}
+</head>
+<body {% if page.body_class %}class="{{page.body_class}}"{% endif %}>
+    {% if site.environment != "production" %}
+      <h1 class="dev-flag">Development</h1>
+    {% endif %}
+
+    <div style="height: 0; width: 0; position: absolute; visibility: hidden">
+      {% include icons/icons.svg %}
+      <a href="#main-content">Skip to content</a>
+    </div>
+
+    <main id="main-content">{{ content }}</main>
+
+    {% if site.environment == "production" %}
+      {% include analytics.html %}
+    {% endif %}
+  </body>
+</html>

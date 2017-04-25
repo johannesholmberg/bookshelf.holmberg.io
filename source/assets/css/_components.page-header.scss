@@ -1,0 +1,39 @@
+.c-page-header {
+  color: #fff;
+  background: $base-link-color;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, .2);
+  flex: 0 1 100%;
+  width: 100vw;
+  padding: 3em; /* Default for browsers not understanding viewport units */
+  padding: 3em 6vw 3.5em 6vw;
+  font-size: .9em;
+
+  @include breakpoint(tablet-sm) {
+    font-size: 1em;
+    margin-bottom: -4em;
+    padding-bottom: 7em;
+  }
+
+  &__title {
+    margin-bottom: .1em;
+    @include breakpoint(desktop-lg) {
+      max-width: 70vw;
+    }
+  }
+
+  &__meta {
+    line-height: 1.4;
+    text-align: left;
+    padding: 0;
+    font-family: $font-serif-italic;
+    font-style: italic;
+    margin-bottom: 0;
+
+    span {
+      font-family: $font-serif-italic;
+      font-style: italic;
+      font-size: .85em;
+    }
+  }
+}
