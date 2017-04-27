@@ -1,90 +1,52 @@
-.s-main-content {
-  background: #fff;
-  max-width: 68em;
-  padding: 0 0 3em; /* Default for browsers not understanding viewport units */
-  padding: 3vw 0 6em;
-  background-clip: padding-box;
-  margin-bottom: -3em;
-  margin-bottom: -3%;
-  flex: 4 1 40em;
-  box-shadow: 0 0 2px rgba(0, 0, 0, .1);
-  float: left;
-  z-index: 1;
+.container {
+  max-width: 80em;
+  margin: 0 auto;
+  padding: 2em 6%;
+}
 
-  > *,
-  > .figure--margins {
-    padding: 0 3em; /* Default for browsers not understanding viewport units */
-    padding-left: 5.5vw;
-    padding-right: 5.5vw;
+.book-layout {
+  padding: 6% 6% 5em;
+  margin: 0 auto;
+  max-width: 80em;
 
-    figcaption {
-      padding: 0;
-    }
+  @include breakpoint(80em) {
+    padding: 7em 5em 8em;
+  }
+}
+
+.main-content {
+  @include breakpoint(tablet-sm) {
+    margin-left: 35%;
   }
 
-  > figure,
-  > iframe,
-  > div {
-    padding: 0;
-
-    figcaption {
-      padding-left: 5.5vw;
-      padding-right: 5.5vw;
-    }
+  * + * {
+    margin-top: 1.5em;
   }
 
-  > blockquote {
-    padding: .8em 7vw .8em 1.8em;
-
-    @include breakpoint(mobile-xl) {
-      margin-left: calc(5.5vw - .3em);
-    }
+  :target > p {
+    display: inline;
+    line-height: 1.55;
+    padding: .15em;
+    background-color: #fff;
+    color: #222;
   }
+}
 
-  > figure:first-child {
-    margin-top: -3vw;
+.sidebar {
+  word-wrap: break-word;
+
+  > aside {
+    margin-bottom: 1em;
   }
+}
 
-  .fragment-identifier {
-    background-image: none;
-    color: #aaa;
-    font-size: .8em;
-    vertical-align: 2px;
-    margin-left: .3em;
-    transition: all .2s ease-in-out;
+.sidebar__meta {
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+}
 
-    &:hover,
-    &:focus {
-      background-image: none;
-      color: $base-text-color;
-    }
-  }
-
-  &--intro {
-    > p:first-of-type {
-      font-size: 1.4em;
-
-      @include breakpoint(tablet-sm) {
-        font-size: 1.5em;
-      }
-
-      &:first-letter {
-        display: inline;
-        font-family: $font-serif-bold;
-        font-weight: 700;
-        float: left;
-        padding: .15em .08em 0 0;
-        line-height: .65em;
-        font-size: 3.4em;
-      }
-    }
-  }
-
-  &--book {
-
-    :target {
-      border-left-color: $base-link-color;
-    }
-
-  }
+.sidebar__meta-item {
+  display: block;
+  padding: .25em 0;
 }

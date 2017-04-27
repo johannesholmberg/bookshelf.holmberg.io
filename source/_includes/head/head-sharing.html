@@ -1,4 +1,5 @@
-{% capture title %}{{ page.title }}{% if page.title != 'Johannes Holmberg’s Reading' %}, book read by {{ site.author }}{% endif %}{% endcapture %}<title>{{ title }}</title>
+{% capture title %}{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }} {% endif %} {% if page.title %} | {% endif %} Highlights from books I’ve read | Johannes Holmberg{% endcapture %}
+<title>{{ title }}</title>
 <meta property="og:title" content="{{ title }}">
 {% if page.description %}
   <meta name="description" content="{{ page.description }}">

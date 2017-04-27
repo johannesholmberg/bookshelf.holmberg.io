@@ -1,53 +1,57 @@
 .c-book-list {
-  padding: 0 5.5vw;
+  padding: 3em 5.5vw;
   margin-bottom: 4em;
+}
 
-  &__title {
-    @extend %clearfix;
-    width: 100%;
-    color: $base-text-color;
-    margin: 2em .2em .8em 0;
-    position: relative;
+.c-book-list__title {
+  margin: 4em 0 1em;
+  position: relative;
+  text-align: center;
 
-    &:after {
-      content: '';
-      height: 1px;
-      background: rgba(100, 100, 100, .25);
-      display: block;
-      width: 100%;
-      position: absolute;
-      top: 52%;
-    }
-
-    &:first-of-type {
-      margin-top: 0;
-    }
-
-    span {
-      background: $light-brand-color;
-      position: relative;
-      z-index: 99;
-      padding: 0 .4em 0 0;
-    }
+  @include supports(grid) {
+    grid-column: 1 / -1;
   }
 
-  &__section {
-    @extend %clearfix;
-    display: flex;
-    flex-flow: row wrap;
+  &:after {
+    content: '';
+    border-bottom: 3px solid rgba(255, 255, 255, .05);
+    transform: translateY(-1px);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 52%;
+  }
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+
+  span {
+    background: #04051b;
+    position: relative;
+    z-index: 99;
+    padding: 0 .4em 0;
   }
 }
 
+.c-book-list__section {
+  display: flex;
+  flex-flow: row wrap;
 
-@supports(display: grid) {
-  .c-book-list {
-    width: 100%;
+  @include supports(grid) {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(12.5em, 1fr));
-    grid-gap: 3em 0px;
+    grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
 
-    &__title {
-      grid-column: 1 / -1;
+    @include breakpoint(mobile-xl) {
+      grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+    }
+
+    @include breakpoint(tablet-sm) {
+      grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+    }
+
+    @include breakpoint(desktop-sm) {
+      grid-template-columns: repeat(auto-fill, minmax(17em, 1fr));
     }
   }
 }

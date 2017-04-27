@@ -1,0 +1,16 @@
+/**
+* @file _tools.supports.scss
+* @author Johannes Holmberg
+*/
+
+/**
+* @supports
+* Mixin for creating a supports directive in context to the selector
+*/
+@mixin supports($property) {
+  @if $property == grid {
+    @supports (display: grid) {
+      @content;
+    }
+  }
+}

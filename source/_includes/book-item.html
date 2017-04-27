@@ -8,7 +8,7 @@
 
 <a href="{{ post.url }}" class="c-book-item">
   <div class="c-book-item__cover">
-    {% assign image_path = "/uploads/reading/" | append: cover | append: ".jpg" %}
+    {% assign image_path = "/uploads/" | append: cover | append: ".jpg" %}
     <img
       class="c-book-item__image"
       {% if site.environment == 'production' %}

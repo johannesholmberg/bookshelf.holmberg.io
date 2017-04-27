@@ -1,38 +1,46 @@
 html {
-  color: $base-text-color;
-  line-height: 1.65;
-  font-size: .85em;
+  color: rgba(255, 255, 255, .85);
+  line-height: 1.45;
+  font-size: .9em;
 
   @include breakpoint(tablet-sm) {
-    font-size: .9em;
-  }
-
-  @include breakpoint(tablet-lg) {
     font-size: 1em;
-  }
-
-  @include breakpoint(desktop-xl) {
-    font-size: 1.1em;
   }
 }
 
 body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  background: $light-brand-color;
+  background-color: #050814;
   transition: all .2s ease-in-out;
-  font-family: $font-serif;
+  font-family: $font-sans;
+  max-width: 130em;
+  margin: 0 auto;
+
+  &:after {
+    display: block;
+    content: '';
+    background: linear-gradient(rgba(5, 8, 20, 0), #050814);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 18vh;
+    pointer-events: none;
+  }
 }
 
-b,
-strong {
-  font-family: $font-serif-bold;
+[href="#main"] {
+  position: absolute;
+  top: 0;
+  right: 100%;
+
+  &:focus {
+    right: auto;
+  }
 }
 
-em {
-  font-family: $font-serif-italic;
-}
+
+
+
 
 p {
   font-size: 1.25em;
@@ -50,5 +58,37 @@ hr {
     content: '\00b7\00b7\00b7';
     color: #bbb;
     letter-spacing: .5em;
+  }
+}
+
+ul,
+ol {
+  margin-left: 1.5em;
+  font-size: 1.25em;
+
+  p {
+    font-style: normal;
+    font-size: 1em;
+  }
+}
+
+blockquote {
+  margin: 0;
+
+  em,
+  cite,
+  .meta {
+    font-family: $font-sans;
+    font-style: normal;
+  }
+
+  p {
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }

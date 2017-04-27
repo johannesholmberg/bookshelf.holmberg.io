@@ -3,25 +3,28 @@ layout: default
 active: book
 ---
 
-<article class="o-main-layout">
-  {% assign title = page.title %}
-  {% capture meta %}
-    {% assign thedate = page.date %}
-    {% include nice-date.html %} — <span>by</span> {{ page.author }}
-  {% endcapture %}
-	{% include page-header.html %}
+<div class="book-layout">
 
-  <div class="s-main-content s-main-content--book s-main-content--intro">
-    {% if page.has_cover == "" or page.has_cover == nil %}
-      {% include book-cover.html %}
-    {% endif %}
+  <aside class="book-cover">
 
-    {{ content }}
-  </div>
+    <header class="book-cover__header">
+      <h1 class="book-cover__title">
+        <span>Highlights from</span>
+        {{ page.title }}{% if page.subtitle == "" or page.subtitle == nil %}{% else %}: {{ page.subtitle }}{% endif %}
+      </h1>
+      <div class="book-cover__meta">
+        <span>by</span> {{ page.author }}
+      </div>
+    </header>
 
-  <aside class="o-sidebar">
-    {% include author-card.html %}
-    {% assign cat = "reading" %}
-    {% include post-navigation.html %}
+    {% include book-cover.html %}
+
   </aside>
-</article>
+
+  <article class="main-content">
+    {{ content }}
+
+    <div>Highlights and covers are copyright to their respective authors.</div>
+  </article>
+
+</div>

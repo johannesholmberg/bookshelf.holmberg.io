@@ -2,8 +2,8 @@
 {% assign titleNew = title | last %}
 {% assign data = titleNew | replace: '-read-2', '' %}
 
-<section class="c-book-highlights">
-  <h4 class="c-book-highlights__title">My personal highlights from the book</h4>
+<div class="c-book-highlights">
+  <!-- <h2 class="c-book-highlights__title">Highlights from the book</h2> -->
 
   {% for highlight in site.data.[data] %}
      {% if highlight.loc %}
@@ -12,10 +12,10 @@
        {% assign location = "page" %}
      {% endif %}
 
-    <blockquote id="highlight{{ forloop.index }}" class="c-book-highlight">
+    <blockquote id="q{{ forloop.index }}" class="c-book-highlight">
       {{ highlight.quote | markdownify }}
 
-      <a href="#highlight{{ forloop.index }}" class="c-book-highlight__meta">
+      <a href="#q{{ forloop.index }}" class="c-book-highlight__meta">
         <span class="icon-holder">
           {% assign id = "link" %}
           {% include icons/icon.html %}
@@ -28,4 +28,4 @@
       </a>
     </blockquote>
   {% endfor %}
-</section>
+</div>

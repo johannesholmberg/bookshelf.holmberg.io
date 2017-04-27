@@ -7,6 +7,7 @@
 // TOOLS
 @import "tools.mixins";           // Global mixins
 @import "tools.breakpoints";      // Global breakpoints
+@import "tools.supports";
 @import "tools.helpers";          // Globally available helper classes
 
 // GENERIC (Starts CSS output)
@@ -23,25 +24,16 @@
 @import "elements.buttons";       // Button elements
 @import "elements.headings";      // H1–H6
 @import "elements.links";         // Styling all a elements
-@import "elements.lists";         // Styling of ul and ol
-@import "elements.quotes";        // Base styling for quotes
-@import "elements.tables";        // Base styling for tables
-@import "elements.forms";         // Element-level form styling
-@import "elements.figures";       // Base styling of figures
 
 // OBJECTS
-@import "objects.main-layout";    // File for main layout handling.
 @import "objects.main-content";   // Handling content layout
-@import "objects.sidebar";
 
 // COMPONENTS
+@import "components.header";
 @import "components.book-cover";
 @import "components.book-highlight";
 @import "components.book-item";
 @import "components.book-list";
-@import "components.page-header";
-@import "components.post-navigation";
-@import "components.author-card";
 
 // TRUMPS
 @import "trumps.utilities";       // Various helper classes

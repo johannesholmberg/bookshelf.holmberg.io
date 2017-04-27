@@ -1,0 +1,16 @@
+.logo {
+  font-size: 1.2em;
+  display: block;
+  padding: .75em 1.5em;
+  margin: 0 1em;
+  border-bottom: 1px solid rgba(255, 255, 255, .25);
+  text-align: center;
+  text-transform: uppercase;
+
+  @include breakpoint(tablet-lg) {
+    transform: rotate(-90deg);
+    position: fixed;
+    top: 7em;
+    left: -6em;
+  }
+}
