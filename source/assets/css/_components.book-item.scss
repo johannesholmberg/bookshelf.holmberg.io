@@ -61,12 +61,13 @@
 }
 
 .c-book-item__title {
-  padding: 1.1em 1rem 0;
+  padding: 1em 1rem 0;
   margin-top: 0;
   margin-bottom: .2em;
   border-top: .5em solid rgba(255, 255, 255, .1);
   font-weight: 300;
   color: #fff;
+  font-size: 1.15em;
   transition: all .2s ease-in-out;
 }
 
@@ -75,5 +76,13 @@
   padding: 0 1rem;
   text-transform: uppercase;
   font-size: .9em;
+  font-weight: bold;
   color: rgba(255, 255, 255, .35);
+
+  span {
+    font-style: italic;
+    font-size: .75em;
+    text-transform: none;
+    margin-right: .1em;
+  }
 }

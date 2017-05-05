@@ -27,6 +27,6 @@
     {{ post.title }}{% if post.subtitle == "" or post.subtitle == nil %}{% else %}: {{ post.subtitle }}{% endif %}
   </h3>
   <p class="c-book-item__meta">
-    {{ post.author }}
+    <span>by</span> {{ post.author }}
   </p>
 </a>
