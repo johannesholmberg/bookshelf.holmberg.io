@@ -1,6 +1,7 @@
 ---
 layout: book
-title: "An Autobiography"
+title: "My Experiments with Truth"
+subtitle: "An Autobiography of Mahatma Gandhi"
 author: M.K Gandhi
 cover: gandhi-an-autobiography
 publisher: Penguin

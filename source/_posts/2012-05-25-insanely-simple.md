@@ -1,6 +1,7 @@
 ---
 layout: book
 title: "Insanely Simple"
+subtitle: "The Obsession That Drives Apple's Success"
 author: Ken Segall
 cover: insanely-simple
 publisher: Portfolio Trade

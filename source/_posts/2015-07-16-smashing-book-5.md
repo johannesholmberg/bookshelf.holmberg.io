@@ -1,6 +1,7 @@
 ---
 layout: book
 title: "Smashing Book 5"
+subtitle: "Real-Life Responsive Web Design"
 cover: smashing-book-5
 author: Smashing Magazine
 publisher: Smashing Magazine

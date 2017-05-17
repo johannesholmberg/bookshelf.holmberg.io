@@ -1,6 +1,7 @@
 ---
 layout: book
 title: "The Story of B"
+subtitle: "An Adventure of the Mind and Spirit"
 date: 2013-04-02
 cover: the-story-of-b
 author: Daniel Quinn

@@ -1,6 +1,7 @@
 ---
 layout: book
 title: "The Road Less Traveled"
+subtitle: "A New Psychology of Love, Traditional Values, and Spiritual Growth"
 date: 2014-09-16
 author: M. Scott Peck
 cover: the-road-less-traveled

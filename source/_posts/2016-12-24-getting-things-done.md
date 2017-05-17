@@ -1,6 +1,7 @@
 ---
 layout: book
 title: "Getting Things Done"
+subtitle: "The Art of Stress-Free Productivity"
 date: 2016-12-24 08:53:13
 cover: getting-things-done
 author: David Allen
