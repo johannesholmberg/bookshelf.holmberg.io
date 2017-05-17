@@ -25,13 +25,18 @@
   >
 
   <ul class="sidebar__meta">
+    <li class="sidebar__meta-item">
+      <strong>Date read:</strong> {{ page.date | date: "%-d %B, %Y" }}
+    </li>
     {% if page.published %}
       <li class="sidebar__meta-item">
         <strong>Published:</strong> {{ page.published }}
       </li>
     {% endif %}
     <li class="sidebar__meta-item">
-      <a href="{{ page.book-url }}">More information</a>
+      <a href="{{ page.book-url }}" class="sidebar__meta-link">
+        More information
+      </a>
     </li>
   </ul>
 

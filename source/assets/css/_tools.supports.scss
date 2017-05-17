@@ -13,4 +13,14 @@
       @content;
     }
   }
+  @else if $property == flex {
+    @supports (display: flex) {
+      @content;
+    }
+  }
+  @else if $property == animation {
+    @supports (animation: my-animation 2s alternate forwards) {
+      @content;
+    }
+  }
 }

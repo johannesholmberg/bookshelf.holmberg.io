@@ -4,6 +4,8 @@
   width: 49.5%;
   margin: 3em 0 0;
   max-width: 22em;
+  perspective: 800px;
+  transform-style: preserve-3d;
 
   @include breakpoint(tablet-sm) {
     width: 33.2%;
@@ -24,18 +26,13 @@
 
   &:hover,
   &:focus {
-    .c-book-item__title {
-      color: $base-link-color;
+    .c-book-item__title span {
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: center bottom 7%;
     }
 
     .c-book-item__image {
-      transform: translateY(-.5em);
-    }
-  }
-
-  &:active {
-    .c-book-item__image {
-      transform: scale(.95) translateY(-.5em);
+      transform: rotateY(20deg);
     }
   }
 
@@ -61,27 +58,32 @@
 }
 
 .c-book-item__title {
-  padding: 1em 1rem 0;
+  padding: 1em 2.5rem 0 1rem;
   margin-top: 0;
   margin-bottom: .2em;
   border-top: .5em solid rgba(255, 255, 255, .1);
   font-weight: 300;
   color: #fff;
-  font-size: 1.15em;
-  transition: all .2s ease-in-out;
+  font-size: 1.1em;
+  transition: all 1.2s ease-in-out;
+
+  span {
+    @include underline;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  }
 }
 
 .c-book-item__meta {
   margin: 0;
   padding: 0 1rem;
   text-transform: uppercase;
-  font-size: .9em;
+  font-size: .8em;
   font-weight: bold;
   color: rgba(255, 255, 255, .35);
 
   span {
     font-style: italic;
-    font-size: .75em;
+    font-size: .8em;
     text-transform: none;
     margin-right: .1em;
   }

@@ -1,16 +1,22 @@
 .logo {
-  font-size: 1.2em;
   display: block;
   padding: .75em 1.5em;
   margin: 0 1em;
   border-bottom: 1px solid rgba(255, 255, 255, .25);
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: .2em;
+  z-index: 1;
 
   @include breakpoint(tablet-lg) {
     transform: rotate(-90deg);
     position: fixed;
-    top: 7em;
-    left: -6em;
+    top: 10em;
+    left: -9em;
+  }
+
+  @include supports(animation) {
+    opacity: 0;
+    animation: .75s ease-in forwards fadeIn;
   }
 }

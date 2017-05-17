@@ -1,18 +1,10 @@
 .c-book-highlight {
   padding: 1.5em 0;
-
-
 }
 
 .c-book-highlight__meta {
   margin: .6em 0 0;
   display: block;
-  color: rgba(255, 255, 255, .4);
-
-  &:hover,
-  &:focus {
-    color: $base-link-color;
-  }
 
   .icon-holder {
     margin-right: .3em;

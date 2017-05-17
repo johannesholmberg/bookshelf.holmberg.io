@@ -1,42 +1,13 @@
 .c-book-list {
-  padding: 3em 5.5vw;
+  padding: 1.5em 5.5vw;
   margin-bottom: 4em;
-}
-
-.c-book-list__title {
-  margin: 4em 0 1em;
-  position: relative;
-  text-align: center;
-
-  @include supports(grid) {
-    grid-column: 1 / -1;
-  }
-
-  &:after {
-    content: '';
-    border-bottom: 3px solid rgba(255, 255, 255, .05);
-    transform: translateY(-1px);
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 52%;
-  }
-
-  &:first-of-type {
-    margin-top: 0;
-  }
-
-  span {
-    background: #04051b;
-    position: relative;
-    z-index: 99;
-    padding: 0 .4em 0;
-  }
-}
-
-.c-book-list__section {
   display: flex;
   flex-flow: row wrap;
+
+  @include supports(animation) {
+    opacity: 0;
+    animation: .5s ease-in forwards fadeIn;
+  }
 
   @include supports(grid) {
     display: grid;

@@ -5,12 +5,13 @@
 }
 
 .book-layout {
-  padding: 6% 6% 5em;
+  padding: 5% 6% 8em;
   margin: 0 auto;
   max-width: 80em;
 
-  @include breakpoint(80em) {
-    padding: 7em 5em 8em;
+  @include supports(animation) {
+    opacity: 0;
+    animation: .5s ease-in forwards fadeIn;
   }
 }
 
@@ -28,7 +29,7 @@
     line-height: 1.55;
     padding: .15em;
     background-color: #fff;
-    color: #222;
+    color: $gray1;
   }
 }
 

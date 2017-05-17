@@ -24,7 +24,7 @@
   span {
     display: block;
     text-transform: uppercase;
-    font-size: .45em;
+    font-size: .5em;
     margin-bottom: .5em;
     opacity: .6;
   }
@@ -48,6 +48,6 @@
   max-height: 14vh;
 
   @include breakpoint(tablet-sm) {
-    max-height: 32vh;
+    max-height: 30vh;
   }
 }

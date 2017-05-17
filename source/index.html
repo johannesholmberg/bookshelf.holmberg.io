@@ -6,23 +6,6 @@ description: "Books are where I go for inspiration. These are the books I’ve r
 
 <div class="c-book-list">
   {% for post in site.posts %}
-    {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% if currentyear != year %}
-      {% if forloop.index != 1 %}
-        </div>
-      {% endif %}
-
-      <h2 class="c-book-list__title">
-        <span>{{ post.date | date: '%Y' }}</span>
-      </h2>
-      {% capture year %}{{ currentyear }}{% endcapture %}
-      <div class="c-book-list__section">
-    {% endif %}
-
     {% include book-item.html %}
-
-    {% if forloop.last == true %}
-      </div>
-    {% endif %}
   {% endfor %}
 </div>

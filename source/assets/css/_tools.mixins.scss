@@ -1,3 +1,20 @@
+@mixin underline() {
+  transition: all .2s ease-in-out;
+  background-image: linear-gradient(#fff, #fff);
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  background-position: center bottom 7%;
+
+  text-shadow:
+    3px 0 #000,
+    2px 0 #000,
+    1px 0 #000,
+    -1px 0 #000,
+    -2px 0 #000,
+    -3px 0 #000;
+}
+
+
 // Calc
 @mixin calc($fallback, $fixed-width, $flexible-width: 0) {
 
@@ -14,9 +31,4 @@
     width: -moz-calc(#{$flexible-width} - #{$fixed-width});
     width: calc(#{$flexible-width} - #{$fixed-width});
   }
-}
-
-// Check support with native CSS
-@mixin supportsFlex() {
-  @supports (display: flex) { @content; }
 }

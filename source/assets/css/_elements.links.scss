@@ -7,13 +7,13 @@ a::selection {
 }
 
 a {
-  color: $base-link-color;
+  color: $grayOpacity;
   transition: all .2s ease-in-out;
   text-decoration: none;
 
   &:hover,
   &:focus {
-    color: lighten($base-link-color, 15%);
+    color: #fff;
   }
 }
 

@@ -1,38 +1,26 @@
-@keyframes appear-from-bottom {
+@keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(40px);
   }
 
-  50% {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes appearBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  75% {
+    opacity: 1;
     transform: translateY(-10px);
-    opacity: 1;
   }
 
   100% {
+    opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@keyframes disappear-from-bottom {
-  0% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-
-
-  100% {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-}
-
-@keyframes text-fade-in {
-  0% {
-    color: transparent;
-  }
-
-  100% {
-    color: #333;
   }
 }

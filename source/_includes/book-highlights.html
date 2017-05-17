@@ -1,9 +1,6 @@
-{% assign title = page.url | split: '/' %}
-{% assign titleNew = title | last %}
-{% assign data = titleNew | replace: '-read-2', '' %}
+{% assign data = page.cover %}
 
 <div class="c-book-highlights">
-  <!-- <h2 class="c-book-highlights__title">Highlights from the book</h2> -->
 
   {% for highlight in site.data.[data] %}
      {% if highlight.loc %}
@@ -12,10 +9,10 @@
        {% assign location = "page" %}
      {% endif %}
 
-    <blockquote id="q{{ forloop.index }}" class="c-book-highlight">
+    <blockquote id="h{{ forloop.index }}" class="c-book-highlight">
       {{ highlight.quote | markdownify }}
 
-      <a href="#q{{ forloop.index }}" class="c-book-highlight__meta">
+      <a href="#h{{ forloop.index }}" class="c-book-highlight__meta">
         <span class="icon-holder">
           {% assign id = "link" %}
           {% include icons/icon.html %}
