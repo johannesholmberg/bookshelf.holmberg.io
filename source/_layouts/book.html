@@ -3,28 +3,68 @@ layout: default
 active: book
 ---
 
-<div class="book-layout">
+<main id="main" class="main-container">
 
-  <aside class="book-cover">
-
+  <div class="book-cover">
     <header class="book-cover__header">
       <h1 class="book-cover__title">
-        <span>Highlights from</span>
-        {{ page.title }}{% if page.subtitle == "" or page.subtitle == nil %}{% else %}: {{ page.subtitle }}{% endif %}
+        <span class="top">Highlights from</span>
+        <span class="head">
+          {{ page.title }}
+        </span>
+        {% if page.subtitle == "" or page.subtitle == nil %}{% else %}
+          <span class="sub">{{ page.subtitle }}</span>
+        {% endif %}
       </h1>
       <div class="book-cover__meta">
         <span>by</span> {{ page.author }}
       </div>
     </header>
 
-    {% include book-cover.html %}
+    {% assign image_path = "/uploads/" | append: page.cover | append: ".jpg" %}
+    <img
+      class="book-cover__image"
+      {% if site.environment == 'production' %}
+        src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=240&amp;refresh=2592000.jpg"
+        srcset="
+        https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=240&amp;refresh=2592000 240w,
+        https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=400&amp;refresh=2592000 400w"
+      {% else %}
+        src="{{ site.url }}{{ image_path }}"
+      {% endif %}
+      sizes="
+      (min-width: 57em) 280px,
+      (min-width: 34em) 160px, 140px"
+      alt="{{ page.title }}"
+    >
 
-  </aside>
+    <dl class="book-cover__list-item">
+      <dt>Date read:</dt>
+      <dd>
+        <time date-time="{{ page.date | date: "%Y-%m-%d" }}">
+          {{ page.date | date: "%-d %B, %Y" }}
+        </time>
+      </dd>
+    </dl>
 
-  <article class="main-content">
+    <dl class="book-cover__list-item">
+      {% if page.published %}
+        <dt>Published:</dt>
+        <dd>{{ page.published }}</dd>
+      {% endif %}
+    </dl>
+
+    <a href="{{ page.book-url }}" class="book-cover__meta-link">
+      More information
+    </a>
+
+  </div>
+
+  <div class="main-content c-book-highlights">
     {{ content }}
+    <div>
+      Highlights and covers are copyright to their respective authors.
+    </div>
+  </div>
 
-    <div>Highlights and covers are copyright to their respective authors.</div>
-  </article>
-
-</div>
+</main>

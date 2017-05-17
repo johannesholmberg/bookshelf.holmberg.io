@@ -1,0 +1,26 @@
+{% capture title %}{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }} {% endif %} {% if page.title %} | {% endif %} Highlights from books I’ve read | Johannes Holmberg{% endcapture %}
+<title>{{ title }}</title>
+
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+<meta property="og:title" content="{{ title }}">
+
+{% if page.description %}
+
+  <meta name="description" content="{{ page.description }}">
+  <meta property="og:description" content="{{ page.description }}">
+
+{% else %}
+
+  {% assign data = page.cover %}
+  {% for highlight in site.data.[data] limit:1 %}
+    <meta name="description" content="{{ highlight.quote }}">
+    <meta property="og:description" content="{{ highlight.quote }}">
+  {% endfor %}
+
+{% endif %}
+
+{% if page.cover %}
+  {% assign image_path = "/uploads/" | append: page.cover | append: ".jpg" %}
+  <meta property="og:image" content="{{ site.url }}{{ image_path }}">
+{% endif %}

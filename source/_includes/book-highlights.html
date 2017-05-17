@@ -1,28 +1,27 @@
 {% assign data = page.cover %}
 
-<div class="c-book-highlights">
+{% for highlight in site.data.[data] %}
+   {% if highlight.loc %}
+     {% assign location = "loc" %}
+   {% elsif highlight.page %}
+     {% assign location = "page" %}
+   {% endif %}
 
-  {% for highlight in site.data.[data] %}
-     {% if highlight.loc %}
-       {% assign location = "loc" %}
-     {% elsif highlight.page %}
-       {% assign location = "page" %}
-     {% endif %}
+  <blockquote id="{% if highlight.loc %}location-{{ highlight.loc }}{% else %}h{{ forloop.index }}{% endif %}"
+    class="c-book-highlight">
+    {{ highlight.quote | markdownify }}
 
-    <blockquote id="h{{ forloop.index }}" class="c-book-highlight">
-      {{ highlight.quote | markdownify }}
-
-      <a href="#h{{ forloop.index }}" class="c-book-highlight__meta">
-        <span class="icon-holder">
-          {% assign id = "link" %}
-          {% include icons/icon.html %}
-        </span>
-        {% if highlight.loc %}
-          loc. {{ highlight.loc }}
-        {% elsif highlight.page %}
-          Page {{ highlight.page }}
-        {% endif %}
-      </a>
-    </blockquote>
-  {% endfor %}
-</div>
+    <a href="{% if highlight.loc %}#location-{{ highlight.loc }}{% else %}#h{{ forloop.index }}{% endif %}"
+      class="c-book-highlight__meta">
+      <span class="icon-holder">
+        {% assign id = "link" %}
+        {% include icons/icon.html %}
+      </span>
+      {% if highlight.loc %}
+        Location {{ highlight.loc }}
+      {% elsif highlight.page %}
+        Page {{ highlight.page }}
+      {% endif %}
+    </a>
+  </blockquote>
+{% endfor %}

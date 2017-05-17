@@ -24,9 +24,10 @@
 @import "elements.buttons";       // Button elements
 @import "elements.headings";      // H1–H6
 @import "elements.links";         // Styling all a elements
+@import "elements.lists";         // Lists
 
 // OBJECTS
-@import "objects.main-content";   // Handling content layout
+@import "objects.layout";         // Handling content layout
 @import "objects.animation";      // All defined animations
 
 // COMPONENTS

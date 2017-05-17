@@ -38,38 +38,9 @@ body {
   }
 }
 
-
-
-
-
 p {
   font-size: 1.25em;
   margin: 1.5em 0;
-}
-
-hr {
-  line-height: 1;
-  margin: .9em 0 1.5em;
-  font-size: 3em;
-  border: 0;
-
-  &:after {
-    font-family: sans-serif;
-    content: '\00b7\00b7\00b7';
-    color: #bbb;
-    letter-spacing: .5em;
-  }
-}
-
-ul,
-ol {
-  margin-left: 1.5em;
-  font-size: 1.25em;
-
-  p {
-    font-style: normal;
-    font-size: 1em;
-  }
 }
 
 blockquote {

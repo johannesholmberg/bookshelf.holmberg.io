@@ -35,18 +35,6 @@ defaults:
     values:
       layout: "book"
 
-
-linenos: true
-highlight:
-  linenos: true
-highlight_options:
-  linenos: true
-
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
 exclude: [
   "assets/css/*.scss",
   "assets/js/source",

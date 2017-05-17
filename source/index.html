@@ -1,11 +1,40 @@
 ---
-layout: index
-title:
+layout: default
 description: "Books are where I go for inspiration. These are the books I’ve read and highlighted from throughout the years."
 ---
 
-<div class="c-book-list">
+<main id="main" class="main-container c-book-list">
+
   {% for post in site.posts %}
-    {% include book-item.html %}
+
+    <a href="{{ post.url }}" class="c-book-item">
+      <div class="c-book-item__cover">
+        {% assign image_path = "/uploads/" | append: post.cover | append: ".jpg" %}
+        <img
+          class="c-book-item__image"
+          {% if site.environment == 'production' %}
+            src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=140&amp;refresh=2592000.jpg"
+            srcset="
+            https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=140&amp;refresh=2592000 140w,
+            https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=240&amp;refresh=2592000 240w"
+          {% else %}
+            src="{{ site.url }}{{ image_path }}"
+          {% endif %}
+          sizes="190px"
+          alt="{{ post.title }}"
+        >
+      </div>
+      <h3 class="c-book-item__title">
+        <span class="head">{{ post.title }}</span>
+          {% if post.subtitle == "" or post.subtitle == nil %}{% else %}
+          <span class="sub">{{ post.subtitle }}</span>
+            {% endif %}
+      </h3>
+      <p class="c-book-item__meta">
+        <span>by</span> {{ post.author }}
+      </p>
+    </a>
+
   {% endfor %}
-</div>
+
+</main>

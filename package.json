@@ -1,5 +1,5 @@
 {
-  "name": "books.holmberg.io",
+  "name": "highlights.holmberg.io",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "devDependencies": {

@@ -1,8 +1,9 @@
 .book-cover {
   text-align: center;
   border-bottom: 1px solid rgba(255, 255, 255, .25);
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   padding-bottom: 2em;
+  word-wrap: break-word;
 
   @include breakpoint(tablet-sm) {
     float: left;
@@ -14,19 +15,29 @@
 }
 
 .book-cover__header {
-  padding: 0 6%;
-  margin-top: 2em;
+  margin: 2em auto 0;
+
+  @include breakpoint(desktop-sm) {
+    max-width: 80%;
+  }
 }
 
 .book-cover__title {
   margin: 0 0 .2em;
 
-  span {
+  .top {
     display: block;
     text-transform: uppercase;
     font-size: .5em;
     margin-bottom: .5em;
     opacity: .6;
+  }
+
+  .sub {
+    display: block;
+    font-size: .65em;
+    margin-top: .2em;
+    opacity: .7
   }
 }
 
@@ -48,6 +59,16 @@
   max-height: 14vh;
 
   @include breakpoint(tablet-sm) {
-    max-height: 30vh;
+    max-height: 26vh;
+  }
+}
+
+.book-cover__list-item {
+  padding: .35em 0;
+  margin: 0;
+  font-size: 1em;
+
+  &:last-of-type {
+    margin-bottom: .35em;
   }
 }

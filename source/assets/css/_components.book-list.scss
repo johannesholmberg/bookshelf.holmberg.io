@@ -1,8 +1,8 @@
 .c-book-list {
-  padding: 1.5em 5.5vw;
   margin-bottom: 4em;
   display: flex;
   flex-flow: row wrap;
+  max-width: none;
 
   @include supports(animation) {
     opacity: 0;

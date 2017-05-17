@@ -6,8 +6,9 @@ layout: compress
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-  {% include head/head-sharing.html %}
-  {% include head/head-favicons.html %}
+
+  {% include head-sharing.html %}
+  {% include head-favicons.html %}
 
   <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
@@ -15,13 +16,15 @@ layout: compress
   <script>
     document.createElement( "picture" );
   </script>
+
   <script src="{{ site.url }}/assets/js/app{% if site.environment == 'production' %}.min{% endif %}.js" async></script>
+
   <!--[if lt IE 9]>
     <script src="/assets/vendor/html5shiv/dist/html5shiv.min.js"></script>
     <script src="/assets/vendor/respond/dest/respond.min.js"></script>
   <![endif]-->
 </head>
-<body {% if page.body_class %}class="{{page.body_class}}"{% endif %}>
+<body>
 
   <a href="#main" class="visually-hidden">Skip to content</a>
 
@@ -33,9 +36,7 @@ layout: compress
     <a href="/" class="logo">highlights.holmberg.io</a>
   </header>
 
-  <main id="main">
-    {{ content }}
-  </main>
+  {{ content }}
 
   {% if site.environment == "production" %}
     {% include analytics.html %}

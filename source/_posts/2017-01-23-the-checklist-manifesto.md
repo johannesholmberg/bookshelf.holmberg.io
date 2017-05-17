@@ -1,6 +1,7 @@
 ---
 layout: book
 title: "The Checklist Manifesto"
+subtitle: "How To Get Things Right"
 date: 2017-01-23 14:22:50
 cover: the-checklist-manifesto
 author: Atul Gawande

@@ -2,6 +2,7 @@
 layout: book
 title: "The Art of Fiction"
 subtitle: "A Guide for Writers and Readers"
+cover: the-art-of-fiction
 author: Ayn Rand
 publisher: Plume
 published: 2000
