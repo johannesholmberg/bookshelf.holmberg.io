@@ -1,4 +1,4 @@
-{% capture fullCSS %}{{ site.url }}/assets/css/styles{% if site.environment == 'production' %}.min{% endif %}.css{% endcapture %}
+{% capture fullCSS %}/assets/css/styles{% if site.environment == 'production' %}.min{% endif %}.css{% endcapture %}
 
 {% assign criticalCSS = false %}
 {% if page.active == 'index' %}
@@ -18,14 +18,15 @@
       {% include {{ criticalCSS }} %}
     </style>
 
+    <link rel="preload" href="{{ fullCSS }}" as="style" onload="this.rel='stylesheet'">
     <script>
       {% include js/loadCSS.min.js %}
       {% include js/cssrelpreload.min.js %}
-      loadCSS( "{{ fullCSS }}" );
     </script>
     <noscript>
       <link rel="stylesheet" href="{{ fullCSS }}">
     </noscript>
+
 
   {% else %}
     <link rel="stylesheet" href="{{ fullCSS }}">
