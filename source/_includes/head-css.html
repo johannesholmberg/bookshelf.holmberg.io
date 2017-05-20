@@ -1,0 +1,36 @@
+{% capture fullCSS %}{{ site.url }}/assets/css/styles{% if site.environment == 'production' %}.min{% endif %}.css{% endcapture %}
+
+{% assign criticalCSS = false %}
+{% if page.active == 'index' %}
+  {% assign criticalCSS = 'criticalcss/index.css' %}
+{% elsif page.layout == 'book' %}
+  {% assign criticalCSS = 'criticalcss/book.css' %}
+{% endif %}
+
+{% if criticalCSS %}
+
+  {% assign criticalCSSFullPath =  '_includes/' | append: criticalCSS %}
+  {% capture criticalCSSExists %}{% file_exists {{ criticalCSSFullPath }} %}{% endcapture %}
+
+  {% if criticalCSSExists == "true" %}
+
+    <style>
+      {% include {{ criticalCSS }} %}
+    </style>
+
+    <script>
+      {% include js/loadCSS.min.js %}
+      {% include js/cssrelpreload.min.js %}
+      loadCSS( "{{ fullCSS }}" );
+    </script>
+    <noscript>
+      <link rel="stylesheet" href="{{ fullCSS }}">
+    </noscript>
+
+  {% else %}
+    <link rel="stylesheet" href="{{ fullCSS }}">
+  {% endif %}
+
+{% else %}
+  <link rel="stylesheet" href="{{ fullCSS }}">
+{% endif %}

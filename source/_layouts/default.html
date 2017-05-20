@@ -9,20 +9,9 @@ layout: compress
 
   {% include head-sharing.html %}
   {% include head-favicons.html %}
-
-  <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700" rel="stylesheet">
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
-
-  <script>
-    document.createElement( "picture" );
-  </script>
+  {% include head-css.html %}
 
   <script src="{{ site.url }}/assets/js/app{% if site.environment == 'production' %}.min{% endif %}.js" async></script>
-
-  <!--[if lt IE 9]>
-    <script src="/assets/vendor/html5shiv/dist/html5shiv.min.js"></script>
-    <script src="/assets/vendor/respond/dest/respond.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 
