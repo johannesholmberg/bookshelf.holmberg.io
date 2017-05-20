@@ -1,23 +1,18 @@
-{% capture title %}{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }} {% endif %} {% if page.title %} | {% endif %} Highlights from books I’ve read | Johannes Holmberg{% endcapture %}
+{% capture title %}{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}{% if page.title %} |{% endif %} Highlights | Johannes Holmberg{% endcapture %}
 <title>{{ title }}</title>
 
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-
 <meta property="og:title" content="{{ title }}">
 
 {% if page.description %}
-
   <meta name="description" content="{{ page.description }}">
   <meta property="og:description" content="{{ page.description }}">
-
-{% else %}
-
+{% elsif page.layout == "book" %}
   {% assign data = page.cover %}
   {% for highlight in site.data.[data] limit:1 %}
     <meta name="description" content="{{ highlight.quote }}">
     <meta property="og:description" content="{{ highlight.quote }}">
   {% endfor %}
-
 {% endif %}
 
 {% if page.cover %}

@@ -6,19 +6,6 @@ author: Johannes Holmberg
 email: johannes@holmberg.io
 environment: development
 
-
-# ----------------------- #
-#   Global media queries  #
-# ----------------------- #
-
-mobile-lg:   'min-width: 34em'
-tablet-sm:   'min-width: 45em'
-tablet-lg:   'min-width: 57em'
-desktop-sm:  'min-width: 67em'
-desktop-lg:  'min-width: 84em'
-desktop-xl:  'min-width: 118em'
-
-
 # ------------ #
 #    Jekyll    #
 # ------------ #

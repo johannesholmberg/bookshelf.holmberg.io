@@ -4,11 +4,6 @@
   flex-flow: row wrap;
   max-width: none;
 
-  @include supports(animation) {
-    opacity: 0;
-    animation: .5s ease-in forwards fadeIn;
-  }
-
   @include supports(grid) {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));

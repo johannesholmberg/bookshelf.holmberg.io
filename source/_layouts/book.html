@@ -1,6 +1,5 @@
 ---
 layout: default
-active: book
 ---
 
 <main id="main" class="main-container">
@@ -25,16 +24,14 @@ active: book
     <img
       class="book-cover__image"
       {% if site.environment == 'production' %}
-        src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=240&amp;refresh=2592000.jpg"
+        src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=200&amp;refresh=2592000.jpg"
         srcset="
-        https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=240&amp;refresh=2592000 240w,
+        https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=200&amp;refresh=2592000 200w,
         https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=400&amp;refresh=2592000 400w"
       {% else %}
         src="{{ site.url }}{{ image_path }}"
       {% endif %}
-      sizes="
-      (min-width: 57em) 280px,
-      (min-width: 34em) 160px, 140px"
+      sizes="240px"
       alt="{{ page.title }}"
     >
 

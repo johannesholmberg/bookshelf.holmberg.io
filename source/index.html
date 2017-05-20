@@ -1,5 +1,6 @@
 ---
 layout: default
+active: index
 description: "Books are where I go for inspiration. These are the books I’ve read and highlighted from throughout the years."
 ---
 
@@ -7,7 +8,7 @@ description: "Books are where I go for inspiration. These are the books I’ve r
 
   {% for post in site.posts %}
 
-    <a href="{{ post.url }}" class="c-book-item">
+    <a href="{{ site.url }}{{ post.url }}" class="c-book-item">
       <div class="c-book-item__cover">
         {% assign image_path = "/uploads/" | append: post.cover | append: ".jpg" %}
         <img

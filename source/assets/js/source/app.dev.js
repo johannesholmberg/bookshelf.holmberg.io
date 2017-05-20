@@ -1,4 +1,3 @@
-
 // Disable hover events while scrolling the website
 var body = document.body, timer;
 window.addEventListener('scroll', function() {

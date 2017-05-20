@@ -21,7 +21,6 @@ gulp.task('scripts', function() {
   };
 
   return gulp.src([
-    'source/assets/vendor/picturefill/dist/picturefill.js',
     'source/assets/js/source/*.js'
   ])
 
@@ -38,7 +37,7 @@ gulp.task('scripts', function() {
   .pipe(rename({
     suffix: '.min'
   }))
-  //.pipe(uglify({ mangle: false }))
+  .pipe(uglify({ mangle: false }))
 
   .pipe(gulp.dest('source/assets/js'))
   .pipe(gulp.dest('_site/assets/js'))
