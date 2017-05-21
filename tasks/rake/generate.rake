@@ -16,7 +16,6 @@ end
 desc "Generate site"
 task :generate do
   clean
-  criticalCSS
   puts "Building for critical"
   system "JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.yml"
 end

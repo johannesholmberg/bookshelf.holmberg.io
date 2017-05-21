@@ -18,6 +18,10 @@
 @import "generic.selections";     // Styles for selecting elements
 @import "generic.print";          // Resetting the print format
 
+// OBJECTS
+@import "objects.layout";         // Handling content layout
+@import "objects.animation";      // All defined animations
+
 // ELEMENTS
 @import "elements.base";          // Common HTML elements
 @import "elements.buttons";       // Button elements
@@ -25,9 +29,6 @@
 @import "elements.links";         // Styling all a elements
 @import "elements.lists";         // Lists
 
-// OBJECTS
-@import "objects.layout";         // Handling content layout
-@import "objects.animation";      // All defined animations
 
 // COMPONENTS
 @import "components.header";
