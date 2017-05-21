@@ -15,6 +15,7 @@
   {% if criticalCSSExists == "true" %}
 
     <style>
+      {% include criticalcss/animation.css %}
       {% include {{ criticalCSS }} %}
     </style>
 

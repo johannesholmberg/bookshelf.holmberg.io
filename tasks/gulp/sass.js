@@ -21,6 +21,29 @@ gulp.task('sass', function() {
     this.emit('end');
   };
 
+  // Generate an animation css file to be used for the critical path
+  gulp.src('source/assets/css/animation.scss')
+    .pipe(plumber({errorHandler: onError}))
+
+    .pipe(sass({
+      style: 'expanded',
+      onError: function(err) {
+        return notify().write(err);
+      }
+    }))
+
+    .pipe(autoprefixer(['last 2 versions'], {
+      cascade: true
+    }))
+
+    .pipe(rename({
+      basename: 'animation'
+    }))
+
+    .pipe(gulp.dest('source/_includes/criticalcss'));
+
+
+  // Generate the styles from the import sass file
   gulp.src('source/assets/css/config.imports.scss')
     .pipe(plumber({errorHandler: onError}))
 
@@ -33,7 +56,7 @@ gulp.task('sass', function() {
       }
     }))
 
-    .pipe(autoprefixer(['last 5 versions', '> 1%', 'ie 8', 'ie 7'], {
+    .pipe(autoprefixer(['last 2 versions'], {
       cascade: true
     }))
 
@@ -44,7 +67,6 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('source/assets/css'))
     .pipe(gulp.dest('_site/assets/css'))
 
-    // Reload
     .pipe(browserSync.reload({
       stream: true
     }))
