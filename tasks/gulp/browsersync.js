@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-build'], function() {
   browserSync({
     port: 8080,
     server: {
