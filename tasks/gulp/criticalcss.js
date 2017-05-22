@@ -5,8 +5,10 @@ gulp.task('critical', function() {
 
   const base = './',
         css = '_site/assets/css/styles.css',
-        width = 1400,
-        height = 1100,
+        widthLarge = 1400,
+        heightLarge = 1100,
+        widthSmall = 400,
+        heightSmall = 600,
         minify = false,
         ignore = ['@font-face'];
 
@@ -15,8 +17,13 @@ gulp.task('critical', function() {
     src: '_site/index.html',
     dest: 'source/_includes/criticalcss/index.css',
     css: css,
-    width: width,
-    height: height,
+    dimensions: [{
+      width: widthSmall,
+      height: heightSmall
+    }, {
+      width: widthLarge,
+      height: heightLarge
+    }],
     minify: minify,
     ignore: ignore,
   });
@@ -26,8 +33,13 @@ gulp.task('critical', function() {
     src: '_site/the-glass-castle/index.html',
     dest: 'source/_includes/criticalcss/book.css',
     css: css,
-    width: width,
-    height: height,
+    dimensions: [{
+      width: widthSmall,
+      height: heightSmall
+    }, {
+      width: widthLarge,
+      height: heightLarge
+    }],
     minify: minify,
     ignore: ignore,
   });
