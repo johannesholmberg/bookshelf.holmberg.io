@@ -11,7 +11,12 @@ layout: null
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <description>
+          <h2>
+            My personal highlights from the book “{{ post.title | xml_escape }}” by {{ post.author | xml_escape }}
+          </h2>
+          {{ post.content | xml_escape }}
+        </description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
