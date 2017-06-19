@@ -1,34 +1,31 @@
-// # CONFIG
-
 // SETTINGS
-@import "settings.global";        // Globally defined settings.
+@import "settings.global";
 
 // TOOLS
-@import "tools.mixins";           // Global mixins
-@import "tools.breakpoints";      // Global breakpoints
+@import "tools.mixins";
+@import "tools.breakpoints";
 @import "tools.supports";
-@import "tools.helpers";          // Globally available helper classes
+@import "tools.helpers";
 
 // GENERIC (Starts CSS output)
-@import "../../../node_modules/normalize.scss/normalize"; // Normalize the browser defaults
-@import "generic.reset";          // Reset some needed styles
-@import "generic.box-sizing";     // A better box-model
-@import "generic.fonts";          // Defining the fonts being used
-@import "generic.icons";          // Main styling for SVG icons
-@import "generic.selections";     // Styles for selecting elements
-@import "generic.print";          // Resetting the print format
+@import "../../../node_modules/normalize.scss/normalize";
+@import "generic.reset";
+@import "generic.box-sizing";
+@import "generic.fonts";
+@import "generic.icons";
+@import "generic.selections";
+@import "generic.print";
 
 // OBJECTS
-@import "objects.layout";         // Handling content layout
-@import "animation";              // All defined animations
+@import "objects.layout";
+@import "animation";
 
 // ELEMENTS
-@import "elements.base";          // Common HTML elements
-@import "elements.buttons";       // Button elements
-@import "elements.headings";      // H1–H6
-@import "elements.links";         // Styling all a elements
-@import "elements.lists";         // Lists
-
+@import "elements.base";
+@import "elements.buttons";
+@import "elements.headings";
+@import "elements.links";
+@import "elements.lists";
 
 // COMPONENTS
 @import "components.header";
@@ -38,5 +35,5 @@
 @import "components.book-list";
 
 // TRUMPS
-@import "trumps.utilities";       // Various helper classes
-@import "trumps.extensions";      // Overwrite 3rd party styles
+@import "trumps.utilities";
+@import "trumps.extensions";
