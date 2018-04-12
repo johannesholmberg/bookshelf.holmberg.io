@@ -1,7 +1,7 @@
 /* global __dirname */
 module.exports = {
   siteMetadata: {
-    title: 'Reading',
+    title: 'Highlights',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -1,12 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import Typekit from 'react-typekit'
 
 import Header from '../components/header'
 import '../assets/styles.scss'
 
 const Layout = ({ children, data }) => (
   <div>
+    <Typekit kitId="oar2wfu" />
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[

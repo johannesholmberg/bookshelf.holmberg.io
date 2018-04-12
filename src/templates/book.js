@@ -10,25 +10,22 @@ export default function BookTemplate({ data }) {
   return (
     <main className="main-container book-template">
       <div className="book-cover">
-        <header className="book-cover__header">
-          <h1 className="book-cover__title">
-            <span className="top">Highlights from </span>
-            <span className="head">{title}</span>
-          </h1>
-          <div className="book-cover__meta">
-            <span>by</span> {author}
-          </div>
-        </header>
+        <h1 className="book-cover__title">
+          <span className="head">{title}</span>
+        </h1>
+        <div className="book-cover__meta">
+          <span>by</span> {author}
+        </div>
 
         <Img
           sizes={poster.childImageSharp.sizes}
           className="book-cover__image"
         />
 
-        <dl className="book-cover__list-item">
+        {/* <dl className="book-cover__list-item">
           <dt>Published:</dt>
           <dd>{published}</dd>
-        </dl>
+        </dl> */}
       </div>
 
       <div className="main-content book-highlights">

@@ -1,3 +1,227 @@
+- title: "On the Shortness of Life"
+  quotes: [
+    {
+      quote: "So it is: we are not given a short life but we make it short, and we are not ill-supplied but wasteful of it.",
+      loc: 39,
+    },
+    {
+      quote: "Living is the least important activity of the preoccupied man; yet there is nothing which is harder to learn.",
+      loc: 132,
+    },
+    {
+      quote: "The greatest obstacle to living is expectancy, which hangs upon tomorrow and loses today.",
+      loc: 174,
+    },
+    {
+      quote: "It cannot be disturbed or snatched from us: it is an untroubled, everlasting possession.",
+      loc: 201,
+    },
+    {
+      quote: "You are winning affection in a job in which it is hard to avoid ill-will; but believe me it is better to understand the balance-sheet of one’s own life than of the corn trade.",
+      loc: 363,
+    },
+    {
+      quote: "Being without your country is not misery: you have thoroughly taught yourself by your studies to know that to a wise man every place is his country.",
+      loc: 566,
+    },
+    {
+      quote: "It is the mind that creates our wealth, and this goes with us into exile, and in the harshest desert places it finds sufficient to nourish the body and revels in the enjoyment of its own goods.",
+      loc: 622,
+    },
+    {
+      quote: "So if you must fill your time, write something in a simple style for your own use and not for publication: less toil is needed if you study only for the day.",
+      loc: 834,
+    },
+    {
+      quote: "We are weak in enduring anything, and cannot put up with toil or pleasure or ourselves or anything for long.",
+      loc: 898,
+    },
+    {
+      quote: "This evil of taking our cue from others has become so deeply ingrained that even that most basic feeling, grief, degenerates into imitation.",
+      loc: 1189,
+    },
+  ]
+
+- title: "The War of Art"
+  quotes: [
+    {
+      quote: "Resistance cannot be seen, touched, heard, or smelled. But it can be felt. We experience it as an energy field radiating from a work-in-potential. It's a repelling force. It's negative. Its aim is to shove us away, distract us, prevent us from doing our work.",
+      loc: 143,
+    },
+    {
+      quote: "We're wrong if we think we're the only ones struggling with Resistance. Everyone who has a body experiences Resistance.",
+      loc: 169,
+    },
+    {
+      quote: "The warrior and the artist live by the same code of necessity, which dictates that the battle must be fought anew every day.",
+      loc: 172,
+    },
+    {
+      quote: "The highest treason a crab can commit is to make a leap for the rim of the bucket.",
+      loc: 202,
+    },
+    {
+      quote: "The best and only thing that one artist can do for another is to serve as an example and an inspiration.",
+      loc: 205,
+    },
+    {
+      quote: "The most pernicious aspect of procrastination is that it can become a habit. We don't just put off our lives today; we put them off till our deathbed.",
+      loc: 211,
+    },
+    {
+      quote: "There never was a moment, and never will be, when we are without the power to alter our destiny.",
+      loc: 213,
+    },
+    {
+      quote: "To combat the call of sin, i.e., Resistance, the fundamentalist plunges either into action or into the study of sacred texts. He loses himself in these, much as the artist does in the process of creation. The difference is that while the one looks forward, hoping to create a better world, the other looks backward, seeking to return to a purer world from which he and all have fallen.",
+      loc: 324,
+    },
+    {
+      quote: "Remember our rule of thumb: The more scared we are of a work or calling, the more sure we can be that we have to do it.",
+      loc: 347,
+    },
+    {
+      quote: "So if you're paralyzed with fear, it's a good sign. It shows you what you have to do.",
+      loc: 356,
+    },
+    {
+      quote: "The opposite of love isn't hate; it's indifference.",
+      loc: 359,
+    },
+    {
+      quote: "Have you ever been to a workshop? These boondoggles are colleges of Resistance. They ought to give out Ph.D.'s in Resistance. What better way of avoiding work than going to a workshop?",
+      loc: 412,
+    },
+    {
+      quote: "I'm keenly aware of the Principle of Priority, which states (a) you must know the difference between what is urgent and what is important, and (b) you must do what's important first.",
+      loc: 485,
+    },
+    {
+      quote: "The professional masters how, and leaves what and why to the gods.",
+      loc: 591,
+    },
+    {
+      quote: "The professional knows that Resistance is like a telemarketer; if you so much as say hello, you're finished.",
+      loc: 605,
+    },
+    {
+      quote: "The professional dedicates himself to mastering technique not because he believes technique is a substitute for inspiration but because he wants to be in possession of the full arsenal of skills when inspiration does come.",
+      loc: 627,
+    },
+    {
+      quote: "The professional cannot allow the actions of others to define his reality.",
+      loc: 695,
+    },
+    {
+      quote: "The pro keeps coming on. He beats Resistance at its own game by being even more resolute and even more implacable than it is.",
+      loc: 744,
+    },
+    {
+      quote: "Why have I stressed professionalism so heavily in the preceding chapters? Because the most important thing about art is to work. Nothing else matters except sitting down every day and trying.",
+      loc: 766,
+    },
+    {
+      quote: "When I finish a day's work, I head up into the hills for a hike. I take a pocket tape recorder because I know that as my surface mind empties with the walk, another part of me will chime in and start talking.",
+      loc: 898,
+    },
+    {
+      quote: "The artist must operate territorially. He must do his work for its own sake.",
+      loc: 1101,
+    },
+    {
+      quote: "Here's another test. Of any activity you do, ask yourself: If I were the last person on earth, would I still do it?",
+      loc: 1161,
+    },
+    {
+      quote: "If Arnold Schwarzenegger were the last man on earth, he'd still go the gym. Stevie Wonder would still pound the piano. The sustenance they get comes from the act itself, not from the impression it makes on others.",
+      loc: 1164,
+    },
+    {
+      quote: "Creative work is not a selfish act or a bid for attention on the part of the actor. It's a gift to the world and every being in it. Don't cheat us of your contribution. Give us what you've got.",
+      loc: 1203,
+    },
+  ]
+
+- title: "So Good They Can’t Ignore You"
+  quotes: [
+    {
+      quote: "When it comes to creating work you love, following your passion is not particularly useful advice.",
+      loc: 141,
+    },
+    {
+      quote: "“In the movies there’s this idea that you should just go for your dream,” Glass tells them. “But I don’t believe that. Things happen in stages.",
+      loc: 301,
+    },
+    {
+      quote: "Irrespective of what type of work you do, the craftsman mindset is crucial for building a career you love.",
+      loc: 570,
+    },
+    {
+      quote: "Whereas the craftsman mindset focuses on what you can offer the world, the passion mindset focuses instead on what the world can offer you. This mindset is how most people approach their working lives.",
+      loc: 577,
+    },
+    {
+      quote: "The craftsman mindset offers clarity, while the passion mindset offers a swamp of ambiguous and unanswerable questions.",
+      loc: 591,
+    },
+    {
+      quote: "Let’s assume you’re a knowledge worker, which is a field without a clear training philosophy. If you can figure out how to integrate deliberate practice into your own life, you have the possibility of blowing past your peers in your value, as you’ll likely be alone in your dedication to systematically getting better.",
+      loc: 1122,
+    },
+    {
+      quote: "You have to get good before you can expect good work.",
+      loc: 1371,
+    },
+    {
+      quote: "It’s really hard to convince people to give you money.",
+      loc: 1447,
+    },
+    {
+      quote: "The point at which you have acquired enough career capital to get meaningful control over your working life is exactly the point when you’ve become valuable enough to your current employer that they will try to prevent you from making the change.",
+      loc: 1600,
+    },
+    {
+      quote: "If life-transforming missions could be found with just a little navel-gazing and an optimistic attitude, changing the world would be commonplace. But it’s not commonplace; it’s instead quite rare.",
+      loc: 1911,
+    },
+    {
+      quote: "For a mission-driven project to succeed, it should be remarkable in two different ways. First, it must compel people who encounter it to remark about it to others. Second, it must be launched in a venue that supports such remarking.",
+      loc: 2251,
+    },
+    {
+      quote: "To construct work you love, you must first build career capital by mastering rare and valuable skills, and then cash in this capital for the type of traits that define compelling careers. Mission is one of those traits.",
+      loc: 2282,
+    },
+    {
+      quote: "Another deliberate-practice routine was the introduction of my hour tally—a sheet of paper I mounted behind my desk at MIT, and plan on remounting at Georgetown.",
+      loc: 2461,
+    },
+    {
+      quote: "The sheet has a row for each month on which I keep a tally of the total number of hours I’ve spent that month in a state of deliberate practice.",
+      loc: 2462,
+    },
+    {
+      quote: "By having these hour counts stare me in the face every day I’m motivated to find new ways to fit more deliberate practice into my schedule. Without this routine, my total amount of time spent stretching my abilities would undoubtedly be much lower.",
+      loc: 2466,
+    },
+    {
+      quote: "Getting better and better at what I did became what mattered most, and getting better required the strain of deliberate practice.",
+      loc: 2482,
+    },
+    {
+      quote: "I also try to carve out one walk each day for free-form thinking about the ideas turned up by this background research (I commute to work on foot and have a dog to exercise, so I have many such walks to choose from in my schedule).",
+      loc: 2585,
+    },
+    {
+      quote: "The effort of completing these bets also has the added side benefit of inducing deliberate practice—yet another tactic in my ever-growing playbook dedicated to making me better and better at what I do.",
+      loc: 2606,
+    },
+    {
+      quote: "Working right trumps finding the right work.",
+      loc: 2633,
+    },
+  ]
+
 - title: "Inclusive Design Patterns"
   quotes: [
     {
@@ -79,6 +303,62 @@
     {
       quote: "On the other hand, forms are a 10,000-volt electromagnet for attracting usability problems.",
       loc: 5458,
+    },
+  ]
+
+- title: "How to Win Friends and Influence People"
+  quotes: [
+    {
+      quote: "Criticism is dangerous, because it wounds a person’s precious pride, hurts his sense of importance, and arouses resentment.",
+      loc: 292,
+    },
+    {
+      quote: "Let’s realise that criticisms are like homing pigeons.",
+      loc: 330,
+    },
+    {
+      quote: "‘Don’t complain about the snow on your neighbour’s roof,’ said Confucious, ‘when your own doorstep is unclean.",
+      loc: 396,
+    },
+    {
+      quote: "Any fool can criticise, condemn and complain – and most fools do.",
+      loc: 413,
+    },
+    {
+      quote: "‘I consider my ability to arouse enthusiasm among my people,’ said Schwab, ‘the greatest asset I possess, and the way to develop the best that is in a person is by appreciation and encouragement.",
+      loc: 561,
+    },
+    {
+      quote: "The difference between appreciation and flattery? That is simple. One is sincere and the other insincere. One comes from the heart out; the other from the teeth out. One is unselfish; the other selfish. One is universally admired; the other universally condemned.",
+      loc: 622,
+    },
+    {
+      quote: "That’s all flattery is – cheap praise.",
+      loc: 629,
+    },
+    {
+      quote: "‘Flattery is telling the other person precisely what he thinks about himself.",
+      loc: 630,
+    },
+    {
+      quote: "‘Every man I meet is my superior in some way. In that, I learn of him.",
+      loc: 654,
+    },
+    {
+      quote: "Everybody in the world is seeking happiness – and there is one sure way to find it. That is by controlling your thoughts. Happiness doesn’t depend on outward conditions. It depends on inner conditions.",
+      loc: 1196,
+    },
+    {
+      quote: "Jim Farley discovered early in life that the average person is more interested in his or her own name than in all the other names on earth put together.",
+      loc: 1273,
+    },
+    {
+      quote: "‘I realised why I had failed for years to sell him,’ said Mr. Wesson. ‘I had urged him to buy what I thought he ought to have. Then I changed my approach completely. I urged him to give me his ideas. This made him feel that he was creating the designs. And he was. I didn’t have to sell him. He bought.",
+      loc: 2475,
+    },
+    {
+      quote: "Shakespeare said ‘Assume a virtue, if you have it not.’ And it might be well to assume and state openly that other people have the virtue you want them to develop.",
+      loc: 3319,
     },
   ]
 
