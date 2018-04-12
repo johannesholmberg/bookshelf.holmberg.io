@@ -12,9 +12,6 @@ export default class Book extends Component {
         <div className="book-item__cover">
           <Img sizes={poster.childImageSharp.sizes} />
         </div>
-        <h3 className="book-item__title">
-          <span className="head">{title}</span>
-        </h3>
       </Link>
     )
   }

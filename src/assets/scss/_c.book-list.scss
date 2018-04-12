@@ -1,0 +1,8 @@
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3em;
+  align-items: center;
+  max-width: 40em;
+  margin: 3em auto;
+}

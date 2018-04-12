@@ -1,0 +1,651 @@
+- title: "Inclusive Design Patterns"
+  quotes: [
+    {
+      quote: "Our most persistent error as an industry has been to apply the largely incompatible principles of printed graphical communication design to the web.",
+      loc: 135,
+    },
+    {
+      quote: "The truth is, design work is deliberation. It’s the pursuit of the best solution to a given problem. By relegating design to the realm of visual aesthetics, so much of the web goes undesigned. This can only lead to inaccessibility, poor performance and, of course, a general lack of utility.",
+      loc: 140,
+    },
+    {
+      quote: "The web is made of code and must be designed, therefore designing with code is working with the right materials. This is the best course of action.",
+      loc: 145,
+    },
+    {
+      quote: "In any case, thinking about the structure of data and trying to arrive at an optimal solution is designing and there’s not an Adobe license or copy of Sketch in sight.",
+      loc: 192,
+    },
+    {
+      quote: "Though frequently omitted, declaring a language for a web page could scarcely be more important.",
+      loc: 316,
+    },
+    {
+      quote: "Perhaps most starkly, a page that does not have a language declared — or has the wrong language declared for the content — will not trigger the adoption of an appropriate synthetic voice profile when used with a screen reader.",
+      loc: 322,
+    },
+    {
+      quote: "Targeting the specific viewports of specific devices (employing device breakpoints) is an exercise in futility if you want to create a truly inclusive experience. There are just too many viewport variations available to support each one. Instead, you should create an entirely flexible design from the outset and insert breakpoints only where the content breaks the layout — hence content breakpoint or tweakpoint.",
+      loc: 365,
+    },
+    {
+      quote: "By employing content breakpoints, you can ensure successful layouts for a range of devices far greater than you would ever be able to manually test with.",
+      loc: 368,
+    },
+    {
+      quote: "As a rule of thumb, you should never set a fixed width or height on any element: the intrinsic flexibility of boxes means they can tolerate the same content in different spaces.",
+      loc: 379,
+    },
+    {
+      quote: "To achieve inclusive design you should act as a facilitator, allowing users to configure the way they view and interact with the content you provide them. The fewer decisions you make for them, the more they can make for themselves.",
+      loc: 411,
+    },
+    {
+      quote: "If you’re building a highly complex layout, a grid system may help you. However, you should not be building a highly complex layout. Simple user interfaces are usable interfaces, accessible interfaces, maintainable interfaces, and performant interfaces.",
+      loc: 1214,
+    },
+    {
+      quote: "As a rule of thumb, if the menu has fewer than five items, just lay them out; make them available to the user at all times.",
+      loc: 3110,
+    },
+    {
+      quote: "In desktop viewports, there’s rarely any reason to hide a navigation menu away, regardless of the number of items it contains.",
+      loc: 3111,
+    },
+    {
+      quote: "Hiding functionality away from users and requiring them to perform an additional action to reveal that functionality is always a last resort.",
+      loc: 3112,
+    },
+    {
+      quote: "Avoid the temptation, though, to add animations — especially ones which depend on CSS positioning — just to impress users.",
+      loc: 3636,
+    },
+    {
+      quote: "Despite the inclusive nature of standard radio buttons, they offer limited styling opportunities. This is the main reason why we dispense with them in favor of either completely inaccessible <div>- and <span>-based solutions, or comparatively fragile and complex WAI-ARIA implementations.",
+      loc: 4748,
+    },
+    {
+      quote: "One example of making a decision on users’ behalf is to disable zoom, using user-scalable=no on the viewport <meta> tag. This is to decide for the user what font size and magnification level suits them, and prevents them from adjusting it themselves. An audacious act, and foolhardy given the inevitable diversity of your audience.",
+      loc: 5085,
+    },
+    {
+      quote: "My current output is hardly perfect, but it has benefited from a change in mindset, an acknowledgement that web pages aren’t merely pinboards for images.",
+      loc: 5454,
+    },
+    {
+      quote: "Really, web pages are terminals: they accept information (input) and display information (output).",
+      loc: 5455,
+    },
+    {
+      quote: "On the other hand, forms are a 10,000-volt electromagnet for attracting usability problems.",
+      loc: 5458,
+    },
+  ]
+
+- title: "Algorithms to Live By"
+  quotes: [
+    {
+      quote: "Algorithms have been a part of human technology ever since the Stone Age.",
+      loc: 109,
+    },
+    {
+      quote: "But in house selling and job hunting, even if it’s possible to reconsider an earlier offer, and even if that offer is guaranteed to still be on the table, you should nonetheless never do so. If it wasn’t above your threshold then, it won’t be above your threshold now. What you’ve paid to keep searching is a sunk cost. Don’t compromise, don’t second-guess. And don’t look back.",
+      loc: 411,
+    },
+    {
+      quote: "Some problems are better avoided than solved.",
+      loc: 502,
+    },
+    {
+      quote: "So explore when you will have time to use the resulting knowledge, exploit when you’re ready to cash in. The interval makes the strategy.",
+      loc: 628,
+    },
+    {
+      quote: "“To try and fail is at least to learn; to fail to try is to suffer the inestimable loss of what might have been.",
+      loc: 761,
+    },
+    {
+      quote: "In the long run, optimism is the best prevention for regret.",
+      loc: 810,
+    },
+    {
+      quote: "In general, it seems that people tend to over-explore—to favor the new disproportionately over the best.",
+      loc: 941,
+    },
+    {
+      quote: "To live in a restless world requires a certain restlessness in oneself. So long as things continue to change, you must never fully cease exploring.",
+      loc: 976,
+    },
+    {
+      quote: "Recognizing that old age is a time of exploitation helps provide new perspectives on some of the classic phenomena of aging. For example, while going to college—a new social environment filled with people you haven’t met—is typically a positive, exciting time, going to a retirement home—a new social environment filled with people you haven’t met—can be painful. And that difference is partly the result of where we are on the explore/exploit continuum at those stages of our lives.",
+      loc: 1037,
+    },
+    {
+      quote: "We refer to things like Google and Bing as “search engines,” but that is something of a misnomer: they’re really sort engines.",
+      loc: 1095,
+    },
+    {
+      quote: "The truncated top of an immense, sorted list is in many ways the universal user interface.",
+      loc: 1098,
+    },
+    {
+      quote: "This is the first and most fundamental insight of sorting theory. Scale hurts.",
+      loc: 1113,
+    },
+    {
+      quote: "From this we might infer that minimizing our pain and suffering when it comes to sorting is all about minimizing the number of things we have to sort.",
+      loc: 1114,
+    },
+    {
+      quote: "Filing electronic messages by hand into folders takes about the same amount of time as filing physical papers in the real world, but emails can be searched much more efficiently than their physical counterparts. As the cost of searching drops, sorting becomes less valuable.",
+      loc: 1307,
+    },
+    {
+      quote: "Much as we bemoan the daily rat race, the fact that it’s a race rather than a fight is a key part of what sets us apart from the monkeys, the chickens—and, for that matter, the rats.",
+      loc: 1509,
+    },
+    {
+      quote: "On what to keep, Martha Stewart says to ask yourself a few questions: “How long have I had it? Does it still function? Is it a duplicate of something I already own? When was the last time I wore it or used it?",
+      loc: 1531,
+    },
+    {
+      quote: "Caching plays a critical role in the architecture of memory, and it underlies everything from the layout of processor chips at the millimeter scale to the geography of the global Internet. It offers a new perspective on all the various storage systems and memory banks of human life—not only our machines, but also our closets, our offices, our libraries. And our heads.",
+      loc: 1547,
+    },
+    {
+      quote: "Depend upon it there comes a time when for every addition of knowledge you forget something that you knew before. It is of the highest importance, therefore, not to have useless facts elbowing out the useful ones.",
+      loc: 1596,
+    },
+    {
+      quote: "The nearest thing to clairvoyance is to assume that history repeats itself—backward.",
+      loc: 1644,
+    },
+    {
+      quote: "Amazon, like any technology company, would love to have that kind of Bélády-like clairvoyance—but for the next best thing, it turns to caching. Their patent is actually for shipping items that have been recently popular in a given region to a staging warehouse in that region—like having their own CDN for physical goods.",
+      loc: 1710,
+    },
+    {
+      quote: "While caching began as a scheme for organizing digital information inside computers, it’s clear that it is just as applicable to organizing physical objects in human environments.",
+      loc: 1723,
+    },
+    {
+      quote: "A natural way to think about forgetting is that our minds simply run out of space.",
+      loc: 1819,
+    },
+    {
+      quote: "The key idea behind Anderson’s new account of human memory is that the problem might be not one of storage, but of organization.",
+      loc: 1819,
+    },
+    {
+      quote: "Minimizing the sum of completion times leads to a very simple optimal algorithm called Shortest Processing Time: always do the quickest task you can.",
+      loc: 1997,
+    },
+    {
+      quote: "It’s said that “a man with one watch knows what time it is; a man with two watches is never sure.",
+      loc: 2028,
+    },
+    {
+      quote: "Computer scientists would call this a “ping attack” or a “denial of service” attack: give a system an overwhelming number of trivial things to do, and the important things get lost in the chaos.",
+      loc: 2035,
+    },
+    {
+      quote: "Every time you switch tasks, you pay a price, known in computer science as a context switch.",
+      loc: 2181,
+    },
+    {
+      quote: "None of this switching back and forth is “real work”—that is, none of it actually advances the state of any of the various programs the computer is switching between. It’s metawork. Every context switch is wasted time.",
+      loc: 2185,
+    },
+    {
+      quote: "Psychologists have shown that for us, the effects of switching tasks can include both delays and errors—at the scale of minutes rather than microseconds. To put that figure in perspective, anyone you interrupt more than a few times an hour is in danger of doing no work at all.",
+      loc: 2189,
+    },
+    {
+      quote: "Brian, for his part, thinks of writing as a kind of blacksmithing, where it takes a while just to heat up the metal before it’s malleable. He finds it somewhat useless to block out anything less than ninety minutes for writing, as nothing much happens in the first half hour except loading a giant block of “Now, where was I?” into his head.",
+      loc: 2193,
+    },
+    {
+      quote: "Likewise, if none of your email correspondents require you to respond in less than twenty-four hours, you can limit yourself to checking your messages once a day.",
+      loc: 2305,
+    },
+    {
+      quote: "“Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things. What I do takes long hours of studying and uninterruptible concentration.",
+      loc: 2322,
+    },
+    {
+      quote: "Our beeping and buzzing devices have “Do Not Disturb” modes, which we could manually toggle on and off throughout the day, but that is too blunt an instrument. Instead, we might agitate for settings that would provide an explicit option for interrupt coalescing—the same thing at a human timescale that the devices are doing internally. Alert me only once every ten minutes, say; then tell me everything.",
+      loc: 2326,
+    },
+    {
+      quote: "Want to calculate the chance your bus is late? The chance your softball team will win? Count the number of times it has happened in the past plus one, then divide by the number of opportunities plus two. And the beauty of Laplace’s Law is that it works equally well whether we have a single data point or millions of them.",
+      loc: 2431,
+    },
+    {
+      quote: "More generally, unless we know better we can expect to have shown up precisely halfway into the duration of any given phenomenon.",
+      loc: 2478,
+    },
+    {
+      quote: "Something normally distributed that’s gone on seemingly too long is bound to end shortly; but the longer something in a power-law distribution has gone on, the longer you can expect it to keep going.",
+      loc: 2582,
+    },
+    {
+      quote: "Learning self-control is important, but it’s equally important to grow up in an environment where adults are consistently present and trustworthy.",
+      loc: 2691,
+    },
+    {
+      quote: "If you want to be a good intuitive Bayesian—if you want to naturally make good predictions, without having to think about what kind of prediction rule is appropriate—you need to protect your priors. Counterintuitively, that might mean turning off the news.",
+      loc: 2721,
+    },
+    {
+      quote: "Fundamentally, overfitting is a kind of idolatry of data, a consequence of focusing on what we’ve been able to measure rather than what matters.",
+      loc: 2816,
+    },
+    {
+      quote: "Overfitting, for instance, explains the irony of our palates. How can it be that the foods that taste best to us are broadly considered to be bad for our health, when the entire function of taste buds, evolutionarily speaking, is to prevent us from eating things that are bad?",
+      loc: 2826,
+    },
+    {
+      quote: "When it comes to portfolio management, it turns out that unless you’re highly confident in the information you have about the markets, you may actually be better off ignoring that information altogether.",
+      loc: 2943,
+    },
+    {
+      quote: "As a species, being constrained by the past makes us less perfectly adjusted to the present we know but helps keep us robust for the future we don’t.",
+      loc: 2990,
+    },
+    {
+      quote: "The effectiveness of regularization in all kinds of machine-learning tasks suggests that we can make better decisions by deliberately thinking and doing less.",
+      loc: 3014,
+    },
+    {
+      quote: "If the factors we come up with first are likely to be the most important ones, then beyond a certain point thinking more about a problem is not only going to be a waste of time and effort—it will lead us to worse solutions.",
+      loc: 3015,
+    },
+    {
+      quote: "The greater the uncertainty, the bigger the gap between what you can measure and what matters, the more you should watch out for overfitting—that is, the more you should prefer simplicity, and the earlier you should stop.",
+      loc: 3024,
+    },
+    {
+      quote: "“What would happen if we started from the premise that we can’t measure what matters and go from there? Then instead of measurement we’d have to use something very scary: it’s called judgment.",
+      loc: 3034,
+    },
+    {
+      quote: "If you can’t solve the problem in front of you, solve an easier version of it—and then see if that solution offers you a starting point, or a beacon, in the full-blown problem. Maybe it does.",
+      loc: 3162,
+    },
+    {
+      quote: "Unless we’re willing to spend eons striving for perfection every time we encounter a hitch, hard problems demand that instead of spinning our tires we imagine easier versions and tackle those first. When applied correctly, this is not just wishful thinking, not fantasy or idle daydreaming. It’s one of our best ways of making progress.",
+      loc: 3282,
+    },
+    {
+      quote: "Likewise, book-, wine-, and chocolate-of-the-month clubs are a way to get exposed to intellectual, oenophilic, and gustatory possibilities that you might never have encountered otherwise.",
+      loc: 3685,
+    },
+    {
+      quote: "“Once you got somewhere you were happy,” he told the Guardian, “you’d be stupid to shake it up any further.",
+      loc: 3698,
+    },
+    {
+      quote: "The foundation of human connection is protocol—a shared convention of procedures and expectations, from handshakes and hellos to etiquette, politesse, and the full gamut of social norms. Machine connection is no different.",
+      loc: 3736,
+    },
+    {
+      quote: "Communication is one of those delightful things that work only in practice; in theory it’s impossible.",
+      loc: 3805,
+    },
+    {
+      quote: "The first question is how long a period of nonresponsiveness we should take to constitute a breakdown. Partly this depends on the nature of the network: we start to worry in a matter of seconds over the phone, days over email, and weeks over postal mail. The longer the round-trip time between sender and receiver, the longer it takes a silence to be significant—and the more information can be potentially “in flight” before the sender realizes there’s a problem.",
+      loc: 3848,
+    },
+    {
+      quote: "The satirical “Peter Principle,” articulated in the 1960s by education professor Laurence J. Peter, states that “every employee tends to rise to his level of incompetence.” The idea is that in a hierarchical organization, anyone doing a job proficiently will be rewarded with a promotion into a new job that may involve more complex and/or different challenges. When the employee finally reaches a role in which they don’t perform well, their march up the ranks will stall, and they will  remain in that role for the rest of their career. Thus it stands to reason, goes the ominous logic of the Peter Principle, that eventually every spot in an organization will come to be filled by someone doing that job badly.",
+      loc: 3971,
+    },
+    {
+      quote: "We’ve all had the experience of talking to someone whose eyes drifted away—to their phone, perhaps—making us wonder whether our lackluster storytelling was to blame. In fact, it’s now clear that the cause and effect are often the reverse: a poor listener destroys the tale.",
+      loc: 4017,
+    },
+    {
+      quote: "As the saying goes, “the most exciting phrase to hear in science, the one that heralds new discoveries, is not ‘Eureka!’ but ‘That’s funny.",
+      loc: 4038,
+    },
+    {
+      quote: "The most prevalent critique of modern communications is that we are “always connected.” But the problem isn’t that we’re always connected; we’re not. The problem is that we’re always buffered. The difference is enormous.",
+      loc: 4103,
+    },
+    {
+      quote: "The feeling that one needs to look at everything on the Internet, or read all possible books, or see all possible shows, is bufferbloat.",
+      loc: 4105,
+    },
+    {
+      quote: "We used to reject; now we defer.",
+      loc: 4116,
+    },
+    {
+      quote: "In this way, the value of a stock isn’t what people think it’s worth but what people think people think it’s worth.",
+      loc: 4177,
+    },
+    {
+      quote: "“People will hesitate to take a vacation as they don’t want to seem like that person who’s taking the most vacation days. It’s a race to the bottom.",
+      loc: 4343,
+    },
+    {
+      quote: "What’s worse, the assumption that other people’s actions are a useful guide can lead to the sort of herd-following that precipitates economic disaster.",
+      loc: 4494,
+    },
+    {
+      quote: "It’s easy to imagine a bunch of people all going over a cliff together because “everyone else” was acting as though it’d all be fine—when in reality each person had qualms, but suppressed them because of the apparent confidence of everyone else in the group.",
+      loc: 4535,
+    },
+    {
+      quote: "“Something very important happens once somebody decides to follow blindly his predecessors independently of his own information signal, and that is that his action becomes uninformative to all later decision makers. Now the public pool of information is no longer growing. That welfare benefit of having public information … has ceased.",
+      loc: 4549,
+    },
+    {
+      quote: "When you’re mostly looking to others to set a course, they may well be looking right back at you to do the same.",
+      loc: 4573,
+    },
+    {
+      quote: "And if you’re the kind of person who always does what you think is right, no matter how crazy others think it is, take heart. The bad news is that you will be wrong more often than the herd followers. The good news is that sticking to your convictions creates a positive externality, letting people make accurate inferences from your behavior. There may come a time when you will save the entire herd from disaster.",
+      loc: 4579,
+    },
+    {
+      quote: "In the hard cases, the best algorithms are all about doing what makes the most sense in the least amount of time, which by no means involves giving careful consideration to every factor and pursuing every computation to the end. Life is just too complicated for that.",
+      loc: 4755,
+    },
+  ]
+
+- title: "Anything You Want"
+  quotes: [
+    {
+      quote: "When you make a business, you get to make a little universe where you control all the laws. This is your utopia.",
+      loc: 135,
+    },
+    {
+      quote: "Anytime you think you know what your new business will be doing, remember this quote from serial entrepreneur Steve Blank: “No business plan survives first contact with customers.",
+      loc: 187,
+    },
+    {
+      quote: "Set up your business like you don’t need the money, and it’ll likely come your way.",
+      loc: 390,
+    },
+    {
+      quote: "When you sign up to run a marathon, you don’t want a taxi to take you to the finish line.",
+      loc: 576,
+    },
+  ]
+
+- title: "Adaptive Web Design"
+  quotes: [
+    {
+      quote: "When I’m being tossed hither and thither by the waves, I affix my gaze on the one thing that helps me get my bearings and make sense of what’s happening: the philosophy of progressive enhancement.",
+      loc: 153,
+    },
+    {
+      quote: "Fault tolerance makes it possible to browse an HTML5-driven website in Lynx and allows you to experiment with CSS3 features without worrying about breaking Internet Explorer 6. Understanding fault tolerance is the key to understanding progressive enhancement.",
+      loc: 373,
+    },
+    {
+      quote: "PDF is like tethering it to a giant anchor: It can’t go anywhere easily or quickly. And anything you want to do with it requires a great deal of effort. When your content is rendered in HTML, however, it can travel hither and thither with the greatest of ease. It weighs little, it works on any device that can access the Web, and the content reflows to meet the user’s needs. For free.",
+      loc: 897,
+    },
+    {
+      quote: "I’ve been amazed at how often those outside the discipline of design assume that what designers do is decoration—likely because so much bad design simply is decoration. Good design isn’t. Good design is problem solving.",
+      loc: 1836,
+    },
+    {
+      quote: "Content is the foundation of design. It’s why you’re building a website in the first place. It needs to be the starting point of your design work and needs to be central to every design decision you make.",
+      loc: 1976,
+    },
+    {
+      quote: "If you look at how our relationships with computers, and thereby the Web, are evolving, you’ll see that looking at the past actually helps us prepare for the future.",
+      loc: 4347,
+    },
+  ]
+
+- title: "Deep Work"
+  quotes: [
+    {
+      quote: "If I organize my life in such a way that I get lots of long, consecutive, uninterrupted time-chunks, I can write novels. [If I instead get interrupted a lot] what replaces it? Instead of a novel that will be around for a long time … there is a bunch of e-mail messages that I have sent out to individual persons.",
+      loc: 88,
+    },
+    {
+      quote: "In an age of network tools, in other words, knowledge workers increasingly replace deep work with the shallow alternative—constantly sending and receiving e-mail messages like human network routers, with frequent breaks for quick hits of distraction.",
+      loc: 105,
+    },
+    {
+      quote: "In this new economy, three groups will have a particular advantage: those who can work well and creatively with intelligent machines, those who are the best at what they do, and those with access to capital.",
+      loc: 345,
+    },
+    {
+      quote: "High-Quality Work Produced = (Time Spent) x (Intensity of Focus)",
+      loc: 491,
+    },
+    {
+      quote: "The problem this research identifies with this work strategy is that when you switch from some Task A to another Task B, your attention doesn’t immediately follow—a residue of your attention remains stuck thinking about the original task.",
+      loc: 507,
+    },
+    {
+      quote: "The fact that Dorsey encourages interruption or Kerry Trainor checks his e-mail constantly doesn’t mean that you’ll share their success if you follow suit: Their behaviors are characteristic of their specific roles as corporate officers.",
+      loc: 569,
+    },
+    {
+      quote: "E-mail inboxes, in theory, can distract you only when you choose to open them, whereas instant messenger systems are meant to be always active—magnifying the impact of interruption.",
+      loc: 626,
+    },
+    {
+      quote: "Leslie Perlow found that the professionals she surveyed spent around twenty to twenty-five hours a week outside the office monitoring e-mail—believing it important to answer any e-mail (internal or external) within an hour of its arrival.",
+      loc: 687,
+    },
+    {
+      quote: "If e-mail were to move to the periphery of your workday, you’d be required to deploy a more thoughtful approach to figuring out what you should be working on and for how long.",
+      loc: 716,
+    },
+    {
+      quote: "Knowledge workers, I’m arguing, are tending toward increasingly visible busyness because they lack a better way to demonstrate their value.",
+      loc: 774,
+    },
+    {
+      quote: "In the absence of clear indicators of what it means to be productive and valuable in their jobs, many knowledge workers turn back toward an industrial indicator of productivity: doing lots of stuff in a visible manner.",
+      loc: 776,
+    },
+    {
+      quote: "Knowledge work is not an assembly line, and extracting value from information is an activity that’s often at odds with busyness, not supported by it.",
+      loc: 788,
+    },
+    {
+      quote: "In such a culture, we should not be surprised that deep work struggles to compete against the shiny thrum of tweets, likes, tagged photos, walls, posts, and all the other behaviors that we’re now taught are necessary for no other reason than that they exist.",
+      loc: 850,
+    },
+    {
+      quote: "As elaborated in the last chapter, we live in an era where anything Internet related is understood by default to be innovative and necessary.",
+      loc: 905,
+    },
+    {
+      quote: "Depth-destroying behaviors such as immediate e-mail responses and an active social media presence are lauded, while avoidance of these trends generates suspicion.",
+      loc: 906,
+    },
+    {
+      quote: "Who you are, what you think, feel, and do, what you love—is the sum of what you focus on.",
+      loc: 936,
+    },
+    {
+      quote: "This theory tells us that your world is the outcome of what you pay attention to, so consider for a moment the type of mental world constructed when you dedicate significant time to deep endeavors.",
+      loc: 955,
+    },
+    {
+      quote: "The world represented by your inbox, in other words, isn’t a pleasant world to inhabit.",
+      loc: 985,
+    },
+    {
+      quote: "Any pursuit—be it physical or cognitive—that supports high levels of skill can also generate a sense of sacredness.",
+      loc: 1078,
+    },
+    {
+      quote: "You don’t need a rarified job; you need instead a rarified approach to your work.",
+      loc: 1105,
+    },
+    {
+      quote: "As a reader of this book, in other words, you’re a disciple of depth in a shallow world.",
+      loc: 1164,
+    },
+    {
+      quote: "You have a finite amount of willpower that becomes depleted as you use it.",
+      loc: 1192,
+    },
+    {
+      quote: "You need your own philosophy for integrating deep work into your professional life.",
+      loc: 1221,
+    },
+    {
+      quote: "Those who deploy the bimodal philosophy of deep work admire the productivity of the monastics but also respect the value they receive from the shallow behaviors in their working lives.",
+      loc: 1310,
+    },
+    {
+      quote: "“Who’s to say that I can’t be that prolific?” he concluded. “Why not me?",
+      loc: 1354,
+    },
+    {
+      quote: "The decision between rhythmic and bimodal can come down to your self-control in such scheduling matters. If you’re Carl Jung and are engaged in an intellectual dogfight with Sigmund Freud’s supporters, you’ll likely have no trouble recognizing the importance of finding time to focus on your ideas. On the other hand, if you’re writing a dissertation with no one pressuring you to get it done, the habitual nature of the rhythmic philosophy might be necessary to maintain progress.",
+      loc: 1358,
+    },
+    {
+      quote: "To put yourself in an exotic location to focus on a writing project, or to take a week off from work just to think, or to lock yourself in a hotel room until you complete an important invention: These gestures push your deep goal to a level of mental priority that helps unlock the needed mental resources.",
+      loc: 1515,
+    },
+    {
+      quote: "It’s a setup that straddles a spectrum where on one extreme we find the solo thinker, isolated from inspiration but free from distraction, and on the other extreme, we find the fully collaborative thinker in an open office, flush with inspiration but struggling to support the deep thinking needed to build on it.",
+      loc: 1585,
+    },
+    {
+      quote: "Expose yourself to ideas in hubs on a regular basis, but maintain a spoke in which to work deeply on what you encounter.",
+      loc: 1593,
+    },
+    {
+      quote: "His move to an undisclosed location was instead motivated by a surprising but practical insight: It made him better at his job.",
+      loc: 1728,
+    },
+    {
+      quote: "Only the confidence that you’re done with work until the next day can convince your brain to downshift to the level where it can begin to recharge for the next day to follow.",
+      loc: 1803,
+    },
+    {
+      quote: "Put another way, trying to squeeze a little more work out of your evenings might reduce your effectiveness the next day enough that you end up getting less done than if you had instead respected a shutdown.",
+      loc: 1804,
+    },
+    {
+      quote: "To succeed with this strategy, you must first accept the commitment that once your workday shuts down, you cannot allow even the smallest incursion of professional concerns into your field of attention. This includes, crucially, checking e-mail, as well as browsing work-related websites.",
+      loc: 1826,
+    },
+    {
+      quote: "Your mind, in other words, is released from its duty to keep track of these obligations at every moment—your shutdown ritual has taken over that responsibility.",
+      loc: 1863,
+    },
+    {
+      quote: "Decades of work from multiple different subfields within psychology all point toward the conclusion that regularly resting your brain improves the quality of your deep work. When you work, work hard. When you’re done, be done.",
+      loc: 1869,
+    },
+    {
+      quote: "The ability to concentrate intensely is a skill that must be trained.",
+      loc: 1900,
+    },
+    {
+      quote: "In my experience, it’s common to treat undistracted concentration as a habit like flossing—something that you know how to do and know is good for you, but that you’ve been neglecting due to a lack of motivation.",
+      loc: 1901,
+    },
+    {
+      quote: "If every moment of potential boredom in your life—say, having to wait five minutes in line or sit alone in a restaurant until a friend arrives—is relieved with a quick glance at your smartphone, then your brain has likely been rewired to a point where, like the “mental wrecks” in Nass’s research, it’s not ready for deep work—even if you regularly schedule time to practice this concentration.",
+      loc: 1923,
+    },
+    {
+      quote: "Once you’re wired for distraction, you crave it.",
+      loc: 1936,
+    },
+    {
+      quote: "To simply wait and be bored has become a novel experience in modern life, but from the perspective of concentration training, it’s incredibly valuable.",
+      loc: 2009,
+    },
+    {
+      quote: "As a novice, when you begin a productive meditation session, your mind’s first act of rebellion will be to offer unrelated but seemingly more interesting thoughts.",
+      loc: 2091,
+    },
+    {
+      quote: "You must be on your guard for looping, as it can quickly subvert an entire productive meditation session. When you notice it, remark to yourself that you seem to be in a loop, then redirect your attention toward the next step.",
+      loc: 2100,
+    },
+    {
+      quote: "Willpower is limited, and therefore the more enticing tools you have pulling at your attention, the harder it’ll be to maintain focus on something important.",
+      loc: 2210,
+    },
+    {
+      quote: "The Any-Benefit Approach to Network Tool Selection: You’re justified in using a network tool if you can identify any possible benefit to its use, or anything you might possibly miss out on if you don’t use it.",
+      loc: 2255,
+    },
+    {
+      quote: "These services are engineered to be addictive—robbing time and attention from activities that more directly support your professional and personal goals (such as deep work).",
+      loc: 2258,
+    },
+    {
+      quote: "The notion that identifying some benefit is sufficient to invest money, time, and attention in a tool is near laughable to people in his trade.",
+      loc: 2308,
+    },
+    {
+      quote: "But part of what makes social media insidious is that the companies that profit from your attention have succeeded with a masterful marketing coup: convincing our culture that if you don’t use their products you might miss out.",
+      loc: 2502,
+    },
+    {
+      quote: "Addictive websites of the type mentioned previously thrive in a vacuum: If you haven’t given yourself something to do in a given moment, they’ll always beckon as an appealing option.",
+      loc: 2590,
+    },
+    {
+      quote: "To summarize, I’m asking you to treat shallow work with suspicion because its damage is often vastly underestimated and its importance vastly overestimated.",
+      loc: 2687,
+    },
+    {
+      quote: "I maintain a rule that if I stumble onto an important insight, then this is a perfectly valid reason to ignore the rest of my schedule for the day (with the exception, of course, of things that cannot be skipped). I can then stick with this unexpected insight until it loses steam. At this point, I’ll step back and rebuild my schedule for any time that remains in the day. In other words, I not only allow spontaneity in my schedule; I encourage it.",
+      loc: 2754,
+    },
+    {
+      quote: "This type of scheduling, however, isn’t about constraint—it’s instead about thoughtfulness.",
+      loc: 2758,
+    },
+    {
+      quote: "How long would it take (in months) to train a smart recent college graduate with no specialized training in my field to complete this task?",
+      loc: 2791,
+    },
+    {
+      quote: "What percentage of my time should be spent on shallow work?",
+      loc: 2828,
+    },
+    {
+      quote: "I cannot afford to allow a large deadline to creep up on me, or a morning to be wasted on something trivial, because I didn’t take a moment to craft a smart plan.",
+      loc: 2926,
+    },
+    {
+      quote: "The notion that all messages, regardless of purpose or sender, arrive in the same undifferentiated inbox, and that there’s an expectation that every message deserves a (timely) response, is absurdly unproductive.",
+      loc: 3020,
+    },
+    {
+      quote: "When a project is initiated by an e-mail that you send or receive, it squats in your mental landscape—becoming something that’s “on your plate” in the sense that it has been brought to your attention and eventually needs to be addressed.",
+      loc: 3075,
+    },
+    {
+      quote: "This method closes this open loop as soon as it forms. By working through the whole process, adding to your task lists and calendar any relevant commitments on your part, and bringing the other party up to speed, your mind can reclaim the mental real estate the project once demanded.",
+      loc: 3076,
+    },
+    {
+      quote: "Deep work is important, in other words, not because distraction is evil, but because it enabled Bill Gates to start a billion-dollar industry in less than a semester.",
+      loc: 3146,
+    },
+    {
+      quote: "At some point, I even bought a $50 high-end grid-lined lab notebook to work on mathematical proofs, believing that its expense would induce more care in my thinking.",
+      loc: 3166,
+    },
+    {
+      quote: "To leave the distracted masses to join the focused few, I’m arguing, is a transformative experience.",
+      loc: 3198,
+    },
+    {
+      quote: "For many, there’s a comfort in the artificial busyness of rapid e-mail messaging and social media posturing, while the deep life demands that you leave much of that behind.",
+      loc: 3199,
+    },
+  ]

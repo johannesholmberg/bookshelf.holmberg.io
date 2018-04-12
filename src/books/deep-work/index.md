@@ -1,6 +1,6 @@
 ---
 title: 'Deep Work'
-poster: './deep-work.jpg'
+poster: './poster.jpg'
 author: Cal Newport
 published: 2016
 ---

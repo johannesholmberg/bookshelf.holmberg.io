@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Book from '../components/book'
 
 const IndexPage = ({ data }) => (
-  <main id="main" className="main-container c-book-list">
+  <main id="main" className="book-list">
     {data.allMarkdownRemark.edges.map(({ node }) => (
       <Book node={node} key={node.id} />
     ))}
@@ -19,7 +19,7 @@ export const indexQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(limit: 5) {
+    allMarkdownRemark(limit: 20) {
       edges {
         node {
           id

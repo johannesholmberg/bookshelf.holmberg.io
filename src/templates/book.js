@@ -1,15 +1,14 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 import Highlight from '../components/highlight'
 
 export default function BookTemplate({ data }) {
   const { markdownRemark: post } = data
   const { title, author, poster, published } = post.frontmatter
-  const { allDeepWorkYaml: highlight } = data
+  const { allHighlightsYaml: highlight } = data
 
   return (
-    <main className="main-container">
+    <main className="main-container book-template">
       <div className="book-cover">
         <header className="book-cover__header">
           <h1 className="book-cover__title">
@@ -32,17 +31,23 @@ export default function BookTemplate({ data }) {
         </dl>
       </div>
 
-      <div className="main-content c-book-highlights">
-        {getHighlights(highlight)}
+      <div className="main-content book-highlights">
+        {getHighlights(title, highlight)}
       </div>
     </main>
   )
 }
 
-function getHighlights(highlight) {
+function getHighlights(title, highlight) {
   const quotes = []
   highlight.edges.forEach(({ node }) => {
-    quotes.push(<Highlight quote={node.quote} loc={node.loc} />)
+    const quoteTitle = node.title
+
+    if (title == quoteTitle) {
+      node.quotes.forEach(quote => {
+        quotes.push(<Highlight quote={quote} />)
+      })
+    }
   })
 
   return <div>{quotes}</div>
@@ -66,11 +71,14 @@ export const bookQuery = graphql`
       }
     }
 
-    allDeepWorkYaml {
+    allHighlightsYaml {
       edges {
         node {
-          quote
-          loc
+          title
+          quotes {
+            quote
+            loc
+          }
         }
       }
     }

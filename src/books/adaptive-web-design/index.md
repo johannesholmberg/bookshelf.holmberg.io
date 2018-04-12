@@ -1,6 +1,6 @@
 ---
 title: 'Adaptive Web Design'
-poster: './adaptive-web-design.jpg'
+poster: './poster.jpg'
 author: Aaron Gustafson
 published: 2015
 ---
