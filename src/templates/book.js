@@ -10,7 +10,7 @@ export default function BookTemplate({ data }) {
   const { allHighlightsYaml: highlight } = data
 
   return (
-    <article>
+    <article className="layout-book">
       <Helmet
         title={`${title} | ${data.site.siteMetadata.title}`}
         meta={[
