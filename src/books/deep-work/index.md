@@ -2,5 +2,5 @@
 title: 'Deep Work'
 poster: './poster.jpg'
 author: Cal Newport
-published: 2016
+url: https://www.goodreads.com/book/show/25744928-deep-work
 ---

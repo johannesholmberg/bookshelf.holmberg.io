@@ -1,3 +1,607 @@
+- title: "Flow"
+  quotes: [
+    {
+      quote: "The best moments usually occur when a person’s body or mind is stretched to its limits in a voluntary effort to accomplish something difficult and worthwhile.",
+      loc: 203,
+    },
+    {
+      quote: "For each person there are thousands of opportunities, challenges to expand ourselves.",
+      loc: 206,
+    },
+    {
+      quote: "In the meantime, those who seek consolation in existing churches often pay for their peace of mind with a tacit agreement to ignore a great deal of what is known about the way the world works.",
+      loc: 426,
+    },
+    {
+      quote: "The answer seems clear: while humankind collectively has increased its material powers a thousandfold, it has not advanced very far in terms of improving the content of experience.",
+      loc: 460,
+    },
+    {
+      quote: "Some people produce more than the usual amount of androgens and therefore become excessively aggressive. Does that mean they should freely express violence? We cannot deny the facts of nature, but we should certainly try to improve on them.",
+      loc: 513,
+    },
+    {
+      quote: "A thoroughly socialized person is one who desires only the rewards that others around him have agreed he should long for—rewards often grafted onto genetically programmed desires.",
+      loc: 519,
+    },
+    {
+      quote: "He may encounter thousands of potentially fulfilling experiences, but he fails to notice them because they are not the things he desires. What matters is not what he has now, but what he might obtain if he does as others want him to do.",
+      loc: 521,
+    },
+    {
+      quote: "The most important step in emancipating oneself from social controls is the ability to find rewards in the events of each moment.",
+      loc: 533,
+    },
+    {
+      quote: "Power returns to the person when rewards are no longer relegated to outside forces.",
+      loc: 536,
+    },
+    {
+      quote: "“Men are not afraid of things, but of how they view them,” said Epictetus a long time ago.",
+      loc: 544,
+    },
+    {
+      quote: "And the great emperor Marcus Aurelius wrote: “If you are pained by external things, it is not they that disturb you, but your own judgment of them. And it is in your power to wipe out that judgment now.",
+      loc: 545,
+    },
+    {
+      quote: "At certain times in history cultures have taken it for granted that a person wasn’t fully human unless he or she learned to master thoughts and feelings.",
+      loc: 605,
+    },
+    {
+      quote: "A person can make himself happy, or miserable, regardless of what is actually happening “outside,” just by changing the contents of consciousness.",
+      loc: 626,
+    },
+    {
+      quote: "The events that constitute consciousness—the “things” we see, feel, think, and desire—are information that we can manipulate and use. Thus we might think of consciousness as intentionally ordered information.",
+      loc: 670,
+    },
+    {
+      quote: "Since for us outside events do not exist unless we are aware of them, consciousness corresponds to subjectively experienced reality. While everything we feel, smell, hear, or remember is potentially a candidate for entering consciousness, the experiences that actually do become part of it are much fewer than those left out.",
+      loc: 673,
+    },
+    {
+      quote: "Attention shapes the self, and is in turn shaped by it.",
+      loc: 838,
+    },
+    {
+      quote: "The outside event appears in consciousness purely as information, without necessarily having a positive or negative value attached to it. It is the self that interprets that raw information in the context of its own interests, and determines whether it is harmful or not.",
+      loc: 916,
+    },
+    {
+      quote: "Following a flow experience, the organization of the self is more complex than it had been before. It is by becoming increasingly complex that the self might be said to grow.",
+      loc: 970,
+    },
+    {
+      quote: "When we choose a goal and invest ourselves in it to the limits of our concentration, whatever we do will be enjoyable.",
+      loc: 994,
+    },
+    {
+      quote: "Flow is important both because it makes the present instant more enjoyable, and because it builds the self-confidence that allows us to develop skills and make significant contributions to humankind.",
+      loc: 997,
+    },
+    {
+      quote: "There are two main strategies we can adopt to improve the quality of life. The first is to try making external conditions match our goals. The second is to change how we experience external conditions to make them fit our goals better.",
+      loc: 1005,
+    },
+    {
+      quote: "To improve life one must improve the quality of experience.",
+      loc: 1032,
+    },
+    {
+      quote: "Pleasure is a feeling of contentment that one achieves whenever information in consciousness says that expectations set by biological programs or by social conditioning have been met.",
+      loc: 1053,
+    },
+    {
+      quote: "Pleasure helps to maintain order, but by itself cannot create new order in consciousness.",
+      loc: 1061,
+    },
+    {
+      quote: "Playing a close game of tennis that stretches one’s ability is enjoyable, as is reading a book that reveals things in a new light, as is having a conversation that leads us to express ideas we didn’t know we had.",
+      loc: 1066,
+    },
+    {
+      quote: "To gain personal control over the quality of experience, however, one needs to learn how to build enjoyment into what happens day in, day out.",
+      loc: 1101,
+    },
+    {
+      quote: "Reading is an activity because it requires the concentration of attention and has a goal, and to do it one must know the rules of written language. The skills involved in reading include not only literacy but also the ability to translate words into images, to empathize with fictional characters, to recognize historical and cultural contexts, to anticipate turns of the plot, to criticize and evaluate the author’s style, and so on.",
+      loc: 1139,
+    },
+    {
+      quote: "Competition is enjoyable only when it is a means to perfect one’s skills; when it becomes an end in itself, it ceases to be fun.",
+      loc: 1156,
+    },
+    {
+      quote: "Thomas Jefferson and Chairman Mao Zedong believed that each generation needed to make its own revolution for its members to stay actively involved in the political system ruling their lives.",
+      loc: 1764,
+    },
+    {
+      quote: "A neurological advantage in processing information may not be the only key to explaining why some people have a good time waiting at a bus station while others are bored no matter how entertaining their environment is.",
+      loc: 1919,
+    },
+    {
+      quote: "The human body is capable of hundreds of separate functions—seeing, hearing, touching, running, swimming, throwing, catching, climbing up mountains and climbing down caves, to name only a few—and to each of these there correspond flow experiences.",
+      loc: 2045,
+    },
+    {
+      quote: "In every culture, enjoyable activities have been invented to suit the potentialities of the body.",
+      loc: 2047,
+    },
+    {
+      quote: "Every person, no matter how unfit he or she is, can rise a little higher, go a little faster, and grow to be a little stronger.",
+      loc: 2084,
+    },
+    {
+      quote: "The joy of surpassing the limits of the body is open to all.",
+      loc: 2084,
+    },
+    {
+      quote: "They have made the usual mistake of confounding form and substance, and assume that concrete actions and events are the only “reality” that determines what they experience.",
+      loc: 2117,
+    },
+    {
+      quote: "However, enjoyment, as we have seen, does not depend on what you do, but rather on how you do it.",
+      loc: 2119,
+    },
+    {
+      quote: "As with anything else, to enjoy music one must pay attention to it. To the extent that recording technology makes music too accessible, and therefore taken for granted, it can reduce our ability to derive enjoyment from it.",
+      loc: 2343,
+    },
+    {
+      quote: "The integrated cells and organs that make up the human organism are an instrument that allows us to get in touch with the rest of the universe.",
+      loc: 2464,
+    },
+    {
+      quote: "Entropy is the normal state of consciousness—a condition that is neither useful nor enjoyable.",
+      loc: 2523,
+    },
+    {
+      quote: "The words evoked experiences he had had when he first learned them; remembering poetry was for him a form of time travel.",
+      loc: 2598,
+    },
+    {
+      quote: "Not only philosophy but the emergence of new scientific ideas is fueled by the enjoyment one obtains from creating a new way to describe reality.",
+      loc: 2684,
+    },
+    {
+      quote: "Few of us can understand any longer the enthusiasm of Caliph Ali Ben Ali, who wrote: “A subtle conversation, that is the Garden of Eden.” This is a pity, because it could be argued that the main function of conversation is not to get things accomplished, but to improve the quality of experience.",
+      loc: 2728,
+    },
+    {
+      quote: "In today’s world we have come to neglect the habit of writing because so many other media of communication have taken its place. Telephones and tape recorders, computers and fax machines are more efficient in conveying news. If the only point to writing were to transmit information, then it would deserve to become obsolete. But the point of writing is to create information, not simply to pass it along.",
+      loc: 2764,
+    },
+    {
+      quote: "The kind of material we write in diaries and letters does not exist before it is written down. It is the slow, organically growing process of thought involved in writing that lets the ideas emerge in the first place.",
+      loc: 2769,
+    },
+    {
+      quote: "Observing, recording, and preserving the memory of both the large and small events of life is one of the oldest and most satisfying ways to bring order to consciousness.",
+      loc: 2788,
+    },
+    {
+      quote: "If flow, rather than success and recognition, is the measure by which to judge its value, science can contribute immensely to the quality of life.",
+      loc: 2907,
+    },
+    {
+      quote: "Many people give up on learning after they leave school because thirteen or twenty years of extrinsically motivated education is still a source of unpleasant memories.",
+      loc: 2978,
+    },
+    {
+      quote: "The quality of experience of people who play with and transform the opportunities in their surroundings, as Joe did, is clearly more developed as well as more enjoyable than that of people who resign themselves to live within the constraints of the barren reality they feel they cannot alter.",
+      loc: 3120,
+    },
+    {
+      quote: "The flow experience that results from the use of skills leads to growth; passive entertainment leads nowhere.",
+      loc: 3394,
+    },
+    {
+      quote: "If being alone is seen as a chance to accomplish goals that cannot be reached in the company of others, then instead of feeling lonely, a person will enjoy solitude and might be able to learn new skills in the process. On the other hand, if solitude is seen as a condition to be avoided at all costs instead of as a challenge, the person will panic and resort to distractions that cannot lead to higher levels of complexity.",
+      loc: 3631,
+    },
+    {
+      quote: "Life-styles built on pleasure survive only in symbiosis with complex cultures based on hard work and enjoyment.",
+      loc: 3636,
+    },
+    {
+      quote: "Living exclusively by genetic and social instructions is fine as long as everything goes well. But the moment biological or social goals are frustrated—which in the long run is inevitable—a person must formulate new goals, and create a new flow activity for himself, or else he will waste his energies in inner turmoil.",
+      loc: 4295,
+    },
+    {
+      quote: "The process of discovering new goals in life is in many respects similar to that by which an artist goes about creating an original work of art.",
+      loc: 4299,
+    },
+    {
+      quote: "The goal in itself is usually not important; what matters is that it focuses a person’s attention and involves it in an achievable, enjoyable activity.",
+      loc: 4465,
+    },
+    {
+      quote: "The meaning of life is meaning: whatever it is, wherever it comes from, a unified purpose is what gives meaning to life.",
+      loc: 4476,
+    },
+    {
+      quote: "In the past a hunter was a hunter until he died, a blacksmith spent his life perfecting his craft. We can now shed our occupational identities at will: no one needs to remain an accountant forever.",
+      loc: 4633,
+    },
+  ]
+
+- title: "Bird by Bird"
+  quotes: [
+    {
+      quote: "Say to yourself in the kindest possible way, Look, honey, all we’re going to do for now is to write a description of the river at sunrise, or the young child swimming in the pool at the club, or the first time the man sees the woman he will marry. That is all we are going to do for now. We are just going to take this bird by bird. But we are going to finish this one short assignment.",
+      loc: 515
+    },
+    {
+      quote: "Your day’s work might turn out to have been a mess. So what? Vonnegut said, “When I write, I feel like an armless legless man with a crayon in his mouth.” So go ahead and make big scrawls and mistakes. Use up lots of paper. Perfectionism is a mean, frozen form of idealism, while messes are the artist’s true friend. What people somehow (inadvertently, I’m sure) forgot to mention when we were children was that we need to make messes in order to find out who we are and why we are here—and, by extension, what we’re supposed to be writing.",
+      loc: 639
+    },
+    {
+      quote: "And it feels so great finally to dive into the water; maybe you splash around and flail for a while, but at least you’re in. Then you start doing whatever stroke you can remember how to do, and you get this scared feeling inside you—of how hard it is and how far there is to go—but still you’re in, and you’re afloat, and you’re moving.",
+      loc: 976
+    },
+    {
+      quote: "The garden is one of the two great metaphors for humanity. The other, of course, is the river. Metaphors are a great language tool, because they explain the unknown in terms of the known.",
+      loc: 1125
+    },
+    {
+      quote: "There’s an image I’ve heard people in recovery use—that getting all of one’s addictions under control is a little like putting an octopus to bed.",
+      loc: 1294
+    },
+    {
+      quote: "Writing is about hypnotizing yourself into believing in yourself, getting some work done, then unhypnotizing yourself and going over the material coldly.",
+      loc: 1491
+    },
+    {
+      quote: "You can’t fill up when you’re holding your breath. And writing is about filling up, filling up when you are empty, letting images and ideas and smells run down like water—just as writing is also about dealing with the emptiness. The emptiness destroys enough writers without the help of some friend or spouse.",
+      loc: 2074
+    },
+    {
+      quote: "Life is like a recycling center, where all the concerns and dramas of humankind get recycled back and forth across the universe.",
+      loc: 2179
+    },
+    {
+      quote: "Your unconscious can’t work when you are breathing down its neck. You’ll sit there going, “Are you done in there yet, are you done in there yet?” But it is trying to tell you nicely, “Shut up and go away.”",
+      loc: 2188
+    },
+    {
+      quote: "“The world can’t give that serenity,” he said. “The world can’t give us peace. We can only find it in our hearts.” “I hate that,” I said. “I know. But the good news is that by the same token, the world can’t take it away.”",
+      loc: 2595
+    },
+    {
+      quote: "You simply keep putting down one damn word after the other, as you hear them, as they come to you. You can either set brick as a laborer or as an artist. You can make the work a chore, or you can have a good time. You can do it the way you used to clear the dinner dishes when you were thirteen, or you can do it as a Japanese person would perform a tea ceremony, with a level of concentration and care in which you can lose yourself, and so in which you can find yourself.",
+      loc: 2740
+    },
+    {
+      quote: "Writing and reading decrease our sense of isolation. They deepen and widen and expand our sense of life: they feed the soul.",
+      loc: 2755
+    },
+  ]
+
+- title: "The Design of Everyday Things"
+  quotes: [
+    {
+      quote: "Two of the most important characteristics of good design are discoverability and understanding. Discoverability: Is it possible to even figure out what actions are possible and where and how to perform them? Understanding: What does it all mean? How is the product supposed to be used? What do all the different controls and settings mean?",
+      loc: 365,
+    },
+    {
+      quote: "Not all designed things involve physical structures. Services, lectures, rules and procedures, and the organizational structures of businesses and governments do not have physical mechanisms, but their rules of operation have to be designed, sometimes informally, sometimes precisely recorded and specified.",
+      loc: 384,
+    },
+    {
+      quote: "Industrial design: The professional service of creating and developing concepts and specifications that optimize the function, value, and appearance of products and systems for the mutual benefit of both user and manufacturer (from the Industrial Design Society of America’s website).",
+      loc: 395,
+    },
+    {
+      quote: "Interaction design: The focus is upon how people interact with technology. The goal is to enhance people’s understanding of what can be done, what is happening, and what has just occurred. Interaction design draws upon principles of psychology, design, art, and emotion to ensure a positive, enjoyable experience.",
+      loc: 398,
+    },
+    {
+      quote: "Experience design: The practice of designing products, processes, services, events, and environments with a focus placed on the quality and enjoyment of the total experience.",
+      loc: 401,
+    },
+    {
+      quote: "When done well, the results are brilliant, pleasurable products. When done badly, the products are unusable, leading to great frustration and irritation. Or they might be usable, but force us to behave the way the product wishes rather than as we wish.",
+      loc: 404,
+    },
+    {
+      quote: "Great designers produce pleasurable experiences. Experience: note the word. Engineers tend not to like it; it is too subjective. But when I ask them about their favorite automobile or test equipment, they will smile delightedly as they discuss the fit and finish, the sensation of power during acceleration, their ease of control while shifting or steering, or the wonderful feel of the knobs and switches on the instrument. Those are experiences.",
+      loc: 487,
+    },
+    {
+      quote: "The term affordance refers to the relationship between a physical object and a person (or for that matter, any interacting agent, whether animal or human, or even machines and robots).",
+      loc: 506,
+    },
+    {
+      quote: "“Information pickup” was one of his favorite phrases, and Gibson believed that the combined information picked up by all of our sensory apparatus—sight, sound, smell, touch, balance, kinesthetic, acceleration, body position— determines our perceptions without the need for internal processing or cognition.",
+      loc: 532,
+    },
+    {
+      quote: "Affordances represent the possibilities in the world for how an agent (a person, animal, or machine) can interact with something. Some affordances are perceivable, others are invisible.",
+      loc: 662,
+    },
+    {
+      quote: "Signifiers are signals. Some signifiers are signs, labels, and drawings placed in the world, such as the signs labeled “push,” “pull,” or “exit” on doors, or arrows and diagrams indicating what is to be acted upon or in which direction to gesture, or other instructions.",
+      loc: 664,
+    },
+    {
+      quote: "In early cars, steering was controlled by a variety of devices, including tillers, handlebars, and reins. Today, some vehicles use joysticks, much as in a computer game. In cars that used tillers, steering was done much as one steers a boat: move the tiller to the left to turn to the right.",
+      loc: 744,
+    },
+    {
+      quote: "Ever watch people at an elevator repeatedly push the Up button, or repeatedly push the pedestrian button at a street crossing? Ever drive to a traffic intersection and wait an inordinate amount of time for the signals to change, wondering all the time whether the detection circuits noticed your vehicle (a common problem with bicycles)? What is missing in all these cases is feedback: some way of letting you know that the system is working on your request.",
+      loc: 777,
+    },
+    {
+      quote: "Hospital operating rooms, emergency wards. Nuclear power control plants. Airplane cockpits. All can become confusing, irritating, and life-endangering places because of excessive feedback, excessive alarms, and incompatible message coding. Feedback is essential, but it has to be done correctly. Appropriately.",
+      loc: 815,
+    },
+    {
+      quote: "How do we form an appropriate conceptual model for the devices we interact with? We cannot talk to the designer, so we rely upon whatever information is available to us: what the device looks like, what we know from using similar things in the past, what was told to us in the sales literature, by salespeople and advertisements, by articles we may have read, by the product website and instruction manuals. I call the combined information available to us the system image.",
+      loc: 929,
+    },
+    {
+      quote: "Good conceptual models are the key to understandable, enjoyable products: good communication is the key to good conceptual models.",
+      loc: 956,
+    },
+    {
+      quote: "The same technology that simplifies life by providing more functions in each device also complicates life by making the device harder to learn, harder to use. This is the paradox of technology and the challenge for the designer.",
+      loc: 992,
+    },
+    {
+      quote: "The gulfs are present for many devices. Interestingly, many people do experience difficulties, but explain them away by blaming themselves. In the case of things they believe they should be capable of using—water faucets, refrigerator temperature controls, stove tops—they simply think, “I’m being stupid.”",
+      loc: 1067,
+    },
+    {
+      quote: "Let’s go back to my act of turning on the light. This is a case of event-driven behavior: the sequence starts with the world, causing evaluation of the state and the formulation of a goal. The trigger was an environmental event: the lack of light, which made reading difficult. This led to a violation of the goal of reading, so it led to a subgoal—get more light.",
+      loc: 1124,
+    },
+    {
+      quote: "But reading was not the high-level goal. For each goal, one has to ask, “Why is that the goal?” Why was I reading? I was trying to prepare a meal using a new recipe, so I needed to reread it before I started. Reading was thus a subgoal. But cooking was itself a subgoal. I was cooking in order to eat, which had the goal of satisfying my hunger. So the hierarchy of goals is roughly: satisfy hunger; eat; cook; read cookbook; get more light. This is called a root cause analysis: asking “Why?” until the ultimate, fundamental cause of the activity is reached.",
+      loc: 1127,
+    },
+    {
+      quote: "Once you realize that they don’t really want the drill, you realize that perhaps they don’t really want the hole, either: they want to install their bookshelves. Why not develop methods that don’t require holes? Or perhaps books that don’t require bookshelves. (Yes, I know: electronic books, e-books.)",
+      loc: 1154,
+    },
+    {
+      quote: "Cognition provides understanding: emotion provides value judgments.",
+      loc: 1225,
+    },
+    {
+      quote: "Engineers and other logical people tend to dismiss the visceral response as irrelevant. Engineers are proud of the inherent quality of their work and dismayed when inferior products sell better “just because they look better.” But all of us make these kinds of judgments, even those very logical engineers. That’s why they love some of their tools and dislike others. Visceral responses matter.",
+      loc: 1295,
+    },
+    {
+      quote: "Memories last far longer than the immediate experience or the period of usage, which are the domains of the visceral and behavioral levels. It is reflection that drives us to recommend a product, to recommend that others use it—or perhaps to avoid it.",
+      loc: 1336,
+    },
+    {
+      quote: "One important emotional state is the one that accompanies complete immersion into an activity, a state that the social scientist Mihaly Csikszentmihalyi has labeled “flow.” Csikszentmihalyi has long studied how people interact with their work and play, and how their lives reflect this intermix of activities. When in the flow state, people lose track of time and the outside environment. They are at one with the task they are performing. The task, moreover, is at just the proper level of difficulty: difficult enough to provide a challenge and require continued attention, but not so difficult that it invokes frustration and anxiety.",
+      loc: 1371,
+    },
+    {
+      quote: "The presence of a filling hourglass or rotating clock hands is a reassuring sign that work is in progress.",
+      loc: 1451,
+    },
+    {
+      quote: "Bars on Doors. People fleeing a fire would die if they encountered exit doors that opened inward, because they would keep trying to push them outward, and when that failed, they would push harder. The proper design, now required by law in many places, is to change the design of doors so that they open when pushed. Here is one example: an excellent design strategy for dealing with real behavior by the use of the proper affordances coupled with a graceful signifier, the black bar, which indicates where to push.",
+      loc: 1459,
+    },
+    {
+      quote: "We need to remove the word failure from our vocabulary, replacing it instead with learning experience.",
+      loc: 1520,
+    },
+    {
+      quote: "The next time you can’t immediately figure out the shower control in a hotel room or have trouble using an unfamiliar television set or kitchen appliance, remember that the problem is in the design. Ask yourself where the problem lies. At which of the seven stages of action does it fail? Which design principles are deficient?",
+      loc: 1712,
+    },
+    {
+      quote: "But it is easy to find fault: the key is to be able to do things better. Ask yourself how the difficulty came about. Realize that many different groups of people might have been involved, each of which might have had intelligent, sensible reasons for their actions. For example, a troublesome bathroom shower was designed by people who were unable to know how it would be installed, then the shower controls might have been selected by a building contractor to fit the home plans provided by yet another person. Finally, a plumber, who may not have had contact with any of the other people, did the installation. Where did the problems arise?",
+      loc: 1715,
+    },
+    {
+      quote: "One of my self-imposed rules is, “Don’t criticize unless you can do better.” Try to understand how the faulty design might have occurred: try to determine how it could have been done otherwise.",
+      loc: 1720,
+    },
+    {
+      quote: "A friend kindly let me borrow his car, an older, classic Saab. Just before I was about to leave, I found a note waiting for me: “I should have mentioned that to get the key out of the ignition, the car needs to be in reverse.” The car needs to be in reverse! If I hadn’t seen the note, I never could have figured that out. There was no visible cue in the car: the knowledge needed for this trick had to reside in the head. If the driver lacks that knowledge, the key stays in the ignition forever.",
+      loc: 1730,
+    },
+    {
+      quote: "Knowledge is both in the head and in the world. Technically, knowledge can only be in the head, because knowledge requires interpretation and understanding, but once the world’s structure has been interpreted and understood, it counts as knowledge. Much of the knowledge a person needs to do a task can be derived from the information in the world. Behavior is determined by combining the knowledge in the head with that in the world. For this chapter, I will use the term “knowledge” for both what is in the head and what is in the world. Although technically imprecise, it simplifies the discussion and understanding.",
+      loc: 1758,
+    },
+    {
+      quote: "What are the design implications? Don’t count on much being retained in STM. Computer systems often enhance people’s frustration when things go wrong by presenting critical information in a message that then disappears from the display just when the person wishes to make use of the information. So how can people remember the critical information? I am not surprised when people hit, kick, or otherwise attack their computers.",
+      loc: 2099,
+    },
+    {
+      quote: "It is now 55°F outside my home in California. What temperature is it in Celsius? Quick, do it in your head without using any technology: What is the answer? I am sure all of you remember the conversion equation: °C = (°F–32) × 5 / 9 Plug in 55 for °F, and ºC = (55–32) × 5 / 9 = 12.8°. But most people can’t do this without pencil and paper because there are too many intermediate numbers to maintain in STM. Want a simpler way? Try this approximation—you can do it in your head, there is no need for paper or pencil: °C = (°F–30) / 2 Plug in 55 for °F, and ºC = (55–30) / 2 = 12.5º. Is the equation an exact conversion? No, but the approximate answer of 12.5 is close enough to the correct value of 12.8. After all, I simply wanted to know whether I should wear a sweater. Anything within 5ºF of the real value would work for this purpose.",
+      loc: 2216,
+    },
+    {
+      quote: "Here is an approximate model for STM:           There are five memory slots in short-term memory. Each time a new item is added, it occupies a slot, knocking out whatever was there beforehand. Is this model true? No, not a single memory researcher in the entire world believes this to be an accurate model of STM. But it is good enough for applications. Make use of this model, and your designs will be more usable.",
+      loc: 2231,
+    },
+    {
+      quote: "Machines should focus on solving arithmetic problems. People should focus on higher-level issues, such as the reason the answer was needed.",
+      loc: 2268,
+    },
+    {
+      quote: "Writing is a powerful technology: why not use it? Use a pad of paper, or the back of your hand. Write it or type it. Use a phone or a computer. Dictate it. This is what technology is for. The unaided mind is surprisingly limited. It is things that make us smart. Take advantage of them.",
+      loc: 2271,
+    },
+    {
+      quote: "In an earlier book, Things That Make Us Smart, I argued that it is this combination of technology and people that creates super-powerful beings. Technology does not make us smarter. People do not make technology smart. It is the combination of the two, the person plus the artifact, that is smart. Together, with our tools, we are a powerful combination.",
+      loc: 2427,
+    },
+    {
+      quote: "Want excellent examples of natural mapping? Consider gesture-controlled faucets, soap dispensers, and hand dryers. Put your hands under the faucet or soap dispenser and the water or soap appears. Wave your hand in front of the paper towel dispenser and out pops a new towel, or in the case of blower-controlled hand dryers, simply put your hands beneath or into the dryer and the drying air turns on. Mind you, although the mappings of these devices are appropriate, they do have problems. First, they often lack signifiers, hence they lack discoverability. The controls are often invisible, so we sometimes put our hands under faucets expecting to receive water, but wait in vain: these are mechanical faucets that require handle turning.",
+      loc: 2500,
+    },
+    {
+      quote: "Usability is not often thought about during the purchasing process. Unless you actually test a number of units in a realistic environment, doing typical tasks, you are not likely to notice the ease or difficulty of use. If you just look at something, it appears straightforward enough, and the array of wonderful features seems to be a virtue. You may not realize that you won’t be able to figure out how to use those features. I urge you to test products before you buy them. Before purchasing a new stovetop, pretend you are cooking a meal. Do it right there in the store. Do not be afraid to make mistakes or ask stupid questions. Remember, any problems you have are probably the design’s fault, not yours.",
+      loc: 2532,
+    },
+    {
+      quote: "Similar issues occurred in aviation with the pilot’s attitude indicator, the display that indicates the airplane’s orientation (roll or bank and pitch). The instrument shows a horizontal line to indicate the horizon with a silhouette of an airplane seen from behind. If the wings are level and on a line with the horizon, the airplane is flying in level flight. Suppose the airplane turns to the left, so it banks (tilts) left. What should the display look like? Should it show a left-tilting airplane against a fixed horizon, or a fixed airplane against a right-tilting horizon? The first is correct from the viewpoint of someone watching the airplane from behind, where the horizon is always horizontal: this type of display is called outside-in. The second is correct from the viewpoint of the pilot, where the airplane is always stable and fixed in position, so that when the airplane banks, the horizon tilts: this type of display is called inside-out.",
+      loc: 2603,
+    },
+    {
+      quote: "These four classes of constraints—physical, cultural, semantic, and logical—seem to be universal, appearing in a wide variety of situations.",
+      loc: 2656,
+    },
+    {
+      quote: "The traditional cylindrical battery, Figure 4.2A, lacks sufficient physical constraints. It can be put into battery compartments in two orientations: one that is correct, the other of which can damage the equipment. The instructions in Figure 4.2B show that polarity is important, yet the inferior signifiers inside the battery compartment makes it very difficult to determine the proper orientation for the batteries.",
+      loc: 2667,
+    },
+    {
+      quote: "When cars become fully automated, communicating among themselves with wireless networks, what will be the meaning of the red lights on the rear of the auto? That the car is braking? But for whom would the signal be intended? The other cars would already know.",
+      loc: 2756,
+    },
+    {
+      quote: "A usable design starts with careful observations of how the tasks being supported are actually performed, followed by a design process that results in a good fit to the actual ways the tasks get performed. The technical name for this method is task analysis. The name for the entire process is human-centered design (HCD), discussed in Chapter 6.",
+      loc: 2884,
+    },
+    {
+      quote: "We mounted a floor plan of the living room on a plate and oriented it to match the room. Switches were placed on the floor plan so that each switch was located in the area controlled by that switch. The plate was mounted with a slight tilt from the horizontal to make it easy to see and to make the mapping clear: had the plate been vertical, the mapping would still be ambiguous. The plate was tilted rather than horizontal to discourage people (us or visitors) from placing objects, such as cups, on",
+      loc: 2892,
+    },
+    {
+      quote: "Forcing functions are the extreme case of strong constraints that can prevent inappropriate behavior. Not every situation allows such strong constraints to operate, but the general principle can be extended to a wide variety of situations. In the field of safety engineering, forcing functions show up under other names, in particular as specialized methods for the prevention of accidents. Three such methods are interlocks, lock-ins, and lockouts.",
+      loc: 2969,
+    },
+    {
+      quote: "Other useful devices make use of a forcing function. In some public restrooms, a pull-down shelf is placed inconveniently on the wall just behind the cubicle door, held in a vertical position by a spring. You lower the shelf to the horizontal position, and the weight of a package or handbag keeps it there. The shelf’s position is a forcing function. When the shelf is lowered, it blocks the door fully. So to get out of the cubicle, you have to remove whatever is on the shelf and raise it out of the way. Clever design.",
+      loc: 3020,
+    },
+    {
+      quote: "Affordances refer to the potential actions that are possible, but these are easily discoverable only if they are perceivable: perceived affordances.",
+      loc: 3026,
+    },
+    {
+      quote: "Skeuomorphic is the technical term for incorporating old, familiar ideas into new technologies, even though they no longer play a functional role.",
+      loc: 3293,
+    },
+    {
+      quote: "When a bridge collapses, we analyze the incident to find the causes of the collapse and reformulate the design rules to ensure that form of accident will never happen again. When we discover that electronic equipment is malfunctioning because it is responding to unavoidable electrical noise, we redesign the circuits to be more tolerant of the noise. But when an accident is thought to be caused by people, we blame them and then continue to do things just as we have always done.",
+      loc: 3345,
+    },
+    {
+      quote: "The Japanese have long followed a procedure for getting at root causes that they call the “Five Whys,” originally developed by Sakichi Toyoda and used by the Toyota Motor Company as part of the Toyota Production System for improving quality. Today it is widely deployed.",
+      loc: 3401,
+    },
+    {
+      quote: "Error is the general term for all wrong actions. There are two major classes of error: slips and mistakes, as shown in Figure 5.1; slips are further divided into two major classes and mistakes into three. These categories of errors all have different implications for design.",
+      loc: 3504,
+    },
+    {
+      quote: "Example of an action-based slip. I poured some milk into my coffee and then put the coffee cup into the refrigerator. This is the correct action applied to the wrong object.        Example of a memory-lapse slip. I forget to turn off the gas burner on my stove after cooking dinner.",
+      loc: 3513,
+    },
+    {
+      quote: "A colleague reported that he went to his car to drive to work. As he drove away, he realized that he had forgotten his briefcase, so he turned around and went back. He stopped the car, turned off the engine, and unbuckled his wristwatch. Yes, his wristwatch, instead of his seatbelt.",
+      loc: 3551,
+    },
+    {
+      quote: "A former student reported that one day he came home from jogging, took off his sweaty shirt, and rolled it up in a ball, intending to throw it in the laundry basket. Instead he threw it in the toilet. (It wasn’t poor aim: the laundry basket and toilet were in different rooms.)",
+      loc: 3585,
+    },
+    {
+      quote: "Using a bank or credit card to withdraw money from an automatic teller machine, then walking off without the card, is such a frequent error that many machines now have a forcing function: the card must be removed before the money will be delivered. Of course, it is then possible to walk off without the money, but this is less likely than forgetting the card because money is the goal of using the machine.",
+      loc: 3613,
+    },
+    {
+      quote: "It is tempting to save money and space by having a single control serve multiple purposes. Suppose there are ten different functions on a device. Instead of using ten separate knobs or switches—which would take considerable space, add extra cost, and appear intimidatingly complex, why not use just two controls, one to select the function, the other to set the function to the desired condition? Although the resulting design appears quite simple and easy to use, this apparent simplicity masks the underlying complexity of use. The operator must always be completely aware of the mode, of what function is active. Alas, the prevalence of mode errors shows this assumption to be false.",
+      loc: 3634,
+    },
+    {
+      quote: "Mode error is really design error. Mode errors are especially likely where the equipment does not make the mode visible, so the user is expected to remember what mode has been established, sometimes hours earlier, during which time many intervening events might have occurred. Designers must try to avoid modes, but if they are necessary, the equipment must make it obvious which mode is invoked. Once again, designers must always compensate for interfering activities.",
+      loc: 3660,
+    },
+    {
+      quote: "In 2013, at the Kiss nightclub in Santa Maria, Brazil, pyrotechnics used by the band ignited a fire that killed over 230 people. The tragedy illustrates several mistakes. The band made a knowledge-based mistake when they used outdoor flares, which ignited the ceiling’s acoustic tiles. The band thought the flares were safe. Many people rushed into the rest rooms, mistakenly thinking they were exits: they died. Early reports suggested that the guards, unaware of the fire, at first mistakenly blocked people from leaving the building. Why? Because nightclub attendees would sometimes leave without paying for their drinks.                   The mistake was in devising a rule that did not take account of emergencies. A root cause analysis would reveal that the goal was to prevent inappropriate exit but still allow the doors to be used in an emergency. One solution is doors that trigger alarms when used, deterring people trying to sneak out, but allowing exit when needed.",
+      loc: 3702,
+    },
+    {
+      quote: "In Tenerife, in the Canary Islands, a KLM Boeing 747 crashed during takeoff into a Pan American 747 that was taxiing on the same runway, killing 583 people. The KLM plane had not received clearance to take off, but the weather was starting to get bad and the crew had already been delayed for too long (even being on the Canary Islands was a diversion from the scheduled flight—bad weather had prevented their landing at their scheduled destination). And the Pan American flight should not have been on the runway, but there was considerable misunderstanding between the pilots and the air traffic controllers. Furthermore, the fog was coming in so thickly that neither plane’s crew could see the other.",
+      loc: 3797,
+    },
+    {
+      quote: "The Toyota automobile company has developed an extremely efficient error-reduction process for manufacturing, widely known as the Toyota Production System. Among its many key principles is a philosophy called Jidoka, which Toyota says is “roughly translated as ‘automation with a human touch.’” If a worker notices something wrong, the worker is supposed to report it, sometimes even stopping the entire assembly line if a faulty part is about to proceed to the next station. (A special cord, called an andon, stops the assembly line and alerts the expert crew.) Experts converge upon the problem area to determine the cause. “Why did it happen?” “Why was that?” “Why is that the reason?” The philosophy is to ask “Why?” as many times as may be necessary to get to the root cause of the problem and then fix it so it can never occur again. As you might imagine, this can be rather discomforting for the person who found the error. But the report is expected, and when it is discovered that people have failed to report errors, they are punished, all in an attempt to get the workers to be honest.",
+      loc: 3893,
+    },
+    {
+      quote: "One of the techniques of poka-yoke is to add simple fixtures, jigs, or devices to constrain the operations so that they are correct. I practice this myself in my home. One trivial example is a device to help me remember which way to turn the key on the many doors in the apartment complex where I live. I went around with a pile of small, circular, green stick-on dots and put them on each door beside its keyhole, with the green dot indicating the direction in which the key needed to be turned: I added signifiers to the doors. Is this a major error? No. But eliminating it has proven to be convenient. (Neighbors have commented on their utility, wondering who put them there.)",
+      loc: 3905,
+    },
+    {
+      quote: "Action slips are relatively easy to detect because it is usually easy to notice a discrepancy between the intended act and the one that got performed. But this detection can only take place if there is feedback. If the result of the action is not visible, how can the error be detected?",
+      loc: 3934,
+    },
+    {
+      quote: "So, the next time a major accident occurs, ignore the initial reports from journalists, politicians, and executives who don’t have any substantive information but feel compelled to provide statements anyway. Wait until the official reports come from trusted sources. Unfortunately, this could be months or years after the accident, and the public usually wants answers immediately, even if those answers are wrong. Moreover, when the full story finally appears, newspapers will no longer consider it news, so they won’t report it. You will have to search for the official report. In the United States, the National Transportation Safety Board (NTSB) can be trusted. NTSB conducts careful investigations of all major aviation, automobile and truck, train, ship, and pipeline incidents. (Pipelines? Sure: pipelines transport coal, gas, and oil.)",
+      loc: 3985,
+    },
+    {
+      quote: "The best way of mitigating slips is to provide perceptible feedback about the nature of the action being performed, then very perceptible feedback describing the new resulting state, coupled with a mechanism that allows the error to be undone.",
+      loc: 4161,
+    },
+    {
+      quote: "Accidents usually have multiple causes, whereby had any single one of those causes not happened, the accident would not have occurred. The British accident researcher James Reason describes this through the metaphor of slices of Swiss cheese: unless the holes all line up perfectly, there will be no accident. This metaphor provides two lessons: First, do not try to find “the” cause of an accident; Second, we can decrease accidents and make systems more resilient by designing them to have extra precautions against error (more slices of cheese), less opportunities for slips, mistakes, or equipment failure (less holes), and very different mechanisms in the different subparts of the system (trying to ensure that the holes do not line up). (Drawing based upon one by Reason, 1990.)",
+      loc: 4185,
+    },
+    {
+      quote: "Put the knowledge required to operate the technology in the world. Don’t require that all the knowledge must be in the head. Allow for efficient operation when people have learned all the requirements, when they are experts who can perform without the knowledge in the world, but make it possible for non-experts to use the knowledge in the world. This will also help experts who need to perform a rare, infrequently performed operation or return to the technology after a prolonged absence.",
+      loc: 4324,
+    },
+    {
+      quote: "One of my rules in consulting is simple: never solve the problem I am asked to solve. Why such a counterintuitive rule? Because, invariably, the problem I am asked to solve is not the real, fundamental, root problem. It is usually a symptom.",
+      loc: 4340,
+    },
+    {
+      quote: "When all the presentations are over, I congratulate them, but ask: “How do you know you solved the correct problem?” They are puzzled. Engineers and business people are trained to solve problems. Why would anyone ever give them the wrong problem? “Where do you think the problems come from?” I ask. The real world is not like the university. In the university, professors make up artificial problems. In the real world, the problems do not come in nice, neat packages. They have to be discovered.",
+      loc: 4348,
+    },
+    {
+      quote: "Engineers and businesspeople are trained to solve problems. Designers are trained to discover the real problems.",
+      loc: 4354,
+    },
+    {
+      quote: "Designers resist the temptation to jump immediately to a solution for the stated problem. Instead, they first spend time determining what basic, fundamental (root) issue needs to be addressed. They don’t try to search for a solution until they have determined the real problem, and even then, instead of solving that problem, they stop to consider a wide range of potential solutions. Only then will they finally converge upon their proposal. This process is called design thinking.",
+      loc: 4369,
+    },
+    {
+      quote: "These two components of design—finding the right problem and meeting human needs and capabilities—give rise to two phases of the design process. The first phase is to find the right problem, the second is to find the right solution. Both phases use the HCD process.",
+      loc: 4385,
+    },
+    {
+      quote: "Make observations on the intended target population, generate ideas, produce prototypes and test them. Repeat until satisfied. This is often called the spiral method (rather than the circle depicted here), to emphasize that each iteration through the stages makes progress.",
+      loc: 4423,
+    },
+    {
+      quote: "This technique is called applied ethnography, a method adapted from the field of anthropology. Applied ethnography differs from the slower, more methodical, research-oriented practice of academic anthropologists because the goals are different. For one, design researchers have the goal of determining human needs that can be addressed through new products. For another, product cycles are driven by schedule and budget, both of which require more rapid assessment than is typical in academic studies that might go on for years.",
+      loc: 4441,
+    },
+    {
+      quote: "Generate numerous ideas. It is dangerous to become fixated upon one or two ideas too early in the process. Be creative without regard for constraints. Avoid criticizing ideas, whether your own or those of others. Even crazy ideas, often obviously wrong, can contain creative insights that can later be extracted and put to good use in the final idea selection. Avoid premature dismissal of ideas.",
+      loc: 4505,
+    },
+    {
+      quote: "Question everything. I am particularly fond of “stupid” questions. A stupid question asks about things so fundamental that everyone assumes the answer is obvious. But when the question is taken seriously, it often turns out to be profound: the obvious often is not obvious at all. What we assume to be obvious is simply the way things have always been done, but now that it is questioned, we don’t actually know the reasons. Quite often the solution to problems is discovered through stupid questions, through questioning the obvious.",
+      loc: 4511,
+    },
+    {
+      quote: "How can we pretend to accommodate all of these very different, very disparate people? The answer is to focus on activities, not the individual person. I call this activity-centered design. Let the activity define the product and its structure. Let the conceptual model of the product be built around the conceptual model of the activity.",
+      loc: 4589,
+    },
+    {
+      quote: "I emphasize the need to design for activities: designing for tasks is usually too restrictive. An activity is a high-level structure, perhaps “go shopping.” A task is a lower-level component of an activity, such as “drive to the market,” “find a shopping basket,” “use a shopping list to guide the purchases,” and so forth. An activity is a collected set of tasks, but all performed together toward a common high-level goal. A task is an organized, cohesive set of operations directed toward a single, low-level goal.",
+      loc: 4611,
+    },
+  ]
+
 - title: "On the Shortness of Life"
   quotes: [
     {
@@ -241,64 +845,8 @@
       loc: 192,
     },
     {
-      quote: "Though frequently omitted, declaring a language for a web page could scarcely be more important.",
-      loc: 316,
-    },
-    {
-      quote: "Perhaps most starkly, a page that does not have a language declared — or has the wrong language declared for the content — will not trigger the adoption of an appropriate synthetic voice profile when used with a screen reader.",
-      loc: 322,
-    },
-    {
-      quote: "Targeting the specific viewports of specific devices (employing device breakpoints) is an exercise in futility if you want to create a truly inclusive experience. There are just too many viewport variations available to support each one. Instead, you should create an entirely flexible design from the outset and insert breakpoints only where the content breaks the layout — hence content breakpoint or tweakpoint.",
-      loc: 365,
-    },
-    {
-      quote: "By employing content breakpoints, you can ensure successful layouts for a range of devices far greater than you would ever be able to manually test with.",
-      loc: 368,
-    },
-    {
-      quote: "As a rule of thumb, you should never set a fixed width or height on any element: the intrinsic flexibility of boxes means they can tolerate the same content in different spaces.",
-      loc: 379,
-    },
-    {
-      quote: "To achieve inclusive design you should act as a facilitator, allowing users to configure the way they view and interact with the content you provide them. The fewer decisions you make for them, the more they can make for themselves.",
-      loc: 411,
-    },
-    {
-      quote: "If you’re building a highly complex layout, a grid system may help you. However, you should not be building a highly complex layout. Simple user interfaces are usable interfaces, accessible interfaces, maintainable interfaces, and performant interfaces.",
-      loc: 1214,
-    },
-    {
-      quote: "As a rule of thumb, if the menu has fewer than five items, just lay them out; make them available to the user at all times.",
-      loc: 3110,
-    },
-    {
-      quote: "In desktop viewports, there’s rarely any reason to hide a navigation menu away, regardless of the number of items it contains.",
-      loc: 3111,
-    },
-    {
-      quote: "Hiding functionality away from users and requiring them to perform an additional action to reveal that functionality is always a last resort.",
-      loc: 3112,
-    },
-    {
-      quote: "Avoid the temptation, though, to add animations — especially ones which depend on CSS positioning — just to impress users.",
-      loc: 3636,
-    },
-    {
-      quote: "Despite the inclusive nature of standard radio buttons, they offer limited styling opportunities. This is the main reason why we dispense with them in favor of either completely inaccessible <div>- and <span>-based solutions, or comparatively fragile and complex WAI-ARIA implementations.",
-      loc: 4748,
-    },
-    {
-      quote: "One example of making a decision on users’ behalf is to disable zoom, using user-scalable=no on the viewport <meta> tag. This is to decide for the user what font size and magnification level suits them, and prevents them from adjusting it themselves. An audacious act, and foolhardy given the inevitable diversity of your audience.",
-      loc: 5085,
-    },
-    {
-      quote: "My current output is hardly perfect, but it has benefited from a change in mindset, an acknowledgement that web pages aren’t merely pinboards for images.",
-      loc: 5454,
-    },
-    {
-      quote: "Really, web pages are terminals: they accept information (input) and display information (output).",
       loc: 5455,
+      quote: "Though frequently omitted, declaring a language for a web locs are terminals: they accept information (input) and display information (output).",
     },
     {
       quote: "On the other hand, forms are a 10,000-volt electromagnet for attracting usability problems.",

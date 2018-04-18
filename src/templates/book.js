@@ -1,37 +1,34 @@
 import React from 'react'
 import Img from 'gatsby-image'
+import Helmet from 'react-helmet'
+
 import Highlight from '../components/highlight'
 
 export default function BookTemplate({ data }) {
   const { markdownRemark: post } = data
-  const { title, author, poster, published } = post.frontmatter
+  const { title, author, poster } = post.frontmatter
   const { allHighlightsYaml: highlight } = data
 
   return (
-    <main className="main-container book-template">
+    <article>
+      <Helmet
+        title={`${title} | ${data.site.siteMetadata.title}`}
+        meta={[
+          { name: 'description', content: data.site.siteMetadata.description },
+        ]}
+      />
       <div className="book-cover">
-        <h1 className="book-cover__title">
-          <span className="head">{title}</span>
-        </h1>
-        <div className="book-cover__meta">
-          <span>by</span> {author}
-        </div>
+        <h1 className="book-cover__title">{title}</h1>
+        <div className="book-cover__meta">by {author}</div>
 
         <Img
           sizes={poster.childImageSharp.sizes}
           className="book-cover__image"
         />
-
-        {/* <dl className="book-cover__list-item">
-          <dt>Published:</dt>
-          <dd>{published}</dd>
-        </dl> */}
       </div>
 
-      <div className="main-content book-highlights">
-        {getHighlights(title, highlight)}
-      </div>
-    </main>
+      <div>{getHighlights(title, highlight)}</div>
+    </article>
   )
 }
 
@@ -47,24 +44,30 @@ function getHighlights(title, highlight) {
     }
   })
 
-  return <div>{quotes}</div>
+  return quotes
 }
 
 export const bookQuery = graphql`
   query bookQuery($slug: String!) {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
+
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title
+        author
         poster {
           childImageSharp {
-            sizes(maxWidth: 1000) {
+            sizes(maxWidth: 400) {
               ...GatsbyImageSharpSizes
             }
           }
         }
-        author
-        published
       }
     }
 

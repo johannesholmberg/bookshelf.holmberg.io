@@ -1,0 +1,29 @@
+.highlight {
+  font-family: $fontSerif;
+  font-size: 1.5em;
+  margin: 1em 0;
+  padding: 0.5em 0;
+
+  > p {
+    margin: 0;
+  }
+
+  &:target > p {
+    display: inline;
+    background-color: #ffc519;
+  }
+}
+
+.highlight__meta {
+  display: block;
+  margin: 1em 0;
+  text-transform: uppercase;
+  color: #777;
+  font-size: 0.6em;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}

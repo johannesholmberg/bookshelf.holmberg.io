@@ -1,37 +1,40 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Typekit from 'react-typekit'
 
-import Header from '../components/header'
 import '../assets/styles.scss'
 
 const Layout = ({ children, data }) => (
-  <div>
+  <div className="layout-wrap">
     <Typekit kitId="oar2wfu" />
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: data.site.siteMetadata.description },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
-    <div>{children()}</div>
+    <Link to="/" className="site-header">
+      highlights.holmberg.io
+    </Link>
+    <main id="main">{children()}</main>
+    <footer className="site-footer">
+      <p>Highlights and covers are copyright to their respective authors.</p>
+      <p>
+        A pet project by <a href="https://holmberg.io">Johannes Holmberg</a>
+      </p>
+    </footer>
   </div>
 )
-
-Layout.propTypes = {
-  children: PropTypes.func,
-}
 
 export default Layout
 
 export const query = graphql`
-  query SiteTitleQuery {
+  query layoutQuery {
     site {
       siteMetadata {
         title
+        description
       }
     }
   }

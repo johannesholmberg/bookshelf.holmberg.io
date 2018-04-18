@@ -1,24 +1,28 @@
 {
-  "env": {
-    "es6": true
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
   },
+  "plugins": ["react"],
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:prettier/recommended"
   ],
-  "ecmaFeatures": {
-    "jsx": true,
-    "modules": true
-  },
-  "parserOptions": {
-    "sourceType": "module"
+
+  "rules": {
+    "react/prop-types": 0
   },
   "globals": {
     "graphql": false,
     "require": false,
     "module": false,
     "exports": false
-  },
-  "plugins": ["react"]
+  }
 }

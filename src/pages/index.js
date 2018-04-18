@@ -1,13 +1,13 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Book from '../components/book'
+
+import BookItem from '../components/book-item'
 
 const IndexPage = ({ data }) => (
-  <main id="main" className="book-list">
+  <div className="book-list">
     {data.allMarkdownRemark.edges.map(({ node }) => (
-      <Book node={node} key={node.id} />
+      <BookItem node={node} key={node.id} />
     ))}
-  </main>
+  </div>
 )
 
 export default IndexPage
@@ -27,7 +27,7 @@ export const indexQuery = graphql`
             title
             poster {
               childImageSharp {
-                sizes(maxWidth: 1000) {
+                sizes(maxWidth: 400) {
                   ...GatsbyImageSharpSizes
                 }
               }

@@ -1,6 +1,24 @@
-//@import 'scss/base';
-@import 'scss/general';
-@import 'scss/c.header-global';
-@import 'scss/c.highlight';
-@import 'scss/c.book-list';
-@import 'scss/c.book-item';
+// Settings
+@import 's.global';
+
+// Tools
+@import 't.breakpoints';
+
+// Generic (Starts rendering CSS)
+@import 'g.box-sizing';
+@import 'g.reset';
+
+// Elements
+@import 'e.base';
+@import 'e.elements';
+
+// Objects
+@import 'o.layout-wrap';
+
+// Components
+@import 'c.header';
+@import 'c.footer';
+@import 'c.highlight';
+@import 'c.book-list';
+@import 'c.book-item';
+@import 'c.book-cover';

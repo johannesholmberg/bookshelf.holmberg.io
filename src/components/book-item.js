@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
 
-export default class Book extends Component {
+export default class BookItem extends Component {
   render() {
     const { node: post } = this.props
-    const { title, poster } = post.frontmatter
+    const { poster } = post.frontmatter
 
     return (
       <Link to={post.fields.slug} className="book-item">
