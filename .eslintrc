@@ -23,6 +23,9 @@
     "graphql": false,
     "require": false,
     "module": false,
-    "exports": false
+    "exports": false,
+    "document": false,
+    "history": false,
+    "window": false
   }
 }
