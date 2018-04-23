@@ -1,4 +1,8 @@
 .layout-wrap {
-  margin: 5% auto;
+  margin: 2% auto;
   padding: 0 7%;
+
+  @include breakpoint(tablet) {
+    margin: 6% auto;
+  }
 }

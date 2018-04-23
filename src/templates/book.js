@@ -14,20 +14,26 @@ export default function BookTemplate({ data }) {
       <Helmet
         title={`${title} | ${data.site.siteMetadata.title}`}
         meta={[
-          { name: 'description', content: data.site.siteMetadata.description },
+          {
+            name: 'description',
+            content: data.site.siteMetadata.description,
+          },
         ]}
       />
       <div className="book-cover">
-        <h1 className="book-cover__title">{title}</h1>
-        <div className="book-cover__meta">by {author}</div>
-
         <Img
           sizes={poster.childImageSharp.sizes}
           className="book-cover__image"
         />
       </div>
+      <div className="main-content">
+        <div className="page-header">
+          <h1 className="page-header__title">{title}</h1>
+          <div className="page-header__meta">by {author}</div>
+        </div>
 
-      <div>{getHighlights(title, highlight)}</div>
+        {getHighlights(title, highlight)}
+      </div>
     </article>
   )
 }
@@ -38,8 +44,10 @@ function getHighlights(title, highlight) {
     const quoteTitle = node.title
 
     if (title == quoteTitle) {
+      let id = 0
       node.quotes.forEach(quote => {
-        quotes.push(<Highlight quote={quote} />)
+        quotes.push(<Highlight quote={quote} key={id} />)
+        id++
       })
     }
   })

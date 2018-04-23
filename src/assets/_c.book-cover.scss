@@ -1,15 +1,15 @@
-.book-cover__title {
-  margin: 4% 0 0.2em;
-  font-size: 3.6em;
-  line-height: 1;
-}
+.book-cover {
+  margin: 2em 2em 2em 0;
+  max-width: 140px;
 
-.book-cover__meta {
-  font-size: 1.125em;
+  @include breakpoint(mobile) {
+    max-width: none;
+    position: sticky;
+    top: 2em;
+    left: 0;
+  }
 }
 
 .book-cover__image {
-  max-width: 200px;
-  margin: 4% 0;
   border: 1px solid #ddd;
 }

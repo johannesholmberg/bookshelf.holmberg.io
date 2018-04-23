@@ -1,4 +1,19 @@
 .layout-book {
-  max-width: 48em;
+  max-width: 62em;
   margin: 0 auto;
+
+  @include breakpoint(mobile) {
+    display: grid;
+    grid-template-columns: 10em 1fr;
+    grid-gap: 1em;
+    align-items: start;
+  }
+
+  @include breakpoint(tablet) {
+    grid-template-columns: 15em 1fr;
+    grid-gap: 3em;
+  }
+}
+
+.main-content {
 }

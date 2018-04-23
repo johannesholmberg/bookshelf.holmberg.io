@@ -1002,7 +1002,7 @@
     },
     {
       quote: "The key idea behind Anderson’s new account of human memory is that the problem might be not one of storage, but of organization.",
-      loc: 1819,
+      loc: 1820,
     },
     {
       quote: "Minimizing the sum of completion times leads to a very simple optimal algorithm called Shortest Processing Time: always do the quickest task you can.",

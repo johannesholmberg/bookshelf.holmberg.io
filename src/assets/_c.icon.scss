@@ -1,0 +1,16 @@
+.svg-wrap {
+  display: inline-flex;
+  align-self: center;
+  position: relative;
+  height: 0.8em;
+  width: 0.8em;
+  margin-right: 0.3em;
+}
+
+.svg-wrap__icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  position: absolute;
+  bottom: -0.175em;
+}

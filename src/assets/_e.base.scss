@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  font-family: $fontSerif;
+  font-family: $fontBody;
   font-weight: 300;
   line-height: 1.5;
   font-size: 1em;
   font-size: calc(14px + 6 * ((100vw - 500px) / 1500));
 
-  @include breakpoint(desktop) {
-    font-size: 1.1em;
+  @include breakpoint(tablet) {
+    font-size: 1em;
   }
 }
