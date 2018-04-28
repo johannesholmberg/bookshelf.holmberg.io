@@ -66,8 +66,19 @@ export default class Highlight extends Component {
 
   render() {
     const { quote } = this.props
+    let markerType, markerText
+    if (quote.loc === null) {
+      markerText = 'Page'
+      markerType = quote.page
+    } else {
+      markerText = 'Location'
+      markerType = quote.loc
+    }
     return (
-      <blockquote id={`location-${quote.loc}`} className="highlight">
+      <blockquote
+        id={`${markerText.toLowerCase()}-${markerType}`}
+        className="highlight"
+      >
         <p className="highlight__text">
           {quote.quote}
           <button
@@ -83,11 +94,11 @@ export default class Highlight extends Component {
           onClick={e => {
             this.highlightSwitch(e)
           }}
-          href={`#location-${quote.loc}`}
+          href={`#${markerText.toLowerCase()}-${markerType}`}
           className="highlight__meta"
         >
           <Icon id="link" />
-          Location {quote.loc}
+          {markerText} {markerType}
         </a>
       </blockquote>
     )

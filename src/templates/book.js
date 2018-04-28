@@ -32,6 +32,13 @@ export default function BookTemplate({ data }) {
           <div className="page-header__meta">by {author}</div>
         </div>
 
+        <div
+          className="content-wrap"
+          dangerouslySetInnerHTML={{
+            __html: post.html,
+          }}
+        />
+
         {getHighlights(title, highlight)}
       </div>
     </article>
@@ -86,6 +93,7 @@ export const bookQuery = graphql`
           quotes {
             quote
             loc
+            page
           }
         }
       }
