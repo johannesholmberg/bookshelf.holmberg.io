@@ -19,7 +19,10 @@ export const indexQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(limit: 20) {
+    allMarkdownRemark(
+      limit: 30
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           id
