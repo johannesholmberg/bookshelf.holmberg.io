@@ -10,7 +10,7 @@ export default class BookItem extends Component {
     return (
       <Link to={post.fields.slug} className="book-item">
         <div className="book-item__cover">
-          <Img sizes={poster.childImageSharp.sizes} />
+          {poster && <Img sizes={poster.childImageSharp.sizes} />}
         </div>
       </Link>
     )

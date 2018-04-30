@@ -2,7 +2,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Highlights from books I’ve read | Johannes Holmberg',
-    description: 'A pet project where I keep highlights of my favorite books',
+    description:
+      'A pet project where I keep highlights of my favorite books',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,7 +30,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'data',
-        path: `${__dirname}/src/data`,
+        path: `${__dirname}/src/books`,
       },
     },
   ],

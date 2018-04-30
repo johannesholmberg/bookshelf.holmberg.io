@@ -1,3 +1,889 @@
+- title: "The Dip"
+  quotes: [
+    {
+      quote: "Most people quit. They just don’t quit successfully. In fact, many professions and many marketplaces profit from quitters—society assumes you’re going to quit. In fact, businesses and organizations count on it. ",
+      loc: 28,
+    },
+    {
+      quote: "Scarcity makes being at the top worth something. There are hundreds of brands of bottled water, and they’re all mostly the same. So we don’t shop around for bottled water. There is no top for bottled water. Champagne is a different story. ",
+      loc: 88,
+    },
+    {
+      quote: "The mass market is dying. There is no longer one best song or one best kind of coffee. Now there are a million micromarkets, but each micromarket still has a best. ",
+      loc: 100,
+    },
+    {
+      quote: "If you’re not going to put in the effort to be my best possible choice, why bother? ",
+      loc: 125,
+    },
+    {
+      quote: "The reason that big companies almost always fail when they try to enter new markets is their willingness to compromise. ",
+      loc: 127,
+    },
+    {
+      quote: "The Dip is the difference between the easy “beginner” technique and the more useful “expert” approach in skiing or fashion design. ",
+      loc: 165,
+    },
+    {
+      quote: "And if you don’t have enough time and money, do you have the guts to pick a different, smaller market to conquer? ",
+      loc: 218,
+    },
+    {
+      quote: "The brave thing to do is to tough it out and end up on the other side—getting all the benefits that come from scarcity. The mature thing is not even to bother starting to snowboard because you’re probably not going to make it through the Dip. And the stupid thing to do is to start, give it your best shot, waste a lot of time and money, and quit right in the middle of the Dip. ",
+      loc: 228,
+    },
+    {
+      quote: "The next time you’re tempted to vilify a particularly obnoxious customer or agency or search engine, realize that this failed interaction is the best thing that’s happened to you all day long. Without it, you’d be easily replaceable. The Dip is your very best friend. ",
+      loc: 258,
+    },
+    {
+      quote: "When faced with the Dip, many individuals and organizations diversify. If you can’t get to the next level, the thinking goes, invest your energy in learning to do something else. ",
+      loc: 267,
+    },
+    {
+      quote: "A woodpecker can tap twenty times on a thousand trees and get nowhere, but stay busy. Or he can tap twenty-thousand times on one tree and get dinner. ",
+      loc: 274,
+    },
+    {
+      quote: "Quit in the Dip often enough and you’ll find yourself becoming a serial quitter, starting many things but accomplishing little. ",
+      loc: 297,
+    },
+    {
+      quote: "Every time you switch lines, you’re starting over. In your search for a quick fix, you almost certainly waste time and you definitely waste energy jumping back and forth. ",
+      loc: 436,
+    },
+    {
+      quote: "It’s easy to be seduced by the new money and the rush to the fresh. The problem is that this leads to both an addiction and a very short attention span. If it doesn’t work today, the thinking goes, why should I wait around until tomorrow? The problem is that only a tiny portion of the audience is looking for the brand-new thing. Most people are waiting for the tested, the authenticated, and the proven. ",
+      loc: 478,
+    },
+    {
+      quote: "The time to look for a new job is when you don’t need one. The time to switch jobs is before it feels comfortable. Go. Switch. Challenge yourself; get yourself a raise and a promotion. You owe it to your career and your skills.",
+      loc: 574,
+    },
+  ]
+
+- title: "The Seasons of Life"
+  quotes: [
+    {
+      quote: "For six thousand years of recorded history, humans have entered this world, received parental instruction, classroom instruction, and gathered the experience of life; many have set for themselves ambitious goals, and dreamed lofty dreams, but upon the day that they draw their last breath, have left little behind as evidence of their existence other than a birth certificate, gravemarker, and one-half million dollars in consumed goods and services between their humble beginnings and uneventful end. ",
+      loc: 90,
+    },
+    {
+      quote: "For most, we remain forever in one of two categories—either poor, seeking to become wealthy or wealthy, seeking always to rediscover the happiness we had while we were poor. ",
+      loc: 97,
+    },
+    {
+      quote: "What we have been is an established and unchangeable fact. What we can yet become is an unlimited, boundless opportunity. ",
+      loc: 122,
+    },
+    {
+      quote: "Let the past be a servant for making the future both more enjoyable and profitable. ",
+      loc: 126,
+    },
+    {
+      quote: "There are those who will laugh at those who read useful books, and yet there is little difference between those who cannot read and those who will not read—the result of both is ignorance. ",
+      loc: 144,
+    },
+    {
+      quote: "Unpopular as it may seem, each of us accumulates people, customs, attitudes, habits, opinions, and philosophies which we very simply cannot afford to keep—if we seek honestly after an improved life. ",
+      loc: 170,
+    },
+    {
+      quote: "The gathering of a few business friends for lunch is a common, everyday occurrence. In one hour we can satisfy our hunger for food, gossip, ridicule and condemnation of those not present. We can repeat half-thruths brought to us through hearsay. We can complain about government, management, co-workers, traffic, taxes, weather, and the “system,” while doing nothing to produce solutions. ",
+      loc: 173,
+    },
+    {
+      quote: "Eating alone is better than mingling with those whose conversation is negative. ",
+      loc: 178,
+    },
+    {
+      quote: "Life is a delicate maneuver of selection, rejection, review and change. ",
+      loc: 193,
+    },
+    {
+      quote: "A major challenge in life is for each person to learn the art of standing guard at the doorway of their mind. ",
+      loc: 195,
+    },
+    {
+      quote: "Those who attempt to change themselves or their circumstances without severing the “mental anchors” which they’ve attached to themselves are going to make their task nearly impossible. ",
+      loc: 211,
+    },
+    {
+      quote: "Having brought us back from our wild dreams, ambition, and accomplishments with their well meant but destructive opinions, our friends celebrate by inviting us to their Friday night party where once again we will become active participants in the jokes, sarcasm, and gossip of those content with their own mediocrity. ",
+      loc: 227,
+    },
+    {
+      quote: "By our attitude, we decide to read, or not to read. ",
+      loc: 287,
+    },
+    {
+      quote: "Attitude determines choice, and choice determines results. ",
+      loc: 298,
+    },
+    {
+      quote: "Do not pause too long to soak in the aroma of the blossoming flowers, lest you awaken to find springtime gone with your seed still in your sack. ",
+      loc: 334,
+    },
+    {
+      quote: "Do not allow springtime to pass while you sit idly, contemplating the severity of the past winter of life. ",
+      loc: 342,
+    },
+    {
+      quote: "With intelligence, wisdom, and freedom of choice given to us as humans, exercise the discipline to plant in spite of the rocks, weeds, or other obstacles before us. The rocks, weeds, and thorns of the world cannot destroy all your seeds if you plant massively enough and intelligently enough. ",
+      loc: 343,
+    },
+    {
+      quote: "Listen not to the bearers of discouraging words—those who would have you rest with them during the work season of spring. ",
+      loc: 348,
+    },
+    {
+      quote: "As humans, we are given free agency—the right to choose; the right to use discipline, or not use it; the choice to act with courage, or huddle in fear; the choice to think, or respond out of habit. ",
+      loc: 370,
+    },
+    {
+      quote: "We must either plant during the springtime of life, or beg from others during the fall. ",
+      loc: 392,
+    },
+    {
+      quote: "The price, or effort of thinking thoughts of love, prosperity, or self-confidence, is no greater that the price given to thoughts of hate, poverty, or self-doubt. Only the rewards are different. ",
+      loc: 395,
+    },
+    {
+      quote: "Each day is given to us as a new season of spring. The thoughts, deeds, dreams, and efforts of today will provide tomorrow’s harvest. ",
+      loc: 398,
+    },
+    {
+      quote: "Do not use today to mentally re-live yesterday or to await the arrival of tomorrow, for tomorrow—when it arrives—will be called today. ",
+      loc: 399,
+    },
+    {
+      quote: "Seize the moments as you find them and mold them into your own better future. ",
+      loc: 401,
+    },
+    {
+      quote: "Life is designed to be a story of achievement in spite of adversity, not in the absence of adversity, for without adversity achievement could not exist. ",
+      loc: 431,
+    },
+    {
+      quote: "The spring is a time for the creation of things of value, and those things require the season of summer for growing and gaining strength that they might yield their result in the coming fall. ",
+      loc: 438,
+    },
+    {
+      quote: "Develop an understanding and awareness of the fact that all good will be attacked. It is nature’s way of qualifying those who are worthy and those who are not. ",
+      loc: 442,
+    },
+    {
+      quote: "Smile at adversity, for it shall surely appear. ",
+      loc: 451,
+    },
+    {
+      quote: "We must change our habits, our attitudes, our opinions, and often our occupations, residence, and even friends, if circumstances are ever to change. ",
+      loc: 460,
+    },
+    {
+      quote: "Only a massive, voluntary, and effective assault on changing causes is important. Direct your thought, conversation, and full attention to that if you wish to change circumstances; concentrate a good share of your idle hours upon self-development by planning more, reading more, and investing more. ",
+      loc: 467,
+    },
+    {
+      quote: "Since you cannot control the weather, or the traffic, or the one you love, or your neighbors, or your boss, then you must learn to control you…the one whose response to the difficulties of life really counts. ",
+      loc: 480,
+    },
+    {
+      quote: "Do not doubt yourself, for where doubt resides, confidence cannot. ",
+      loc: 483,
+    },
+    {
+      quote: "Do not spend time regretting the past, but invest that time wisely by preparing a better future. ",
+      loc: 486,
+    },
+    {
+      quote: "To those who are prepared, who have planted abundantly in the spring, guarded their crops carefully during the summer, and harvested massively during the fall, winter can be yet another season of opportunity. It can be a time for reading, a time for planning, a time for gathering our strength for the coming spring, and a time for taking comfortable shelter. ",
+      loc: 566,
+    },
+    {
+      quote: "We are meant to constantly improve our conditions, ourselves, and our results. We either improve, or we regress, for never do we remain the same. ",
+      loc: 574,
+    },
+    {
+      quote: "Much of life is in learning to always remain part of the solution rather than allowing ourselves to become part of the problem. ",
+      loc: 598,
+    },
+    {
+      quote: "The physically inactive season of winter is a time for adding to our storehouse of knowledge through continued education, which in truth, does not mean learning things that we do not know, but in learning to behave as we do not now behave.",
+      loc: 629,
+    },
+  ]
+
+- title: "Digital Gold"
+  quotes: [
+    {
+      quote: "Each ingot of gold has always existed independent of every other ingot. Bitcoins, on the other hand, were designed to live within a cleverly constructed, decentralized network, just as all the websites in the world exist only within the decentralized network known as the Internet. ",
+      loc: 274,
+    },
+    {
+      quote: "Technology clearly gave individuals unprecedented new powers. The nascent Internet allowed these people to communicate with kindred spirits and spread their ideas in ways that had previously been impossible. ",
+      loc: 8,
+    },
+    {
+      quote: "Money is to any market economy what water, fire, or blood is to the human ecosystem—a basic substance needed for everything else to work. ",
+      loc: 11,
+    },
+    {
+      quote: "The search for a better form of money has always been about finding a more trustworthy and uniform way of valuing the things around us—a single metric that allows a reliable comparison between the value of a block of wood, an hour of carpentry work, and a painting of a forest. ",
+      loc: 15,
+    },
+    {
+      quote: "If a farmer is going to accept a dollar bill for his hard-earned crops, he has to believe that the dollar, even if it is only a green piece of paper, will be worth something in the future. ",
+      loc: 16,
+    },
+    {
+      quote: "The gold standard was the most popular global monetary system at the start of the twentieth century. Not only did gold link paper money to something of physical substance; the standard also served as a mechanism for imposing restraint on central banks. The Federal Reserve and other central banks could print more money only if they managed to get their hands on more gold. If they ran out of gold, no more money and no more spending. ",
+      loc: 31,
+    },
+    {
+      quote: "In a conversation right before the crash he had said something that would become a standard line for him: “Bitcoins are the most important invention since the internet itself. They will change the way the entire world does business.” ",
+      loc: 93,
+    },
+    {
+      quote: "His wardrobe was heavily reliant on T-shirts with puns about programming languages. ",
+      loc: 93,
+    },
+    {
+      quote: "But for Ross, Silk Road was an application of the ideas advanced by the philosophers and economists whom Roger Ver and Erik Voorhees also loved—the ones who prized freedom above all else. According to this moral code, people should be allowed to do anything they please as long as it didn’t hurt others. ",
+      loc: 116,
+    },
+    {
+      quote: "It was no coincidence that these technologies did not emerge from a place with a weak government and bad educational systems. ",
+      loc: 124,
+    },
+    {
+      quote: "In March 2012, a month before Charlie found his investors, the Federal Reserve had held a daylong conference about consumer-payment systems at which there was a lot of grousing about the fact that despite all the technological innovation going on in the world, the infrastructure for moving money around the country was still based on technology from the 1960s and 1970s. ",
+      loc: 132,
+    },
+    {
+      quote: "Do your best to keep your phones in your pocket. It is anti-social—borderline rude—to be doing emails, twitter, etc. during dinner. ",
+      loc: 148,
+    },
+    {
+      quote: "In America, the dollar seamlessly serves the three functions of money: providing a medium of exchange, a unit for measuring the cost of goods, and an asset where value can be stored. ",
+      loc: 156,
+    },
+    {
+      quote: "It was the next step in the evolution of money. He tried to explain his recent discoveries about the ledger as the foundation of all money. With Bitcoins, unlike pesos or dollars, everyone using them knew exactly how many existed, and they were not tied to one country. Unlike gold, which was universal but difficult to acquire and hold, Bitcoins could be bought, held, and transferred by anyone with an Internet connection, with the click of a mouse. ",
+      loc: 164,
+    },
+    {
+      quote: "“Bitcoin is the first time in five thousand years that we have something better than gold,” he said. “And it’s not a little bit better, it’s significantly better. It’s much more scarce. More divisible, more durable. It’s much more transportable. It’s just simply better.” ",
+      loc: 166,
+    },
+    {
+      quote: "Dixon explained that he had gotten excited about the importance of the blockchain protocol as a new way of moving value around the world, just as the Internet protocol had provided a decentralized way to move information. ",
+      loc: 181,
+    },
+    {
+      quote: "All the gold in the world was worth around $7 trillion. If Bitcoin became even half as popular, that would put the value of each Bitcoin at around half a million dollars—or about fourteen thousand times more than its $34 value that day in March. ",
+      loc: 182,
+    },
+    {
+      quote: "Wences agreed with Hoffman that Bitcoin was unlikely to catch on as a payment method anytime soon. But for now, Wences believed that Bitcoin would first gain popularity as a globally available asset, similar to gold. Like gold, which was also not used in everyday transactions, Bitcoin’s value was as a digital asset where people could store wealth. ",
+      loc: 292,
+    },
+    {
+      quote: "All the panelists compared Bitcoin in its current form to the Internet in 1992 or 1993, before the first web browser. Back then, there had been lots of excitement in a small circle of technologists about what the Internet protocol could do, but the programs and infrastructure did not yet exist to make it accessible to ordinary people. ",
+      loc: 301,
+    },
+    {
+      quote: "Many bankers had begun to understand what Gavin Andresen had seen back in 2010 when he first became entranced by the idea of a financial network with no single point of failure. For banks that were terrified of cyber attacks, the idea of a payment network that could keep running even if one player, or one set of servers, got taken out was incredibly attractive. ",
+      loc: 326,
+    },
+    {
+      quote: "“I think it’s very obvious to all of us that cryptocurrencies are inevitable.” ",
+      loc: 334,
+    },
+    {
+      quote: "“We all hear the store of value. Here’s a way to move money and to buy things outside the law. Maybe it’s a competitor to fiat currency. Is it a disrupter to the traditional banking sector; an enabler of e-commerce and remittances; a superior internal ledger system for multinationals? That’s not what all the reporters are asking about but that’s another possibility that we see. “By the time I felt like I really understood it I was really excited to share that knowledge, and discuss it with a wider audience,” she said. “You want everyone to understand it too so that they’ll really appreciate the really massiveness of this innovation. “It’s not just a thing, it’s a phenomenon.” ",
+      loc: 345,
+    },
+    {
+      quote: "In the current system, financial institutions were given the power to determine what sorts of businesses could live and die.",
+      loc: 351,
+    },
+  ]
+
+- title: "The Practicing Mind"
+  quotes: [
+    {
+      quote: "However, the practicing mind is quiet. It lives in the present and has laser-like, pinpoint focus and accuracy. It obeys our precise directions, and all our energy moves through it. Because of this, we are calm and completely free of anxiety. We are where we should be at that moment, doing what we should be doing and completely aware of what we are experiencing. There is no wasted motion, physically or mentally. ",
+      page: 8,
+    },
+    {
+      quote: "We become fixated on our intended goal and completely miss out on the joy present in the process of achieving it. ",
+      page: 21,
+    },
+    {
+      quote: "If you grow up in a household where there is constant bickering and inappropriate behavior, you can learn that behavior without your knowledge. If that happens, then in order for you to change similar bickering behavior within yourself, you must first become aware of the personality tendencies you possess, and practice a different behavior repeatedly and deliberately with the intention of changing. ",
+      page: 22,
+    },
+    {
+      quote: "We waste so much of our energy by not being aware of how we are directing it. ",
+      page: 25,
+    },
+    {
+      quote: "The goal creates a dilemma in any activity you choose, because it is usually the reason you undertake an endeavor in the first place, and it is always out there as a point of comparison against which to measure your progress. ",
+      page: 25,
+    },
+    {
+      quote: "Judgment brings a sense of right or wrong, good or bad with it. What we are doing here is objectively observing and analyzing the outcome of each attempt. This observation serves only to direct our next effort. ",
+      page: 27,
+    },
+    {
+      quote: "Our goal is to stay in this process and to direct our energy into whatever activity we are choosing at the present. ",
+      page: 27,
+    },
+    {
+      quote: "For most of our culture, focusing on the process is almost frowned upon; it’s seen as missing the point. ",
+      page: 28,
+    },
+    {
+      quote: "You can recall everything you worked hard and patiently for in your life, but how many things that you have attained with little or no effort can you remember? ",
+      page: 38,
+    },
+    {
+      quote: "At any point in the day when you notice you are feeling bored, impatient, rushed, or disappointed with your performance level, realize that you have left the present moment in your activity. Look at where your mind and energy are focused. You will find that you have strayed into either the future or the past. ",
+      page: 49,
+    },
+    {
+      quote: "I watch very little TV because I feel that most of it offers no return for the time you invest in it. ",
+      page: 59,
+    },
+    {
+      quote: "You cannot change what you are unaware of. This truth is nowhere more important than in the world of self-improvement. ",
+      page: 62,
+    },
+    {
+      quote: "We need to be more aware of what we are doing, what we are thinking, and what we are intending to accomplish in order to gain control of what we experience in life. ",
+      page: 62,
+    },
+    {
+      quote: "This disconnection from our thoughts and actions is a way of thinking that we have learned during our lives, and one that takes away all our real power. We must unlearn this approach to life. ",
+      page: 64,
+    },
+    {
+      quote: "To express a melody on any instrument as it comes from your heart is an experience you have to earn. ",
+      page: 88,
+    },
+    {
+      quote: "If, however, your goal is learning to play the piece of music, then the feeling of struggle dissolves away. In each moment you spend putting effort into learning the piece, you are achieving your goal. ",
+      page: 92,
+    },
+    {
+      quote: "You can see that these four components are all part of the same process. Each one needs and creates the other. When you work slowly, things become simpler. If you want to simplify something, break it down into small parts and work more slowly at each part. Since all four components take effort to develop and maintain, you will have greater success if you break down the time that you apply to working on them into short intervals. ",
+      page: 101,
+    },
+    {
+      quote: "Equanimity is a virtue worth every effort to develop. ",
+      page: 104,
+    },
+    {
+      quote: "I hope that you feel that everything of a spiritual nature that you acquire in life will be with you forever. Everything else will not. Houses, jobs, and cars come and go; you, however, are eternal. ",
+      page: 136,
+    },
+    {
+      quote: "Everything that you spiritually acquire expands your true self and becomes part of you forever.",
+      page: 137,
+    },
+
+
+  ]
+
+- title: "You Don’t Know JS: Up & Going"
+  quotes: [
+    {
+      quote: "The document variable exists as a global variable when your code is running in a browser. It’s not provided by the JS engine, nor is it particularly controlled by the JavaScript specification.",
+      page: 58,
+    },
+    {
+      quote: "Everyone’s favorite alert(..) pops up a message box in the user’s browser window. alert(..) is provided to your JS program by the browser, not by the JS engine itself.",
+      page: 60,
+    },
+  ]
+
+- title: "You Don’t Know JS: this & Object Prototypes"
+  quotes: [
+    {
+      quote: "The first common temptation is to assume this refers to the function itself. That’s a reasonable grammatical inference, at least. ",
+      page: 3,
+    },
+    {
+      quote: "Every time you feel yourself trying to mix lexical scope look-ups with this, remind yourself: there is no bridge. ",
+      page: 8,
+    },
+    {
+      quote: "We said earlier that this is not an author-time binding but a runtime binding. It is contextual based on the conditions of the function’s invocation. this binding has nothing to do with where a function is declared, but has instead everything to do with the manner in which the function is called. ",
+      page: 10,
+    },
+    {
+      quote: "When a function is invoked, an activation record, otherwise known as an execution context, is created. This record contains information about where the function was called from (the call-stack), how the function was invoked, what parameters were passed, etc. One of the properties of this record is the this reference, which will be used for the duration of that function’s execution. ",
+      page: 10,
+    },
+    {
+      quote: "this is actually a binding that is made when a function is invoked, and what it references is determined entirely by the call-site where the function is called. ",
+      page: 10,
+    },
+    {
+      quote: "Intentionally mixing strict mode and non-strict mode together in your own code is generally frowned upon. Your entire program should probably either be strict or non-strict. However, sometimes you include a third-party library that has different strictness than your own code, so care must be taken over these subtle compatibility details. ",
+      page: 14,
+    },
+    {
+      quote: "Arrays assume numeric indexing, which means that values are stored in locations, usually called indices, at positive integers, such as 0 and 42: ",
+      page: 43,
+    },
+    {
+      quote: "Use objects to store key/value pairs, and arrays to store values at numeric indices. ",
+      page: 43,
+    },
+    {
+      quote: "But what if you want to iterate over the values directly instead of the array indices (or object properties)? Helpfully, ES6 adds a for..of loop syntax for iterating over arrays (and objects, if the object defines its own custom iterator): ",
+      page: 60,
+    },
+    {
+      quote: "Class/inheritance describes a certain form of code organization and architecture — a way of modeling real world problem domains in our software. ",
+      page: 65,
+    },
+    {
+      quote: "Another key concept with classes is polymorphism, which describes the idea that a general behavior from a parent class can be overridden in a child class to give it more specifics. ",
+      page: 66,
+    },
+    {
+      quote: "But does that mean JavaScript actually has classes? Plain and simple: NO. ",
+      page: 67,
+    },
+    {
+      quote: "But because of JavaScript’s peculiarities, explicit pseudopolymorphism (because of shadowing!) creates brittle manual/explicit linkage in every single function where you need such a (pseudo)polymorphic reference. This can significantly increase the maintenance cost. Moreover, while explicit pseudopolymorphism can emulate the behavior of multiple inheritance, it only increases the complexity and brittleness. The result of such approaches is usually more complex, harder-to-read, and harder-to-maintain code. Explicit pseudopolymorphism should be avoided wherever possible, because the cost outweighs the benefit in most respects. ",
+      page: 79,
+    },
+    {
+      quote: "In fact, JavaScript is almost unique among languages as perhaps the only language with the right to use the label “object-oriented,” because it’s one of a very short list of languages where an object can be created directly, without a class at all. ",
+      page: 90,
+    },
+    {
+      quote: "Inheritance implies a copy operation, and JavaScript doesn’t copy object properties (natively, by default). Instead, JS creates a link between two objects, where one object can essentially delegate property/function access to another object. Delegation (see Chapter 6) is a much more accurate term for JavaScript’s object-linking mechanism. ",
+      page: 94,
+    },
+    {
+      quote: "Functions aren’t constructors, but function calls are “constructor calls” if and only if new is used. ",
+      page: 96,
+    },
+    {
+      quote: "As we’ve now seen, the [[Prototype]] mechanism is an internal link that exists on one object that references some other object. This linkage is (primarily) exercised when a property/method reference is made against the first object, and no such property/method exists. In that case, the [[Prototype]] linkage tells the engine to look for the property/method on the linked-to object. In turn, if that object cannot fulfill the lookup, its [[Prototype]] is followed, and so on. This series of links between objects forms what is called the “prototype chain.” ",
+      page: 107,
+    },
+    {
+      quote: "Object.create(..) creates a new object (bar) linked to the object we specified (foo), which gives us all the power (delegation) of the [[Prototype]] mechanism, but without any of the unnecessary complication of new functions acting as classes and constructor calls, confusing .prototype and .constructor references, or any of that extra stuff. ",
+      page: 107,
+    },
+    {
+      quote: "Functions called with new are often called “constructors,” despite the fact that they are not actually instantiating a class as constructors do in traditional class-oriented languages. ",
+      page: 112,
+    },
+    {
+      quote: "While these JavaScript mechanisms can seem to resemble “class instantiation” and “class inheritance” from traditional class-oriented languages, the key distinction is that in JavaScript, no copies are made. Rather, objects end up linked to each other via an internal [[Prototype]] chain. ",
+      page: 112,
+    },
+    {
+      quote: "In other words, the actual mechanism, the essence of what’s important to the functionality we can leverage in JavaScript, is all about objects being linked to other objects. ",
+      page: 114,
+    },
+    {
+      quote: "We need to try to change our thinking from the class/inheritance design pattern to the behavior delegation design pattern. ",
+      page: 114,
+    },
+    {
+      quote: "Basically, think about needing behaviors from two sibling/peer objects (XYZ and Task) to perform task “XYZ.” But rather than needing to compose them together, via class copies, we can keep them in their separate objects, and we can allow the XYZ object to delegate to Task when needed. ",
+      page: 116,
+    },
+    {
+      quote: "In JavaScript, the [[Prototype]] mechanism links objects to other objects. There are no abstract mechanisms like “classes,” no matter how much you try to convince yourself otherwise. ",
+      page: 116,
+    },
+    {
+      quote: "In general, with [[Prototype]] delegation, you want state to be on the delegators (XYZ, ABC), not on the delegate (Task). ",
+      page: 117,
+    },
+    {
+      quote: "This is an extremely powerful design pattern, very distinct from the ideas of parent and child classes, inheritance, polymorphism, etc. Rather than organizing the objects in your mind vertically, with parents flowing down to children, think of objects side by side, as peers, with any direction of delegation links between the objects as necessary. ",
+      page: 118,
+    },
+    {
+      quote: "Ask yourself: if I can get the same functionality with OLOO-style code as I do with class-style code, but OLOO is simpler and has less things to think about, isn’t OLOO better? ",
+      page: 122,
+    },
+    {
+      quote: "OLOO better supports the principle of separation of concerns, where creation and initialization are not necessarily conflated into the same operation. ",
+      page: 131,
+    },
+    {
+      quote: "We didn’t need a base Controller class to “share” behavior between the two, because delegation is a powerful enough mechanism to give us the functionality we need. ",
+      page: 136,
+    },
+    {
+      quote: "Another common, but perhaps less robust, pattern for type introspection, which many devs seem to prefer over instanceof, is called “duck typing.” This term comes from the adage, “if it looks like a duck, and it quacks like a duck, it must be a duck.” ",
+      page: 141,
+    },
+    {
+      quote: "Classes and inheritance are a design pattern you can choose, or not choose, in your software architecture. Most developers take for granted that classes are the only (proper) way to organize code, but here we’ve seen there’s another less-commonly talked about pattern that’s actually quite powerful: behavior delegation. ",
+      page: 143,
+    },
+    {
+      quote: "First, the class syntax may convince you a new “class” mechanism exists in JS as of ES6. Not so. class is, mostly, just syntactic sugar on top of the existing [[Prototype]] (delegation!) mechanism. ",
+      page: 144,
+    },
+    {
+      quote: "class does a very good job of pretending to fix the problems with the class/inheritance design pattern in JS. But it actually does the opposite: it hides many of the problems and introduces other subtle but dangerous ones.",
+      page: 144,
+    },
+  ]
+
+- title: "You Don’t Know JS: Types & Grammar"
+  quotes: [
+    {
+      quote: "In JavaScript, variables don’t have types — values have types. Variables can hold any value, at any time. ",
+      page: 5,
+    },
+    {
+      quote: "It’s tempting for most developers to think of the word “undefined” as a synonym for “undeclared.” However, in JS, these two concepts are quite different. ",
+      page: 6,
+    },
+    {
+      quote: "JavaScript has seven built-in types: null, undefined, boolean, number, string, object, and symbol. ",
+      page: 10,
+    },
+    {
+      quote: "Variables don’t have types, but the values in them do. These types define the intrinsic behavior of the values. ",
+      page: 10,
+    },
+    {
+      quote: "null is an empty value. undefined is a missing value. ",
+      page: 24,
+    },
+    {
+      quote: "By convention (mostly from C-language programming), to represent the undefined value standalone by using void, you’d use void 0 (though clearly even void true or any other void expression does the same thing). There’s no practical difference between void 0, void 1, and undefined. ",
+      page: 25,
+    },
+    {
+      quote: "NaN is the only value in the whole language where that’s true; every other value is always equal to itself. ",
+      page: 28,
+    },
+    {
+      quote: "Simple values (aka scalar primitives) are always assigned/passed by value-copy: null, undefined, string, number, boolean, and ES6’s symbol. ",
+      page: 34,
+    },
+    {
+      quote: "Compound values — objects (including arrays, and all boxed object wrappers — see Chapter 3) and functions — always create a copy of the reference on assignment or passing. ",
+      page: 34,
+    },
+    {
+      quote: "An array with at least one “empty slot” in it is often called a “sparse array.” ",
+      page: 45,
+    },
+    {
+      quote: "Each of the built-in native constructors has its own .prototype object  —  Array.prototype, String.prototype, etc. ",
+      page: 52,
+    },
+    {
+      quote: "Parsing should not be seen as a substitute for coercion. These two tasks, while similar, have different purposes. Parse a string as a number when you don’t know/care what other non-numeric characters there may be on the right-hand side. Coerce a string (to a number) when the only acceptable values are numeric and something like “42px” should be rejected as a number. ",
+      page: 80,
+    },
+    {
+      quote: "If you pass in garbage, and you get garbage back out, don’t blame the trash can — it just did its job faithfully. ",
+      page: 82,
+    },
+    {
+      quote: "There’s another idiom that is quite a bit less commonly authored manually, but which is used by JS minifiers frequently. The && operator “selects” the second operand if and only if the first operand tests as truthy, and this usage is sometimes called the “guard operator” (see also “Short Circuited” in Chapter 5)--the first expression test “guards” the second expression: function foo() {     console.log( a ); } var a = 42; a && foo(); // 42 foo() gets called only because a tests as truthy. If that test failed, this a && foo() expression statement would just silently stop (sometimes called “short circuiting”) and never call foo(). ",
+      page: 97,
+    },
+    {
+      quote: "JavaScript is not bad because you can do such things, a developer is bad if they do such things. Don’t fall into the “my programming language should protect me from myself” fallacy. ",
+      page: 109,
+    },
+    {
+      quote: "The question of == versus === is really appropriately framed as: should you allow coercion for a comparison or not? ",
+      page: 115,
+    },
+    {
+      quote: "The b = a assignment expression results in the value that was assigned (18 above), but the var statement itself results in undefined. Why? Because var statements are defined that way in the spec. If you put var a = 42; into your console, you’ll see undefined reported back instead of 42. ",
+      page: 123,
+    },
+    {
+      quote: "The `++` increment operator and the -- decrement operator are both unary operators (see Chapter 4), which can be used in either a postfix (“after”) position or prefix (“before”) position: ",
+      page: 126,
+    },
+    {
+      quote: "So, JSON is truly a subset of JS syntax, but JSON is not valid JS grammar by itself. ",
+      page: 134,
+    },
+    {
+      quote: "If you knew it well, the above examples wouldn’t have tripped you up in the slightest, because you’d already know that && is more precedent than. But I bet a fair amount of readers had to think about it a little bit. ",
+      page: 140,
+    },
+    {
+      quote: "Statements and expressions have analogs in English language — statements are like sentences and expressions are like phrases. Expressions can be pure/self-contained, or they can have side effects.",
+      page: 160,
+    }
+  ]
+
+- title: "You Don’t Know JS: Scope and Closures"
+  quotes: [
+    {
+      quote: "There’s a variety of reasons motivating this scope-based hiding. They tend to arise from the software design principle Principle of Least Privilege[2], also sometimes called Least Authority or Least Exposure. This principle states that in the design of software, such as the API for a module/object, you should expose only what is minimally necessary, and “hide” everything else.",
+      loc: 677,
+    }
+  ]
+
+- title: "You Don’t Know JS: Async & Performance"
+  quotes: [
+    {
+      quote: "The problem most developers new to JS seem to have is that later doesn’t happen strictly and immediately after now. In other words, tasks that cannot complete now are, by definition, going to complete asynchronously, and thus we will not have blocking behavior as you might intuitively expect or want. ",
+      page: 2,
+    },
+    {
+      quote: "The JS engine doesn’t run in isolation. It runs inside a hosting environment, which is for most developers the typical web browser. Over the last several years (but by no means exclusively), JS has expanded beyond the browser into other environments, such as servers, via things like Node.js. In fact, JavaScript gets embedded into all kinds of devices these days, from robots to lightbulbs. ",
+      page: 6,
+    },
+    {
+      quote: "So, in other words, your program is generally broken up into lots of small chunks, which happen one after the other in the event loop queue. And technically, other events not related directly to your program can be interleaved within the queue as well. ",
+      page: 7,
+    },
+    {
+      quote: "It’s very common to conflate the terms “async” and “parallel,” but they are actually quite different. Remember, async is about the gap between now and later. But parallel is about things being able to occur simultaneously. ",
+      page: 8,
+    },
+    {
+      quote: "Because of JavaScript’s single-threading, the code inside of foo() (and bar()) is atomic, which means that once foo() starts running, the entirety of its code will finish before any of the code in bar() can run, or vice versa. This is called run-to-completion behavior. ",
+      page: 11,
+    },
+    {
+      quote: "The callback function is the async workhorse for JavaScript, and it does its job respectably. ",
+      page: 29,
+    },
+    {
+      quote: "Are you catching the notion here that our sequential, blocking brain planning behaviors just don’t map well onto callback-oriented async code? That’s the first major deficiency of callbacks: they express asynchrony in code in ways our brains have to fight just to keep in sync with (pun intended!). ",
+      page: 39,
+    },
+    {
+      quote: "We call this inversion of control, when you take part of your program and give over control of its execution to another third party. There’s an unspoken contract that exists between your code and the third-party utility — a set of things you expect to be maintained. ",
+      page: 40,
+    },
+    {
+      quote: "Another common callback pattern is called “error-first style” (sometimes called “Node style,” as it’s also the convention used across nearly all Node.js APIs), where the first argument of a single callback is reserved for an error object (if any). ",
+      page: 45,
+    },
+    {
+      quote: "Hard-to-reason-about code is bad code that leads to bad bugs. ",
+      page: 50,
+    },
+    {
+      quote: "As such, it was decided that the way to recognize a Promise (or something that behaves like a Promise) would be to define something called a thenable as any object or function which has a then(..) method on it. ",
+      page: 64,
+    },
+    {
+      quote: "Jeff Atwood noted years ago that programming languages are often set up in such a way that, by default, developers fall into the “pit of despair” — where accidents are punished — and that you have to try harder to get it right. He implored us to instead create a “pit of success,” where by default you fall into expected (successful) action, and thus would have to try hard to fail. ",
+      page: 90,
+    },
+    {
+      quote: "And if there is no return in your generator — return is certainly not any more required in generators than in regular functions — there’s always an assumed/implicit return; (aka return undefined;), which serves the purpose of default answering the question posed by the final it.next(7) call. ",
+      page: 128,
+    },
+    {
+      quote: "But an environment like your browser can easily provide multiple instances of the JavaScript engine, each on its own thread, and let you run a different program in each thread. Each of those separate threaded pieces of your program is called a (Web) Worker. This type of parallelism is called task parallelism, as the emphasis is on splitting up chunks of your program to run in parallel. ",
+      page: 189,
+    },
+    {
+      quote: "“There is nothing more permanent than a temporary hack.” ",
+      page: 223,
+    },
+    {
+      quote: "I’d even go so far as to say this: no amount of time spent optimizing critical paths is wasted, no matter how little is saved; but no amount of optimization on noncritical paths is justified, no matter how much is saved.",
+      page: 224,
+    },
+  ]
+
+- title: "The Obstacle Is the Way"
+  quotes: [
+    {
+      quote: "To prevent becoming overwhelmed by the world around us, we must, as the ancients practiced, learn how to limit our passions and their control over our lives. ",
+      loc: 241,
+    },
+    {
+      quote: "You will come across obstacles in life—fair and unfair. And you will discover, time and time again, that what matters most is not what these obstacles are but how we see them, how we react to them, and whether we keep our composure. You will learn that this reaction determines how successful we will be in overcoming—or possibly thriving because of—them. ",
+      loc: 284,
+    },
+    {
+      quote: "Choose not to be harmed—and you won’t feel harmed. Don’t feel harmed—and you haven’t been. —MARCUS AURELIUS ",
+      loc: 322,
+    },
+    {
+      quote: "This can’t harm me—I might not have wanted it to happen, but I decide how it will affect me. No one else has the right. ",
+      loc: 344,
+    },
+    {
+      quote: "Don’t let the negativity in, don’t let those emotions even get started. Just say: No, thank you. I can’t afford to panic. ",
+      loc: 446,
+    },
+    {
+      quote: "“When you worry, ask yourself, ‘What am I choosing to not see right now?’ What important things are you missing because you chose worry over introspection, alertness or wisdom?” ",
+      loc: 450,
+    },
+    {
+      quote: "You can always remind yourself: I am in control, not my emotions. I see what’s really going on here. I’m not going to get excited or upset. ",
+      loc: 460,
+    },
+    {
+      quote: "The phrase “This happened and it is bad” is actually two impressions. The first—“This happened”—is objective. The second—“it is bad”—is subjective. ",
+      loc: 484,
+    },
+    {
+      quote: "Objectivity means removing “you”—the subjective part—from the equation. ",
+      loc: 513,
+    },
+    {
+      quote: "The struggle against an obstacle inevitably propels the fighter to a new level of functioning. The extent of the struggle determines the extent of the growth. The obstacle is an advantage, not adversity. The enemy is any perception that prevents us from seeing this. ",
+      loc: 786,
+    },
+    {
+      quote: "We may be able to articulate a problem, even potential solutions, but then weeks, months, or sometimes years later, the problem is still there. Or it’s gotten worse. As though we expect someone else to handle it, as though we honestly believe that there is a chance of obstacles unobstacle-ing themselves. ",
+      loc: 867,
+    },
+    {
+      quote: "Remember the first time you saw a complicated algebra equation? It was a jumble of symbols and unknowns. But then you stopped, took a deep breath, and broke it down. You isolated the variables, solved for them, and all that was left was the answer. ",
+      loc: 1110,
+    },
+    {
+      quote: "There’s nothing shameful about sweeping. It’s just another opportunity to excel—and to learn. ",
+      loc: 1162,
+    },
+    {
+      quote: "When you’re at your wit’s end, straining and straining with all your might, when people tell you you look like you might pop a vein . . . Take a step back, then go around the problem. Find some leverage. Approach from what is called the “line of least expectation.” ",
+      loc: 1282,
+    },
+    {
+      quote: "If Perception and Action were the disciplines of the mind and the body, then Will is the discipline of the heart and the soul. ",
+      loc: 1545,
+    },
+    {
+      quote: "we should always prepare for things to get tough. ",
+      loc: 1626,
+    },
+    {
+      quote: "It is far easier to talk of the way things should be. It takes toughness, humility, and will to accept them for what they actually are. ",
+      loc: 1734,
+    },
+    {
+      quote: "We don’t get to choose what happens to us, but we can always choose how we feel about it. ",
+      loc: 1829,
+    },
+    {
+      quote: "There’s a saying in Latin: Vires acquirit eundo (We gather strength as we go). That’s how it works. That’s our motto.",
+      loc: 2099,
+    },
+  ]
+
+- title: "Shoe Dog"
+  quotes: [
+    {
+      quote: "I spent hours sitting on benches in walled gardens, reading about Japan’s dominant religions, Buddhism and Shinto. I marveled at the concept of kensho, or satori—enlightenment that comes in a flash, a blinding pop. Sort of like the bulb on my Minolta. I liked that. I wanted that. ",
+      loc: 300,
+    },
+    {
+      quote: "I was a castaway, a kind of modern Crusoe. I wanted to be home again. Now. ",
+      loc: 428,
+    },
+    {
+      quote: "And yet. I was still aflame with curiosity about the world. I still wanted to see, to explore. Curiosity won. ",
+      loc: 428,
+    },
+    {
+      quote: "Everyone knew that war was coming, and that it would be very ugly, very different. It would be a Lewis Carroll war, the kind in which a U.S. officer would declare: We had to destroy the village in order to save it. ",
+      loc: 449,
+    },
+    {
+      quote: "All is vanity, says the Bible. All is now, says Zen. All is dust, says the desert. ",
+      loc: 469,
+    },
+    {
+      quote: "I read in my guidebook that Michelangelo was miserable while painting his masterpiece. His back and neck ached. Paint fell constantly into his hair and eyes. He couldn’t wait to be finished, he told friends. If even Michelangelo didn’t like his work, I thought, what hope is there for the rest of us? ",
+      loc: 484,
+    },
+    {
+      quote: "The man who moves a mountain begins by carrying away small stones. ",
+      loc: 702,
+    },
+    {
+      quote: "Driving back to Portland I’d puzzle over my sudden success at selling. I’d been unable to sell encyclopedias, and I’d despised it to boot. I’d been slightly better at selling mutual funds, but I’d felt dead inside. So why was selling shoes so different? Because, I realized, it wasn’t selling. I believed in running. I believed that if people got out and ran a few miles every day, the world would be a better place, and I believed these shoes were better to run in. ",
+      loc: 790,
+    },
+    {
+      quote: "There were many ways down Mount Fuji, according to my guidebook, but only one way up. Life lesson in that, I thought. ",
+      loc: 943,
+    },
+    {
+      quote: "Mr. Onitsuka also told Bowerman that the inspiration for the unique soles on Tigers had come to him while eating sushi. Looking down at his wooden platter, at the underside of an octopus’s leg, he thought a similar suction cup might work on the sole of a runner’s flat. Bowerman filed that away. Inspiration, he learned, can come from quotidian things. Things you might eat. Or find lying around the house. ",
+      loc: 1231,
+    },
+    {
+      quote: "Before getting down to brass tacks, Owen first wanted to tell me a story. Salesmen always do. ",
+      loc: 1523,
+    },
+    {
+      quote: "I wanted what everyone wants. To be me, full-time. ",
+      loc: 1675,
+    },
+    {
+      quote: "By nature I was a loner, but since childhood I’d thrived in team sports. My psyche was in true harmony when I had a mix of alone time and team time. ",
+      loc: 1896,
+    },
+    {
+      quote: "Yes, I thought. Confidence. More than equity, more than liquidity, that’s what a man needs. ",
+      loc: 2328,
+    },
+    {
+      quote: "The average person takes seventy-five hundred steps a day, 274 million steps over the course of a long life, the equivalent of six times around the globe—shoe dogs, it seemed to me, simply wanted to be part of that journey. Shoes were their way of connecting with humanity. What better way of connecting, shoe dogs thought, than by refining the hinge that joins each person to the world’s surface? ",
+      loc: 2664,
+    },
+    {
+      quote: "It’s one thing to watch a sporting event and put yourself in the players’ shoes. Every fan does that. It’s another thing when the athletes are actually in your shoes. ",
+      loc: 3096,
+    },
+    {
+      quote: "It’s hard enough to invent and manufacture and market a product, but then the logistics, the mechanics, the hydraulics of getting it to the people who want it, when they want it—this is how companies die, how ulcers are born. ",
+      loc: 3322,
+    },
+    {
+      quote: "He jumped up and paced. Back and forth he danced behind his desk. Then he sat down. Then he did it again. It wasn’t the pacing of a thinker, but the agitation of a caged animal. ",
+      loc: 4740,
+    },
+    {
+      quote: "For some, I realize, business is the all-out pursuit of profits, period, full stop, but for us business was no more about making money than being human is about making blood. Yes, the human body needs blood. It needs to manufacture red and white cells and platelets and redistribute them evenly, smoothly, to all the right places, on time, or else. But that day-to-day business of the human body isn’t our mission as human beings. It’s a basic process that enables our higher aims, and life always strives to transcend the basic processes of living—and at some point in the late 1970s, I did, too. ",
+      loc: 4980,
+    },
+    {
+      quote: "When you make something, when you improve something, when you deliver something, when you add some new thing or service to the lives of strangers, making them happier, or healthier, or safer, or better, and when you do it all crisply and efficiently, smartly, the way everything should be done but so seldom is—you’re participating more fully in the whole grand human drama. More than simply alive, you’re helping others to live more fully, and if that’s business, all right, call me a businessman. ",
+      loc: 4986,
+    },
+    {
+      quote: "I thought of that phrase, “It’s just business.” It’s never just business. It never will be. If it ever does become just business, that will mean that business is very bad. ",
+      loc: 5227,
+    },
+    {
+      quote: "Oneness—in some way, shape, or form, it’s what every person I’ve ever met has been seeking. ",
+      loc: 5240,
+    },
+    {
+      quote: "I felt that same sense of betrayal when Nike came under attack for conditions in our overseas factories—the so-called sweatshop controversy. Whenever reporters said a factory was unsatisfactory, they never said how much better it was than the day we first went in. They never said how hard we’d worked with our factory partners to upgrade conditions, to make them safer and cleaner. They never said these factories weren’t ours, that we were renters, one among many tenants. They simply searched until they found a worker with complaints about conditions, and they used that worker to vilify us, and only us, knowing our name would generate maximum publicity.",
+      loc: 5259,
+    },
+  ]
+
 - title: "Man’s Search for Meaning"
   quotes: [
   {
@@ -124,8 +1010,7 @@
     quote: "As for the concept of collective guilt, I personally think that it is totally unjustified to hold one person responsible for the behavior of another person or a collective of persons. Since the end of World War II I have not become weary of publicly arguing against the collective guilt concept.13 Sometimes, however, it takes a lot of didactic tricks to detach people from their superstitions. An American woman once confronted me with the reproach, “How can you still write some of your books in German, Adolf Hitler’s language?” In response, I asked her if she had knives in her kitchen, and when she answered that she did, I acted dismayed and shocked, exclaiming, “How can you still use knives after so many killers have used them to stab and murder their victims?” She stopped objecting to my writing books in German",
     page: 150,
   },
-]
-
+  ]
 
 - title: "Flow"
   quotes: [

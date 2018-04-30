@@ -21,10 +21,12 @@ export default function BookTemplate({ data }) {
         ]}
       />
       <div className="book-cover">
-        <Img
-          sizes={poster.childImageSharp.sizes}
-          className="book-cover__image"
-        />
+        {poster && (
+          <Img
+            sizes={poster.childImageSharp.sizes}
+            className="book-cover__image"
+          />
+        )}
       </div>
       <div className="main-content">
         <div className="page-header">
