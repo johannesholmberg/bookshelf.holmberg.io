@@ -77,6 +77,7 @@ export const bookQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
         author
         poster {
           childImageSharp {

@@ -20,7 +20,7 @@ export const indexQuery = graphql`
       }
     }
     allMarkdownRemark(
-      limit: 30
+      limit: 100
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

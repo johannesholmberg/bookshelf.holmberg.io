@@ -1,3 +1,1431 @@
+- title: "Demystifying Public Speaking"
+  quotes: [
+    {
+      quote: "Process talks like these are nice starter topics, because they have a natural story arc (encountering a problem, working through it, achieving results, reexamining initial assumptions), and people tend to be curious about how others do their work.",
+      loc: 241,
+    },
+    {
+      quote: "Gather more inspiration from the site Lanyrd",
+      loc: 358,
+    },
+    {
+      quote: "You might also try the newsletter Technically Speaking",
+      loc: 360,
+    },
+    {
+      quote: "My coworker Ian Malpass practices alone, records his talk on his computer, and then sends it to others to get their thoughts asynchronously",
+      loc: 787,
+    },
+  ]
+
+- title: "The New CSS Layout"
+  quotes: [
+    {
+      quote: "Use auto as your flex-basis and, if you’ve set a width on the item, that width will be     used as the flex-basis value. If you haven’t set a width, auto resolves to the content size.",
+      loc: 1472,
+    },
+    {
+      quote: "Perhaps the client has had a bad experience in the past, with customers complaining th    at the site doesn’t work for them. Put their mind at ease by explaining how, by serving a simpler layout to older browsers, they are less likely to run into these issues. Visitors with older browsers will get a fast and performant website, tailored to the device they have. That’s a far better proposition than trying to somehow create a modern experience using old technology, something that is more likely to cause them problems.",
+      loc: 1913,
+    },
+  ]
+
+- title: "Webfont Handbook"
+  quotes: [
+    {
+      quote: "Characters are used to digitally represent natural language. The letter a is a character, and so is 永. A character can be drawn in many ways but still have the same meaning. These drawings are called glyphs.",
+      loc: 92,
+    },
+    {
+      quote: "Each font has a set of languages and scripts it supports. A script, or writing system, is a way of visually conveying spoken language.",
+      loc: 107,
+    },
+    {
+      quote: "Webfonts will never load as quickly as locally installed fonts. If that’s not acceptable to you, then perhaps you should rethink using webfonts.",
+      loc: 783,
+    },
+    {
+      quote: "It’s important to understand that a FOIT happens only when the fonts are downloading. So even if you load a stylesheet containing @font-face rules asynchronously, the font-loading will still block rendering.",
+      loc: 791,
+    },
+    {
+      quote: "A webfont performance budget should focus on three things: the number of font requests, font-file size, and time-to-first-render.",
+      loc: 844,
+    },
+    {
+      quote: "A base64-encoded font is up to three times larger than a regular font, though most of the size increase can be negated by serving the CSS file with GZIP encoding.",
+      loc: 889,
+    },
+    {
+      quote: "what matters most to you? That people read your content as soon as possible, or that people read your content in your preferred font? I suspect that many of your visitors would prefer the former over the latter.",
+      loc: 1042,
+    },
+    {
+      quote: "The baseline experience of your site has always been, and will always be, just plain HTML and CSS. Webfonts enhance that experience.",
+      loc: 1045,
+    },
+    {
+      quote: "That means there are two possibilities you should design for: when webfonts are not available, and when webfonts are available. For that reason, I believe FOUT should be the default behavior in all browsers.",
+      loc: 1048,
+    },
+    {
+      quote: "Preloading every font on your site defeats the point of prioritizing one font over another: if everything is important, nothing is.",
+      loc: 1649,
+    },
+    {
+      quote: "Don’t rely on browser defaults—hiding text from your visitors while webfonts are loading results in a terrible user experience. Always load your fonts asynchronously so they don’t block a page from rendering. In the worst case, your fonts will fail to load and your visitors will see fallback fonts. That’s fine. That’s how the web is supposed to work.",
+      loc: 1773,
+    },
+    {
+      quote: "Always optimize your webfonts if the license allows it. Using the right font format and subsetting will significantly reduce a font’s file size and make it load faster.",
+      loc: 1777,
+    },
+    {
+      quote: "Web design and development differ from other disciplines insofar as their environment is relatively uncontrolled.",
+      loc: 1811,
+    },
+  ]
+
+- title: "Animation at Work"
+  quotes: [
+    {
+      quote: "Studies show that the more alive something appears, the more likely it is to capture attention and thus break change blindness.",
+      loc: 270
+    },
+    {
+      quote: "Using a transition between changes in task flow or locations in information architecture ideally reinforces where the user has been, where they are going, and where they are now in one fell swoop.",
+      loc: 323
+    },
+    {
+      quote: "The best way to spot a purely decorative animation is to ask, “What can a user learn from this animation? Does this guide them or show them something they wouldn’t know otherwise?” If the answer is no, you might have a decorative animation on your hands.",
+      loc: 409
+    },
+    {
+      quote: "Context-rich animations have purpose and real meaning on the page, as opposed to existing solely to “delight.”",
+      loc: 440
+    },
+    {
+      quote: "Just because an animation makes something look nicer doesn’t mean it’s worth the effort to implement from a development standpoint. Consider whether or not it’s adding information back into the system.",
+      loc: 482
+    },
+    {
+      quote: "“Don’t make something unless it is both necessary and useful; but if it is both necessary and useful, don’t hesitate to make it beautiful.”",
+      loc: 523
+    },
+    {
+      quote: "Jank breaks the illusion of life, so it’s important to stick to performant properties.",
+      loc: 662
+    },
+    {
+      quote: "UI animation works best when it conforms to predetermined sets of rules. And if you’re working on a large project with a long-term growth plan, you’ll want to use animations that can be adapted to multiple uses while maintaining cohesion and consistency. This is where animation language comes in.",
+      loc: 693
+    },
+  ]
+
+- title: "Cultivating a Creative Culture"
+  quotes: [
+    {
+      quote: "Designers and front-enders have a unique advantage in solving the cultural problems that are sucking the life out of us. ",
+      loc: 70,
+    },
+    {
+      quote: "Being utilized solely as a line-item resource in an Excel spreadsheet is an insult to your passions, evolution, and ability to do your best work. ",
+      loc: 485,
+    },
+    {
+      quote: "Our human-centered jobs need to consistently be inspired by the very humans we’re creating for. ",
+      loc: 646,
+    },
+    {
+      quote: "Anything that has culturally revealed itself so clearly in the first five days is a gift to you, your craft, your dignity, and your passion. In unhealthy cultures, sometimes these signs can take time to evolve. Before negativity becomes the norm, and the norm becomes comfort, the freshness of what’s transpiring is, in fact, your ally. It makes it easier to see, to assess, and to ultimately challenge what you’re willing to accept. ",
+      loc: 832,
+    },
+  ]
+
+- title: "Sapiens"
+  quotes: [
+    {
+      quote: "The story of atoms, molecules and their interactions is called chemistry.",
+      page: 3,
+    },
+    {
+      quote: "The story of organisms is called biology.",
+      page: 3,
+    },
+    {
+      quote: "Three important revolutions shaped the course of history: the Cognitive Revolution kick-started history about 70,000 years ago. The Agricultural Revolution sped it up about 12,000 years ago. The Scientific Revolution, which got under way only 500 years ago, may well end history and start something completely different.",
+      page: 3,
+    },
+    {
+      quote: "Horses and donkeys have a recent common ancestor and share many physical traits. But they show little sexual interest in one another. They will mate if induced to do so – but their offspring, called mules, are sterile.",
+      page: 4,
+    },
+    {
+      quote: "Species that evolved from a common ancestor are bunched together under the heading ‘genus’ (plural genera).",
+      page: 4,
+    },
+    {
+      quote: "Just 6 million years ago, a single female ape had two daughters. One became the ancestor of all chimpanzees, the other is our own grandmother.",
+      page: 5,
+    },
+    {
+      quote: "The more eastern regions of Asia were populated by Homo erectus, ‘Upright Man’, who survived there for close to 2 million years, making it the most durable human species ever. This record is unlikely to be broken even by our own species. It is doubtful whether Homo sapiens will still be around a thousand years from now, so 2 million years is really out of our league.",
+      page: 6,
+    },
+    {
+      quote: "In addition, since humans are born underdeveloped, they can be educated and socialised to a far greater extent than any other animal.",
+      page: 10,
+    },
+    {
+      quote: "This is a key to understanding our history and psychology. Genus Homo’s position in the food chain was, until quite recently, solidly in the middle. For millions of years, humans hunted smaller creatures and gathered what they could, all the while being hunted by larger predators.",
+      page: 11,
+    },
+    {
+      quote: "Other animals at the top of the pyramid, such as lions and sharks, evolved into that position very gradually, over millions of years. This enabled the ecosystem to develop checks and balances that prevent lions and sharks from wreaking too much havoc. As lions became deadlier, so gazelles evolved to run faster, hyenas to cooperate better, and rhinoceroses to be more bad-tempered.",
+      page: 11,
+    },
+    {
+      quote: "Some scholars believe there is a direct link between the advent of cooking, the shortening of the human intestinal tract, and the growth of the human brain. Since long intestines and large brains are both massive energy consumers, it’s hard to have both. By shortening the intestines and decreasing their energy consumption, cooking inadvertently opened the way to the jumbo brains of Neanderthals and Sapiens.",
+      page: 12,
+    },
+    {
+      quote: "It’s relatively easy to agree that only Homo sapiens can speak about things that don’t really exist, and believe six impossible things before breakfast. You could never convince a monkey to give you a banana by promising him limitless bananas after death in monkey heaven.",
+      page: 24,
+    },
+    {
+      quote: "Large numbers of strangers can cooperate successfully by believing in common myths.",
+      page: 27,
+    },
+    {
+      quote: "There are no gods in the universe, no nations, no money, no human rights, no laws, and no justice outside the common imagination of human beings.",
+      page: 28,
+    },
+    {
+      quote: "People easily understand that ‘primitives’ cement their social order by believing in ghosts and spirits, and gathering each full moon to dance together around the campfire. What we fail to appreciate is that our modern institutions function on exactly the same basis.",
+      page: 28,
+    },
+    {
+      quote: "Just try to imagine how difficult it would have been to create states, or churches, or legal systems if we could speak only about things that really exist, such as rivers, trees and lions.",
+      page: 31,
+    },
+    {
+      quote: "Ever since the Cognitive Revolution, Sapiens have thus been living in a dual reality. On the one hand, the objective reality of rivers, trees and lions; and on the other hand, the imagined reality of gods, nations and corporations.",
+      page: 32,
+    },
+    {
+      quote: "The archaeological record of island after island tells the same sad story. The tragedy opens with a scene showing a rich and varied population of large animals, without any trace of humans. In scene two, Sapiens appear, evidenced by a human bone, a spear point, or perhaps a potsherd. Scene three quickly follows, in which men and women occupy centre stage and most large animals, along with many smaller ones, are gone.",
+      page: 72,
+    },
+    {
+      quote: "Wheat and goats were domesticated by approximately 9000 BC; peas and lentils around 8000 BC; olive trees by 5000 BC; horses by 4000 BC; and grapevines in 3500 BC. Some animals and plants, such as camels and cashew nuts, were domesticated even later, but by 3500 BC the main wave of domestication was over.",
+      page: 77,
+    },
+    {
+      quote: "According to the basic evolutionary criteria of survival and reproduction, wheat has become one of the most successful plants in the history of the earth.",
+      page: 80,
+    },
+    {
+      quote: "Just as the economic success of a company is measured only by the number of dollars in its bank account, not by the happiness of its employees, so the evolutionary success of a species is measured by the number of copies of its DNA.",
+      page: 83,
+    },
+    {
+      quote: "The pursuit of an easier life resulted in much hardship, and not for the last time. It happens to us today.",
+      page: 87,
+    },
+    {
+      quote: "How many young college graduates have taken demanding jobs in high-powered firms, vowing that they will work hard to earn money that will enable them to retire and pursue their real interests when they are thirty-five? But by the time they reach that age, they have large mortgages, children to school, houses in the suburbs that necessitate at least two cars per family, and a sense that life is not worth living without really good wine and expensive holidays abroad.",
+      page: 87,
+    },
+    {
+      quote: "We thought we were saving time; instead we revved up the treadmill of life to ten times its former speed and made our days more anxious and agitated.",
+      page: 88,
+    },
+    {
+      quote: "A peasant living on the assumption that bad years would not come didn’t live long.",
+      page: 100,
+    },
+    {
+      quote: "It is easy for us to accept that the division of people into ‘superiors’ and ‘commoners’ is a figment of the imagination. Yet the idea that all humans are equal is also a myth. In what sense do all humans equal one another?",
+      page: 108,
+    },
+    {
+      quote: "Just as people were never created, neither, according to the science of biology, is there a ‘Creator’ who ‘endows’ them with anything.",
+      page: 109,
+    },
+    {
+      quote: "Equally, there are no such things as rights in biology. There are only organs, abilities and characteristics. Birds fly not because they have a right to fly, but because they have wings.",
+      page: 109,
+    },
+    {
+      quote: "So here is that line from the American Declaration of Independence translated into biological terms: We hold these truths to be self-evident, that all men evolved differently, that they are born with certain mutable characteristics, and that among these are life and the pursuit of pleasure.",
+      page: 110,
+    },
+    {
+      quote: "A natural order is a stable order. There is no chance that gravity will cease to function tomorrow, even if people stop believing in it. In contrast, an imagined order is always in danger of collapse, because it depends upon myths, and myths vanish once people stop believing in them.",
+      page: 111,
+    },
+    {
+      quote: "Romanticism, which encourages variety, meshes perfectly with consumerism. Their marriage has given birth to the infinite ‘market of experiences’, on which the modern tourism industry is founded.",
+      page: 115,
+    },
+    {
+      quote: "American teenagers have no genes for pick-up basketball. They can nevertheless play the game with complete strangers because they have all learned an identical set of ideas about basketball. These ideas are entirely imaginary, but if everyone shares them, we can all play the game.",
+      page: 119,
+    },
+    {
+      quote: "Most sociopolitical hierarchies lack a logical or biological basis – they are nothing but the perpetuation of chance events supported by myths. That is one good reason to study history.",
+      page: 144,
+    },
+    {
+      quote: "How can we distinguish what is biologically determined from what people merely try to justify through biological myths? A good rule of thumb is ‘Biology enables, Culture forbids.’",
+      page: 146,
+    },
+    {
+      quote: "In truth, our concepts ‘natural’ and ‘unnatural’ are taken not from biology, but from Christian theology.",
+      page: 147,
+    },
+    {
+      quote: "Patriarchy has been the norm in almost all agricultural and industrial societies. It has tenaciously weathered political upheavals, social revolutions and economic transformations. Egypt, for example, was conquered numerous times over the centuries. Assyrians, Persians, Macedonians, Romans, Arabs, Mameluks, Turks and British occupied it – and its society always remained patriarchal. Egypt was governed by pharaonic law, Greek law, Roman law, Muslim law, Ottoman law and British law – and they all discriminated against people who were not ‘real men’.",
+      page: 153,
+    },
+    {
+      quote: "Myths and fictions accustomed people, nearly from the moment of birth, to think in certain ways, to behave in accordance with certain standards, to want certain things, and to observe certain rules.",
+      page: 163,
+    },
+    {
+      quote: "Some societies tried to solve the problem by establishing a central barter system that collected products from specialist growers and manufacturers and distributed them to those who needed them. The largest and most famous such experiment was conducted in the Soviet Union, and it failed miserably. ‘Everyone would work according to their abilities, and receive according to their needs’ turned out in practice into ‘everyone would work as little as they can get away with, and receive as much as they could grab’.",
+      page: 176,
+    },
+    {
+      quote: "Money is not coins and banknotes. Money is anything that people are willing to use in order to represent systematically the value of other things for the purpose of exchanging goods and services.",
+      page: 177,
+    },
+    {
+      quote: "Everyone always wants money because everyone else also always wants money, which means you can exchange money for whatever you want or need. The shoemaker will always be happy to take your money, because no matter what he really wants – apples, goats or a divorce – he can get it in exchange for money.",
+      page: 178,
+    },
+    {
+      quote: "Trust is the raw material from which all types of money are minted.",
+      page: 180,
+    },
+    {
+      quote: "Christians and Muslims who could not agree on religious beliefs could nevertheless agree on a monetary belief, because whereas religion asks us to believe in something, money asks us to believe that other people believe in something.",
+      page: 185,
+    },
+    {
+      quote: "Money is the only trust system created by humans that can bridge almost any cultural gap, and that does not discriminate on the basis of religion, gender, race, age or sexual orientation.",
+      page: 186,
+    },
+    {
+      quote: "The average Christian believes in the monotheist God, but also in the dualist Devil, in polytheist saints, and in animist ghosts.",
+      page: 223,
+    },
+    {
+      quote: "It is an iron rule of history that what looks inevitable in hindsight was far from obvious at the time. Today is no different. Are we out of the global economic crisis, or is the worst still to come? Will China continue growing until it becomes the leading superpower? Will the United States lose its hegemony?",
+      page: 239,
+    },
+    {
+      quote: "Cart manufacturers built the same carts from the same materials year in year out. They did not set aside a percentage of their annual profits in order to research and develop new cart models.",
+      page: 260,
+    },
+    {
+      quote: "There is poetic justice in the fact that a quarter of the world, and two of its seven continents, are named after a little-known Italian whose sole claim to fame is that he had the courage to say, ‘We don’t know.’",
+      page: 288,
+    },
+    {
+      quote: "The most important economic resource is trust in the future, and this resource is constantly threatened by thieves and charlatans.",
+      page: 329,
+    },
+    {
+      quote: "This is the fly in the ointment of free-market capitalism. It cannot ensure that profits are gained in a fair way, or distributed in a fair manner. On the contrary, the craving to increase profits and production blinds people to anything that might stand in the way. When growth becomes a supreme good, unrestricted by any other ethical considerations, it can easily lead to catastrophe.",
+      page: 331,
+    },
+    {
+      quote: "The amount of energy stored in all the fossil fuel on earth is negligible compared to the amount that the sun dispenses every day, free of charge. Only a tiny proportion of the sun’s energy reaches us, yet it amounts to 3,766,800 exajoules of energy each year (a joule is a unit of energy in the metric system, about the amount you expend to lift a small apple one yard straight up; an exajoule is a billion billion joules – that’s a lot of apples).",
+      page: 339,
+    },
+    {
+      quote: "The flowering of the consumerist ethic is manifested most clearly in the food market. Traditional agricultural societies lived in the awful shade of starvation. In the affluent world of today one of the leading health problems is obesity, which strikes the poor (who stuff themselves with hamburgers and pizzas) even more severely than the rich (who eat organic salads and fruit smoothies).",
+      page: 348,
+    },
+    {
+      quote: "Today, the earth’s continents are home to billions of Sapiens. If you took all these people and put them on a large set of scales, their combined mass would be about 300 million tons. If you then took all our domesticated farmyard animals – cows, pigs, sheep and chickens – and placed them on an even larger set of scales, their mass would amount to about 700 million tons. In contrast, the combined mass of all surviving large wild animals – from porcupines and penguins to elephants and whales – is less than 100 million tons.",
+      page: 350,
+    },
+    {
+      quote: "The figures for 2002 are even more surprising. Out of 57 million dead, only 172,000 people died in war and 569,000 died of violent crime (a total of 741,000 victims of human violence). In contrast, 873,000 people committed suicide.5 It turns out that in the year following the 9/11 attacks, despite all the talk of terrorism and war, the average person was more likely to kill himself than to be killed by a terrorist, a soldier or a drug dealer.",
+      page: 366,
+    },
+    {
+      quote: "If happiness is determined by expectations, then two pillars of our society – mass media and the advertising industry – may unwittingly be depleting the globe’s reservoirs of contentment.",
+      page: 384,
+    },
+  ]
+
+- title: "Unsubscribe"
+  quotes: [
+    {
+      quote: "The fact of the matter is that even though we may not care for the content of every email we receive, many of us are addicted to the act of checking email. It activates a primal impulse in our brains to seek out rewards. And in this regard we’re not very different from rats. ",
+      page: 5,
+    },
+    {
+      quote: "This is the progress paradox: by dint of technology, it’s easy to see our progress when we’re doing relatively meaningless short-term tasks, while it’s quite difficult to see our progress when we’re engaged in the long-term, creative projects that will ultimately have the most impact on our lives. ",
+      page: 14,
+    },
+    {
+      quote: "Normally when we communicate with someone in person or even on the phone, we are reading a thousand little social cues as we talk and deciding what to do next based on those cues. ",
+      page: 17,
+    },
+    {
+      quote: "Each time you send an email, you are also sending something else: a subtle signal that sets expectations with your colleagues, clients, and customers. ",
+      page: 40,
+    },
+    {
+      quote: "Every time you stop doing a task you are working on to check your email, you incur what researchers call a “switching cost.” Particularly if you’re doing any kind of work that requires deep concentration (aka creative flow) such as writing, coding, or assembling a presentation, it typically takes at least 25 minutes to get properly back into the task after you’ve interrupted yourself. ",
+      page: 64,
+    },
+    {
+      quote: "Your working life and your credibility are built on relationships—be mindful of them. ",
+      page: 74,
+    },
+    {
+      quote: "Learning how to follow up with finesse is an essential part of getting shit done. ",
+      page: 88,
+    },
+    {
+      quote: "If writing a letter a hundred years ago was the equivalent of sitting down with someone in a quiet room and talking face-to-face, writing an email today is like yelling at someone across a noisy traffic intersection while they’re rushing to an appointment. ",
+      page: 98,
+    },
+    {
+      quote: "Every email is a conversation, a social interaction that requires politeness, sensitivity, finesse, and kindness. ",
+      page: 102,
+    },
+    {
+      quote: "One of the skills that will make or break all of us in the twenty-first century is the ability to try out and master new technologies. ",
+      page: 145,
+    },
+    {
+      quote: "As we begin to communicate significantly more through the written word than face-to-face interaction, writing well has become a core skill everyone must cultivate. ",
+      page: 149,
+    },
+    {
+      quote: "At the end of the day, being good at email is not a single skill. It is a collection of skills—the ability to prioritize and execute, to be empathetic and affable, to express yourself clearly and concisely—that applies to nearly all aspects of work and life. ",
+      page: 150,
+    },
+    {
+      quote: "Distraction is the enemy of creativity. It deadens our ability to accomplish anything of import. And worse, it lulls us into a feeling of engagement, of busyness, that feels productive even as it destroys any possibility of meaningful productivity.",
+      page: 151,
+    },
+  ]
+
+- title: "The Organized Mind"
+  quotes: [
+    {
+      quote: "Memory is fallible, of course, but not because of storage limitations so much as retrieval limitations.",
+      page: 63,
+    },
+    {
+      quote: "Once memories became externalized with written language, the writer’s brain and attentional system were freed up to focus on something else.",
+      page: 85,
+    },
+    {
+      quote: "We are doing the jobs of ten different people while still trying to keep up with our lives, our children and parents, our friends, our careers, our hobbies, and our favorite TV shows.",
+      page: 163,
+    },
+    {
+      quote: "In 1976, the average supermarket stocked 9,000 unique products; today that number has ballooned to 40,000 of them, yet the average person gets 80%–85% of their needs in only 150 different supermarket items. That means that we need to ignore 39,850 items in the store.",
+      page: 5,
+    },
+    {
+      quote: "Every status update you read on Facebook, every tweet or text message you get from a friend, is competing for resources in your brain with important things like whether to put your savings in stocks or bonds, where you left your passport, or how best to reconcile with a close friend you just had an argument with.",
+      page: 7,
+    },
+    {
+      quote: "The Sumerian city of Uruk (~5000 BCE) was one of the world’s earliest large cities. Its active commercial trade created an unprecedented volume of business transactions, and Sumerian merchants required an accounting system for keeping track of the day’s inventory and receipts; this was the birth of writing.",
+      page: 13,
+    },
+    {
+      quote: "all literature could be said to originate from sales receipts (sorry).",
+      page: 13,
+    },
+    {
+      quote: "A steady flow of complaints about the proliferation of books reverberated into the late 1600s. Intellectuals warned that people would stop talking to each other, burying themselves in books, polluting their minds with useless, fatuous ideas.",
+      page: 15,
+    },
+    {
+      quote: "Why is information overload such a serious problem now? For one thing, we’re doing more work than ever before.",
+      page: 18,
+    },
+    {
+      quote: "The promise of a computerized society, we were told, was that it would relegate to machines all of the repetitive drudgery of work, allowing us humans to pursue loftier purposes and to have more leisure time. It didn’t work out this way.",
+      page: 18,
+    },
+    {
+      quote: "Emerging evidence suggests that embracing new ideas and learning is helping us to live longer and can stave off Alzheimer’s disease—apart from the advantages traditionally associated with expanding one’s knowledge.",
+      page: 19,
+    },
+    {
+      quote: "So it’s not that we need to take in less information but that we need to have systems for organizing it.",
+      page: 19,
+    },
+    {
+      quote: "We are easily swayed by first-person stories and vivid accounts of a single experience.",
+      page: 21,
+    },
+    {
+      quote: "Our brains focus on vivid, social accounts more than dry, boring, statistical accounts.",
+      page: 21,
+    },
+    {
+      quote: "Classifications such as kinship categories aid in the organization, encoding, and communication of complex knowledge. And the classifications have their roots in animal behavior, so they can be said to be precognitive. What humans did was to make these distinctions linguistic and thus explicitly communicable information.",
+      page: 27,
+    },
+    {
+      quote: "“Bug” promotes cognitive economy by combining into a single category things that most of the time we don’t need to think about in great detail, apart from keeping them out of our food or from crawling on our skin.",
+      page: 29,
+    },
+    {
+      quote: "We also lack a term for all the people you would have to notify if you were going into the hospital for three weeks. These might include close relatives, friends, your employer, the newspaper delivery person, and anyone you had appointments with during that period. The lack of a term doesn’t mean you don’t understand the concept; it simply means that the category isn’t reflected in our language.",
+      page: 29,
+    },
+    {
+      quote: "It can be practical to know a great deal about the biological world, but the human brain has been configured—wired—to acquire this information and to want to acquire it.",
+      page: 32,
+    },
+    {
+      quote: "Out of 30,000 edible plants thought to exist on earth, just eleven account for 93% of all that humans eat: oats, corn, rice, wheat, potatoes, yucca (also called tapioca or cassava), sorghum, millet, beans, barley, and rye.",
+      page: 32,
+    },
+    {
+      quote: "We humans are hardwired to enjoy knowledge, in particular knowledge that comes through the senses. And we are hardwired to impose structure on this sensory knowledge, to turn it this way and that, to view it from different angles, and try to fit it into multiple neural frameworks. This is the essence of human learning.",
+      page: 32,
+    },
+    {
+      quote: "The most fundamental principle of the organized mind, the one most critical to keeping us from forgetting or losing things, is to shift the burden of organizing from our brains to the external world.",
+      page: 35,
+    },
+    {
+      quote: "If we can remove some or all of the process from our brains and put it out into the physical world, we are less likely to make mistakes. This is not because of the limited capacity of our brains—rather, it’s because of the nature of memory storage and retrieval in our brains: Memory processes can easily become distracted or confounded by other, similar items. Active sorting is just one of many ways of using the physical world to organize your mind.",
+      page: 35,
+    },
+    {
+      quote: "In a broad sense, these are related to what cognitive psychologists call Gibsonian affordances after the researcher J. J. Gibson.",
+      page: 35,
+    },
+    {
+      quote: "Daydreaming and mind-wandering, we now know, are a natural state of the brain. This accounts for why we feel so refreshed after it, and why vacations and naps can be so restorative.",
+      page: 38,
+    },
+    {
+      quote: "The phrase paying attention is well-worn figurative language, and there is some useful meaning in this cliché. Attention has a cost. It is a this-or-that, zero-sum game.",
+      page: 39,
+    },
+    {
+      quote: "When we pay attention to one thing, we are necessarily taking attention away from something else.",
+      page: 39,
+    },
+    {
+      quote: "The number of possessions the average person has now is far greater than we had for most of our evolutionary history, easily by a factor of 1,000, and so organizing them is a distinctly modern problem.",
+      page: 78,
+    },
+    {
+      quote: "The principle underlying all these is off-loading the information from your brain and into the environment; use the environment itself to remind you of what needs to be done.",
+      page: 84,
+    },
+    {
+      quote: "Avery picks a ballpoint pen out of her pen drawer, and it doesn’t write. She tries everything she knows to get it to work—moistening the tip, heating it with a lighter, shaking it, and making swirls on a piece of paper. She concludes it doesn’t work, and then puts it right back in the drawer and takes another pen.",
+      page: 90,
+    },
+    {
+      quote: "Students who studied for an exam in the room they later took it in did better than students who studied somewhere else.",
+      page: 91,
+    },
+    {
+      quote: "And we use them all the time, part of a twenty-first-century mania for cramming everything we do into every single spare moment of downtime.",
+      page: 96,
+    },
+    {
+      quote: "We text while we’re walking across the street, catch up on e-mail while standing in line, and while having lunch with friends, we surreptitiously check to see what our other friends are doing.",
+      page: 96,
+    },
+    {
+      quote: "When people think they’re multi-tasking, they’re actually just switching from one task to another very rapidly. And every time they do, there’s a cognitive cost in doing so.”",
+      page: 96,
+    },
+    {
+      quote: "Wilson showed that the cognitive losses from multitasking are even greater than the cognitive losses from pot smoking.",
+      page: 97,
+    },
+    {
+      quote: "You receive a text, and that activates your novelty centers. You respond and feel rewarded for having completed a task (even though that task was entirely unknown to you fifteen seconds earlier). Each of those delivers a shot of dopamine as your limbic system cries out “More! More! Give me more!”",
+      page: 101,
+    },
+    {
+      quote: "Each time we check a Twitter feed or Facebook update, we encounter something novel and feel more connected socially (in a kind of weird impersonal cyber way) and get another dollop of reward hormones.",
+      page: 102,
+    },
+    {
+      quote: "Make no mistake: E-mail, Facebook, and Twitter checking constitute a neural addiction.",
+      page: 102,
+    },
+    {
+      quote: "Off-load the memory functions into the physical world rather than into your crowded mental world. In other words, write it down on a piece of paper, or if you prefer, get a system.",
+      page: 109,
+    },
+    {
+      quote: "Part of our sense of order manifests itself in wanting to repair simple things when we can.",
+      page: 110,
+    },
+    {
+      quote: "It is important to harmonize your organizational style and systems with your personality.",
+      page: 112,
+    },
+    {
+      quote: "It is not the better part of human nature, but it is human nature to lie to avoid punishment.",
+      page: 134,
+    },
+    {
+      quote: "Creative solutions often arise from allowing a sequence of altercations between dedicated focus and daydreaming.",
+      page: 170,
+    },
+    {
+      quote: "Humans will work just as hard to obtain a novel experience as we will to get a meal or a mate.",
+      page: 170,
+    },
+    {
+      quote: "If you have something big you want to get done, break it up into chunks—meaningful, implementable, doable chunks.",
+      page: 173,
+    },
+    {
+      quote: "We work, we inspect the work, we make adjustments, we push forward.",
+      page: 173,
+    },
+    {
+      quote: "The research says that if you have chores to do, put similar chores together.",
+      page: 175,
+    },
+    {
+      quote: "Items that are processed at a deeper level, with more active involvement by us, tend to become more strongly encoded in memory",
+      page: 183,
+    },
+    {
+      quote: "If sleep-related economic losses were a business, it would be the sixth-largest business in the country.",
+      page: 191,
+    },
+    {
+      quote: "Billionaire Donald Trump has had as many high-profile failures as successes: dead-end business ventures like Trump Vodka, Trump magazine, Trump Airlines, and Trump Mortgage, four bankruptcies, and a failed presidential bid. He is a controversial figure, but he has demonstrated resilience and has never let business failures reduce his self-confidence.",
+      page: 201,
+    },
+    {
+      quote: "None of us needs to gamble, or drink alcohol, read e-mail, or compulsively check social networking feeds to survive. Realizing when a diversion has gotten out of control is one of the great challenges of life.",
+      page: 209,
+    },
+    {
+      quote: "The greatest life satisfaction comes from completing projects that required sustained focus and energy. It seems unlikely that anyone will look back at their lives with pride and say with satisfaction that they managed to send an extra thousand text messages or check social network updates a few hundred extra times while they were working.",
+      page: 209,
+    },
+    {
+      quote: "Do not spend more time on a decision than it’s worth.",
+      page: 212,
+    },
+    {
+      quote: "We can organize our time, and our minds, to leave time for creativity, for mind-wandering, for each of us to make our own unique contribution in our time here.",
+      page: 218,
+    },
+    {
+      quote: "This has to be what we teach our children: how to evaluate the hordes of information that are out there, to discern what is true and what is not, to identify biases and half-truths, and to know how to be critical, independent thinkers.",
+      page: 336,
+    },
+    {
+      quote: "“Social media isn’t journalism, it’s information. Journalism is what you do with it.”",
+      page: 339,
+    },
+    {
+      quote: "Because the Web is unregulated, the burden is on each user to apply critical thinking when using it.",
+      page: 342,
+    },
+    {
+      quote: "You can remember the three aspects of Web literacy by an English word used to express good wishes on meeting or parting: ave. Authenticate, validate, and evaluate.",
+      page: 343,
+    },
+    {
+      quote: "We’ve all had the experience of reading a novel and finding that we slow down in places to contemplate what was just written, to let our minds wander, and think about the story. This is the action of the daydreaming mode (in opposition to the central executive mode) and it is healthy to engage it—remember, it is the brain’s “default” mode.",
+      page: 367,
+    },
+    {
+      quote: "The tentative and intriguing take-home message is that reading high-quality fiction and literary nonfiction, and perhaps listening to music, looking at art, and watching dance, may lead to two desirable outcomes: increased interpersonal empathy and better executive attentional control.",
+      page: 368,
+    },
+    {
+      quote: "The twenty-first century’s information problem is one of selection.",
+      page: 379,
+    },
+    {
+      quote: "It’s the human condition to fall prey to old habits. We must consciously look at areas of our lives that need cleaning up, and then methodically and proactively do so. And then keep doing it.",
+      page: 383,
+    },
+  ]
+
+- title: "How to Make Sense of Any Mess"
+  quotes: [
+    {
+      quote: "While we can arrange things with the intent to communicate certain information, we can't actually make information. Our users do that for us.",
+      loc: 98,
+    },
+    {
+      quote: "What we intend to do determines how we define words like good and bad.",
+      loc: 179,
+    },
+    {
+      quote: "We live our lives across channels. It's common to see someone using a smartphone while sitting in front of a computer screen, or reading a magazine while watching TV.",
+      loc: 299,
+    },
+    {
+      quote: "When you discuss a specific subject, you subconsciously reference part of a large internal map of what you know. Other people can't see this map. It only exists in your head, and it's called your mental model.",
+      loc: 322,
+    },
+    {
+      quote: "The more diagrams you get to know, the more tools you have. The more ways you can frame the mess, the more likely you are to see the way through to the other side.",
+      loc: 376,
+    },
+    {
+      quote: "If you spend all your time thinking about how far the finish line is and fearing never getting there, you'll make slower progress or never make it at all.",
+      loc: 459,
+    },
+    {
+      quote: "We listen to our users and our guts. There is no one right way. There is only your way.",
+      loc: 618,
+    },
+    {
+      quote: "Be careful not to fall in love with your plans or ideas. Instead, fall in love with the effects you can have when you communicate clearly.",
+      loc: 625,
+    },
+    {
+      quote: "To effectively arrange anything, we have to choose methods for organizing and classifying content in ways that convey the intended information to our intended users.",
+      loc: 759,
+    },
+  ]
+
+- title: "Essentialism"
+  quotes: [
+    {
+      quote: "“In a few hundred years, when the history of our time will be written from a long-term perspective, it is likely that the most important event historians will see is not technology, not the Internet, not e-commerce. It is an unprecedented change in the human condition. For the first time – literally – substantial and rapidly growing numbers of people have choices. For the first time, they will have to manage themselves. And society is totally unprepared for it.” ",
+      page: 14,
+    },
+    {
+      quote: "It is not just information overload; it is opinion overload. ",
+      page: 15,
+    },
+    {
+      quote: "What is new is how especially damaging this myth is today, in a time when choice and expectations have increased exponentially. It results in stressed people trying to cram yet more activities into their already overscheduled lives. It creates corporate environments that talk about work/life balance but still expect their employees to be on their smartphones 24/7/365. It leads to staff meetings where as many as ten “top priorities” are discussed with no sense of irony at all. ",
+      page: 15,
+    },
+    {
+      quote: "The word priority came into the English language in the 1400s. It was singular. It meant the very first or prior thing. It stayed singular for the next five hundred years. Only in the 1900s did we pluralise the term and start talking about priorities. Illogically, we reasoned that by changing the word we could bend reality. ",
+      page: 16,
+    },
+    {
+      quote: "After all, there is still a feeling of sunk-cost bias: studies have found that we tend to value things we already own more highly than they are worth and thus that we find them more difficult to get rid of. ",
+      page: 18,
+    },
+    {
+      quote: "Essentialists spend as much time as possible exploring, listening, debating, questioning, and thinking. But their exploration is not an end in itself. The purpose of the exploration is to discern the vital few from the trivial many. ",
+      page: 22,
+    },
+    {
+      quote: "As a quote attributed to Victor Hugo, the French dramatist and novelist, puts it, “Nothing is more powerful than an idea whose time has come.” “Less but better” is a principle whose time has come. ",
+      page: 24,
+    },
+    {
+      quote: "What if society encouraged us to reject what has been accurately described as doing things we detest, to buy things we don’t need, with money we don’t have, to impress people we don’t like? ",
+      page: 26,
+    },
+    {
+      quote: "What if we stopped celebrating being busy as a measurement of importance? What if instead we celebrated how much time we had spent listening, pondering, meditating, and enjoying time with the most important people in our lives? ",
+      page: 26,
+    },
+    {
+      quote: "Drip by drip we allow our power to be taken away until we end up becoming a function of other people’s choices – or even a function of our own past choices. ",
+      page: 40,
+    },
+    {
+      quote: "Working hard is important. But more effort does not necessarily yield more results. “Less but better” does. ",
+      page: 43,
+    },
+    {
+      quote: "The overwhelming reality is: we live in a world where almost everything is worthless and a very few things are exceptionally valuable. ",
+      page: 45,
+    },
+    {
+      quote: "To discern what is truly essential we need space to think, time to look and listen, permission to play, wisdom to sleep, and the discipline to apply highly selective criteria to the choices we make. ",
+      page: 6,
+    },
+    {
+      quote: "For some reason there is a false association with the word focus. As with choice, people tend to think of focus as a thing. Yes, focus is something we have. But focus is also something we do.",
+      page: 65,
+    },
+    {
+      quote: "Think of a journal as like a storage device for backing up your brain’s faulty hard drive. As someone once said to me, the faintest pencil is better than the strongest memory. ",
+      page: 78,
+    },
+    {
+      quote: "I also suggest that once every ninety days or so you take an hour to read your journal entries from that period. But don’t be overly focused on the details, like the budget meeting three weeks ago or last Thursday’s pasta dinner. Instead, focus on the broader patterns or trends. Capture the headline. ",
+      page: 78,
+    },
+    {
+      quote: "Rand took a risk when he said no. He bet a short-term popularity loss for a long-term gain in respect. And it paid off. ",
+      page: 139,
+    },
+    {
+      quote: "It’s all too easy to blindly accept and not bother to question commitments simply because they have already been established. ",
+      page: 152,
+    },
+    {
+      quote: "Every use of time, energy, or resources has to justify itself anew. If it no longer fits, eliminate it altogether. ",
+      page: 152,
+    },
+    {
+      quote: "When we are added onto an e-mail thread, for example, we can resist our usual temptation to be the first to “reply all”. When sitting in a meeting, we can resist the urge to add our two cents. We can wait. We can observe. We can see how things develop. Doing less is not just a powerful Essentialist strategy, it’s a powerful editorial one as well. ",
+      page: 162,
+    },
+    {
+      quote: "The way of the Essentialist, on the other hand, is to use the good times to create a buffer for the bad. ",
+      page: 180,
+    },
+    {
+      quote: "One way to protect against this is simply to add a 50 per cent buffer to the amount of time we estimate it will take to complete a task or project (if 50 per cent seems overly generous, consider how frequently things actually do take us 50 per cent longer than expected). So if you have an hour set aside for a conference call, block off an additional thirty minutes. ",
+      page: 183,
+    },
+    {
+      quote: "Essentialists don’t default to Band-Aid solutions. Instead of looking for the most obvious or immediate obstacles, they look for the ones slowing down progress. They ask, “What is getting in the way of achieving what is essential?” While the non-Essentialist is busy applying more and more pressure and piling on more and more solutions, the Essentialist simply makes a one-time investment in removing obstacles. ",
+      page: 187,
+    },
+    {
+      quote: "Removing obstacles does not have to be hard or take a superhuman effort. Instead, we can start small. It’s kind of like dislodging a boulder at the top of a hill. All it takes is a small shove, then momentum will naturally build. ",
+      page: 192,
+    },
+    {
+      quote: "“My experience has taught me this about how people and organizations improve: the best place to look is for small changes we could make in the things we do often. There is power in steadiness and repetition.”6 ",
+      page: 197,
+    },
+    {
+      quote: "So we introduced a token system.9 The children were given ten tokens at the beginning of the week. These could each be traded in for either thirty minutes of screen time or fifty cents at the end of the week, adding up to $5 or five hours of screen time a week. ",
+      page: 198,
+    },
+    {
+      quote: "Take a goal or deadline you have coming up and ask yourself, “What is the minimal amount I could do right now to prepare?” ",
+      page: 200,
+    },
+    {
+      quote: "According to researchers at Duke University in North Carolina, nearly 40 per cent of our choices are deeply unconscious.7 We don’t think about them in the usual sense. There is both danger and opportunity in this. ",
+      page: 209,
+    },
+    {
+      quote: "Jack Dorsey, the co-founder of Twitter and founder of Square, has an interesting approach to his weekly routine. He has divided up his week into themes. Monday is for management meetings and “running the company” work. Tuesday is for product development. Wednesday is for marketing, communications, and growth. Thursday is for developers and partnerships. Friday is for the company and its culture.9 This routine helps to provide calmness amid the chaos of a high-growth start-up. ",
+      page: 212,
+    },
+    {
+      quote: "To operate at your highest level of contribution requires that you deliberately tune in to what is important in the here and now. ",
+      page: 216,
+    },
+    {
+      quote: "I’m not talking about doing only one thing at a time. I’m talking about being focused on one thing at a time. Multi-tasking itself is not the enemy of Essentialism; pretending we can “multi-focus” is. ",
+      page: 220,
+    },
+    {
+      quote: "When faced with so many tasks and obligations that you can’t figure out which to tackle first, stop. Take a deep breath. Get present in the moment and ask yourself what is most important this very second – not what’s most important tomorrow or even an hour from now. If you’re not sure, make a list of everything vying for your attention and cross off anything that is not important right now.",
+      page: 221,
+    },
+  ]
+
+- title: "The One Thing"
+  quotes: [
+    {
+      quote: "You need to be doing fewer things for more effect instead of doing more things with side effects. ",
+      loc: 103,
+    },
+    {
+      quote: "The moon is reachable if you prioritize everything and put all of your energy into accomplishing the most important thing. ",
+      loc: 136,
+    },
+    {
+      quote: "The key is over time. Success is built sequentially. It’s one thing at a time. ",
+      loc: 147,
+    },
+    {
+      quote: "This is the story line for extraordinary success stories. Passion for something leads to disproportionate time practicing or working at it. That time spent eventually translates to skill, and when skill improves, results improve. Better results generally lead to more enjoyment, and more passion and more time is invested. ",
+      loc: 204,
+    },
+    {
+      quote: "As Henry David Thoreau said, “It’s not enough to be busy, so are the ants. The question is, what are we busy about?” ",
+      loc: 321,
+    },
+    {
+      quote: "While to-dos serve as a useful collection of our best intentions, they also tyrannize us with trivial, unimportant stuff that we feel obligated to get done—because it’s on our list. Which is why most of us have a love-hate relationship with our to-dos. If allowed, they set our priorities the same way an inbox can dictate our day. ",
+      loc: 328,
+    },
+    {
+      quote: "So, if doing the most important thing is the most important thing, why would you try to do anything else at the same time? It’s a great question. ",
+      loc: 430,
+    },
+    {
+      quote: "Researchers estimate that workers are interrupted every 11 minutes and then spend almost a third of their day recovering from these distractions. ",
+      loc: 472,
+    },
+    {
+      quote: "You can do two things at once, but you can’t focus effectively on two things at once. ",
+      loc: 502,
+    },
+    {
+      quote: "When you discipline yourself, you’re essentially training yourself to act in a specific way. Stay with this long enough and it becomes routine—in other words, a habit. ",
+      loc: 574,
+    },
+    {
+      quote: "The trick to success is to choose the right habit and bring just enough discipline to establish it. That’s it. That’s all the discipline you need. As this habit becomes part of your life, you’ll start looking like a disciplined person, but you won’t be one. What you will be is someone who has something regularly working for you because you regularly worked on it. You’ll be a person who used selected discipline to build a powerful habit. ",
+      loc: 582,
+    },
+    {
+      quote: "Think of willpower like the power bar on your cell phone. Every morning you start out with a full charge. As the day goes on, every time you draw on it you’re using it up. ",
+      loc: 689,
+    },
+    {
+      quote: "The more we use our mind, the less minding power we have. ",
+      loc: 703,
+    },
+    {
+      quote: "We lose our willpower not because we think about it but because we don’t. Without appreciating that it can come and go, we let it do exactly that. Without intentionally protecting it every day, we allow ourselves to go from a will and a way to no will and no way. If success is what we’re after, this won’t work. ",
+      loc: 745,
+    },
+    {
+      quote: "Willpower is depleted when we make decisions to focus our attention, suppress our feelings and impulses, or modify our behavior in pursuit of goals. It’s like taking an ice pick and gouging a hole in our gas line. Before long we have willpower leaking everywhere and none left to do our most important work. So like any other limited but vital resource, willpower must be managed. ",
+      loc: 764,
+    },
+    {
+      quote: "We hear about balance so much we automatically assume it’s exactly what we should be seeking. It’s not. Purpose, meaning, significance—these are what make a successful life. ",
+      loc: 796,
+    },
+    {
+      quote: "If you think of balance as the middle, then out of balance is when you’re away from it. Get too far away from the middle and you’re living at the extremes. The problem with living in the middle is that it prevents you from making extraordinary time commitments to anything. ",
+      loc: 824,
+    },
+    {
+      quote: "The reason we shouldn’t pursue balance is that the magic never happens in the middle; magic happens at the extremes. ",
+      loc: 831,
+    },
+    {
+      quote: "“Imagine life is a game in which you are juggling five balls. The balls are called work, family, health, friends, and integrity. And you’re keeping all of them in the air. But one day you finally come to understand that work is a rubber ball. If you drop it, it will bounce back. The other four balls—family, health, friends, integrity—are made of glass. If you drop one of these, it will be irrevocably scuffed, nicked, perhaps even shattered.” ",
+      loc: 894,
+    },
+    {
+      quote: "Pursue a big life and you’re pursuing the greatest life you can possibly live. To live great, you have to think big. You must be open to the possibility that your life and what you accomplish can become great. ",
+      loc: 1016,
+    },
+    {
+      quote: "Don’t fear big. Fear mediocrity. Fear waste. Fear the lack of living to your fullest. When we fear big, we either consciously or subconsciously work against it. We either run toward lesser outcomes and opportunities or we simply run away from the big ones. ",
+      loc: 1019,
+    },
+    {
+      quote: "I discovered that we can’t manage time, and that the key to success isn’t in all the things we do but in the handful of things we do well. ",
+      loc: 1080,
+    },
+    {
+      quote: "One of the most empowering moments of my life came when I realized that life is a question and how we live it is our answer. ",
+      loc: 1128,
+    },
+    {
+      quote: "Most people struggle to comprehend how many things don’t need to be done, if they would just start by doing the right thing. ",
+      loc: 1173,
+    },
+    {
+      quote: "When we start and continue a way of thinking or a way of acting over a long enough period, we’ve created a new habit. ",
+      loc: 1201,
+    },
+    {
+      quote: "“People do not decide their futures, they decide their habits and their habits decide their futures.” —F. M. Alexander ",
+      loc: 1284,
+    },
+    {
+      quote: "One of our biggest challenges is making sure our life’s purpose doesn’t become a beggar’s bowl, a bottomless pit of desire continually searching for the next thing that will make us happy. ",
+      loc: 1487,
+    },
+    {
+      quote: "Pick a direction, start marching down that path, and see how you like it. Time brings clarity, and if you find you don’t like it, you can always change your mind. It’s your life. ",
+      loc: 1547,
+    },
+    {
+      quote: "To experience extraordinary results, be a maker in the morning and a manager in the afternoon. Your goal is “ONE and done.” But if you don’t time block each day to do your ONE Thing, your ONE Thing won’t become a done thing. ",
+      loc: 1785,
+    },
+    {
+      quote: "“Perseverance is not a long race; it is many short races one after another.” ",
+      loc: 1811,
+    },
+    {
+      quote: "Life doesn’t simplify itself the moment you simplify your focus; there’s always other stuff screaming to be done. Always. So when stuff pops into your head, just write it down on a task list and get back to what you’re supposed to be doing. In other words, do a brain dump. Then put it out of sight and out of mind until its time comes. ",
+      loc: 1836,
+    },
+    {
+      quote: "The people who achieve extraordinary results don’t achieve them by working more hours. They achieve them by getting more done in the hours they work. ",
+      loc: 1865,
+    },
+    {
+      quote: "Michelangelo once said, “If the people knew how hard I had to work to gain my mastery, it wouldn’t seem wonderful at all.” His point is obvious. Time on a task, over time, eventually beats talent every time. ",
+      loc: 1903,
+    },
+    {
+      quote: "If you have to beg, then beg. If you have to barter, then barter. If you have to be creative, then be creative. Just don’t be a victim of your circumstances. ",
+      loc: 2142,
+    },
+    {
+      quote: "Attitude is contagious; it spreads easily. ",
+      loc: 2211,
+    },
+    {
+      quote: "One evening an elder Cherokee told his grandson about a battle that goes on inside all people. He said, “My son, the battle is between two wolves inside us. One is Fear. It carries anxiety, concern, uncertainty, hesitancy, indecision and inaction. The other is Faith. It brings calm, conviction, confidence, enthusiasm, decisiveness, excitement and action.” The grandson thought about it for a moment and then meekly asked his grandfather: “Which wolf wins?” The old Cherokee replied, “The one you feed.” ",
+      loc: 2313,
+    },
+    {
+      quote: "Put yourself together, and your world falls into place.",
+      loc: 2388,
+    },
+  ]
+
+
+- title: "Show Your Work!"
+  quotes: [
+    {
+      quote: "Amateurs are not afraid to make mistakes or look ridiculous in public. They’re in love, so they don’t hesitate to do work that others think of as silly or just plain stupid. ",
+      loc: 75,
+    },
+    {
+      quote: "The world is changing at such a rapid rate that it’s turning us all into amateurs. Even for professionals, the best way to flourish is to retain an amateur’s spirit and embrace uncertainty and the unknown. ",
+      loc: 89,
+    },
+    {
+      quote: "The best way to get started on the path to sharing your work is to think about what you want to learn, and make a commitment to learning it in front of others. ",
+      loc: 95,
+    },
+    {
+      quote: "Be on the lookout for voids that you can fill with your own efforts, no matter how bad they are at first. ",
+      loc: 97,
+    },
+    {
+      quote: "Don’t show your lunch or your latte; show your work. ",
+      loc: 234,
+    },
+    {
+      quote: "You find time the same place you find spare change: in the nooks and crannies. ",
+      loc: 240,
+    },
+    {
+      quote: "When you share your taste and your influences, have the guts to own all of it. Don’t give in to the pressure to self-edit too much. ",
+      loc: 354,
+    },
+    {
+      quote: "“The biggest problem of success is that the world conspires to stop you doing the thing that you do, because you are successful,” writes author Neil Gaiman. ",
+      loc: 729,
+    },
+    {
+      quote: "Instead of taking a break in between projects, waiting for feedback, and worrying about what’s next, use the end of one project to light up the next one. ",
+      loc: 773,
+    },
+    {
+      quote: "The designer Stefan Sagmeister swears by the power of the sabbatical—every seven years, he shuts down his studio and takes a year off. His thinking is that we dedicate the first 25 years or so of our lives to learning, the next 40 to work, and the last 15 to retirement, so why not take 5 years off retirement and use them to break up the work years? ",
+      loc: 781,
+    },
+    {
+      quote: "Look for something new to learn, and when you find it, dedicate yourself to learning it out in the open. Document your progress and share as you go so that others can learn along with you. Show your work, and when the right people show up, pay close attention to them, because they’ll have a lot to show you.",
+      loc: 818,
+    },
+  ]
+
+- title: "The Slight Edge"
+  quotes: [
+    {
+      quote: "Once I got a little way above survival and was starting to head up into the warmer waters of success, without realizing it or thinking about it, I would stop doing the things that had gotten me there. Naturally, I would then start sinking back down again, back down toward survival and beyond, back down toward the failure line. And I did that every time. ",
+      page: 9,
+    },
+    {
+      quote: "Things like taking a few dollars out of a paycheck, putting it into savings, and leaving it there. Or doing a few minutes of exercise every day—and not skipping it. Or reading ten pages of an inspiring, educational, life-changing book every day. Or taking a moment to tell someone how much you appreciate them, and doing that consistently, every day, for months and years. ",
+      page: 10,
+    },
+    {
+      quote: "You could call these “little virtues” or “success habits.” I call them simple daily disciplines. Simple productive actions, repeated consistently over time. ",
+      page: 10,
+    },
+    {
+      quote: "I’ve done the exact same thing every time, using ridiculously simple strategies made up of ridiculously simple lists of ridiculously simple actions. ",
+      page: 17,
+    },
+    {
+      quote: "How to do it is not the issue. If “how to do it” were the answer, it’d be done. It’s how you do the “hows” that’s most important. ",
+      page: 18,
+    },
+    {
+      quote: "If you don’t change how you think about these simple everyday things, then no amount of how-to’s will get you anywhere or give you any true solutions. Because it’s not the hows that do it, it’s how you do the hows. ",
+      page: 19,
+    },
+    {
+      quote: "Emotions change like the wind, and you can’t stop them. No one can. They keep moving; that’s why they’re called emotions and not e-standingstills. ",
+      page: 20,
+    },
+    {
+      quote: "A positive philosophy turns into a positive attitude, which turns into positive actions, which turns into positive results, which turns into a positive lifestyle. A positive life. ",
+      page: 20,
+    },
+    {
+      quote: "“I have not failed. I’ve simply discovered ten thousand ways that don’t work.” ",
+      page: 22,
+    },
+    {
+      quote: "Success is the progressive realization of a worthy ideal. ",
+      page: 23,
+    },
+    {
+      quote: "Your philosophy creates your attitudes, which create your actions, which create your results, which create your life. ",
+      page: 28,
+    },
+    {
+      quote: "It’s never too late to start. It’s always too late to wait. ",
+      page: 39,
+    },
+    {
+      quote: "“Always live below your means.” ",
+      page: 52,
+    },
+    {
+      quote: "Parkinson’s Law goes like this: “Work expands to fill the time available for its completion.” ",
+      page: 53,
+    },
+    {
+      quote: "Fundamentally, we all take pretty much the same actions every day. We eat, sleep, think, feel, talk, and listen. ",
+      page: 54,
+    },
+    {
+      quote: "Here’s a slight edge action guaranteed to change your life: read just ten pages of a good book, a book aimed at improving your life, every day. If you read ten pages of a good book today, will your life change? Of course not. If you don’t read ten pages of a good book today, will your life fall apart? Obviously not. ",
+      page: 57,
+    },
+    {
+      quote: "Like a penny over time, reading ten pages a day would compound, just like that, and create inside you a ten-million-dollar bank of knowledge. ",
+      page: 57,
+    },
+    {
+      quote: "There is a natural progression in life: you plant, then you cultivate, and finally you harvest. In the days when we were an agrarian society, everyone knew this. It wasn’t something anyone had to think about, it was self-evident: just the way things were. Plant, cultivate, harvest. But that’s changed. Today, we have to learn it. ",
+      page: 66,
+    },
+    {
+      quote: "In a world filled with instant coffee, instant breakfast, instant credit, instant shopping, instant information, and 24/7 news, we have come dangerously close to losing touch with reality and believing we have access to instant life. ",
+      page: 67,
+    },
+    {
+      quote: "“Time is like water: it gives life to everything, and flows in places most people just don’t get.” ",
+      page: 67,
+    },
+    {
+      quote: "Knowing the secret of time, you say, “If I stay on this road long enough, I’ll get the result I’m seeking.” It’s not a question of your mood or your feelings. And it’s not a question of will power. It’s a question of simply knowing. ",
+      page: 74,
+    },
+    {
+      quote: "The difficult is what takes a little time; the impossible is what takes a little longer. ",
+      page: 75,
+    },
+    {
+      quote: "To grasp how the slight edge works, you have to view your actions through the eyes of time. ",
+      page: 80,
+    },
+    {
+      quote: "You already have the time. You already have the skill, the confidence. You already have everything you need to achieve everything you want. You just can’t see it. ",
+      page: 82,
+    },
+    {
+      quote: "Life means your health. The healthier you are, the more life you experience. Better health not only lets you live out all the days of a longer life, it also lets you live more life in each and every one of those days. ",
+      page: 95,
+    },
+    {
+      quote: "Financial health gives you freedom; freedom to follow your passions, chase your pursuits, develop your skills and talents and gifts, to fulfill the promises of life itself. ",
+      page: 95,
+    },
+    {
+      quote: "“Personal development” sounds to most people like work, and who wants to work harder than they are already working? But “happiness” doesn’t sound like work. It sounds like … well, it sounds like being happier. ",
+      page: 101,
+    },
+    {
+      quote: "What I realized was that while the slight edge was the missing ingredient people need to make their lives work, happiness was the missing ingredient that quite a few people needed to make the slight edge work. Happiness. The perfect workout partner for the slight edge. ",
+      page: 103,
+    },
+    {
+      quote: "Each morning, write down three things you’re grateful for. Not the same three every day; find three new things to write about. That trains your brain to search your circumstances and hunt for the positive. ",
+      page: 104,
+    },
+    {
+      quote: "Journal for two minutes a day about one positive experience you’ve had over the past twenty-four hours. Write down every detail you can remember; this causes your brain to literally reexperience the experience, which doubles its positive impact. ",
+      page: 104,
+    },
+    {
+      quote: "Do a random act of kindness over the course of each day. To make this simple, Shawn often recommends a specific act of kindness: at the start of each day, take two minutes to write an email to someone you know praising them or thanking them for something they did. ",
+      page: 104,
+    },
+    {
+      quote: "Through your everyday attention to those simple positive actions, your happy habits and daily disciplines, you don’t only have an impact on yourself, you are also having a powerful impact on everyone around you. ",
+      page: 119,
+    },
+    {
+      quote: "Great success often starts from a tiny beginning—but there has to be a beginning. You have to start somewhere. You have to do something. ",
+      page: 138,
+    },
+    {
+      quote: "People on the success curve live a life of responsibility. They take full responsibility for who they are, where they are, and everything that happens to them. ",
+      page: 147,
+    },
+    {
+      quote: "But it’s not even a question of wishing: take care with what you think. Because what you think, multiplied by action plus time, will create what you get. ",
+      page: 148,
+    },
+    {
+      quote: "Review the past, but only for the purpose of making a better plan. ",
+      page: 150,
+    },
+    {
+      quote: "In a constantly and rapidly changing world like ours, you simply cannot remain the same as you were yesterday. You are in motion—you have no choice in that. But motion in which direction? You have total choice in that. ",
+      page: 151,
+    },
+    {
+      quote: "The past does not equal the future. ",
+      page: 155,
+    },
+    {
+      quote: "“All truth passes through three stages,” the great German philosophy Arthur Schopenhauer reportedly observed. “First, it is ridiculed. Second, it is violently opposed. Third, it is accepted as being self-evident.” Gandhi put it this way: “First they ignore you, then they laugh at you, then they fight you, then you win.” Both quotations show a brilliant insight into the nature of the 95 percent. ",
+      page: 167,
+    },
+    {
+      quote: "Of the slightly more than 7 billion people on earth, according to the United Nations, more than 1 billion cannot read. Can you imagine that? One person out of every seven—1 billion people. ",
+      page: 177,
+    },
+    {
+      quote: "the problem is not that people read too little, but that they fill their brains with stuff that ain’t doing them no good. ",
+      page: 177,
+    },
+    {
+      quote: "Life is doing. If you aren’t doing, you’re dying. ",
+      page: 180,
+    },
+    {
+      quote: "Your gyroscope is your vision of where you’re going—in other words, your dream. Your processor is the slight edge: a consistent series of tiny, seemingly insignificant actions, easy to do and easy not to do, and in this case, doing them leads you directly to the moon instead of shooting off into the vacuum of outer space. ",
+      page: 184,
+    },
+    {
+      quote: "The purpose of investing in yourself is not to accumulate skills or fluency in specific areas of knowledge. While those things are valuable, they are not the principal aim. The principal aim in self-investment is to train how you think and what you think. ",
+      page: 186,
+    },
+    {
+      quote: "Most everything else about the slight edge, as you already know, is easy to do—but disassociating yourself from people who do not empower you can be a painful and difficult thing to do. ",
+      page: 199,
+    },
+    {
+      quote: "When you start at the beginning of anything, you’re at the highest level of anxiety. As you learn—through study and doing, information and experience, book smarts and street smarts—you gradually lower your level of anxiety by raising your level of mastery. ",
+      page: 201,
+    },
+    {
+      quote: "Remember, people who live on the success curve are pulled by the future, while those who dwell on the failure curve are pulled by the past. ",
+      page: 209,
+    },
+    {
+      quote: "Some people accomplish this by keeping a journal. If you choose this approach, here’s the key to making it work: don’t just write down a record of what happened today, along with your thoughts and feelings about what happened. Ask yourself specific slight edge questions. “In each area of my life, what are the critical, simple little things that are easy to do, and easy not to do? Did I do them? Did I move forward? Did I ride the success curve?” ",
+      page: 211,
+    },
+    {
+      quote: "There are two kinds of habits: those that serve you, and those that don’t. Brushing your teeth is a habit that serves you; biting your nails is one that doesn’t. ",
+      page: 217,
+    },
+    {
+      quote:W"ait and watch and work—and don’t give up. ",
+      page: 222,
+    },
+    {
+      quote: "Showing up is essential. Showing up consistently is powerful. Showing up consistently with a positive outlook is even more powerful. But doing all that for a week … is just doing it for a week. ",
+      page: 226,
+    },
+    {
+      quote: "A burning desire backed by faith simply means deeply, passionately wanting to get somewhere and knowing—not hoping, not wishing, but knowing that you’re going to get there. In other words, there has to be congruence between your desire and your faith. ",
+      page: 228,
+    },
+    {
+      quote: "The average person spends 250 to 350 hours every year driving from this place to that. That’s forty minutes to an hour every day. If you spend that time listening to educational and self-improvement material, you’ll have the equivalent of a Ph.D. on any subject you choose in just a few years. And you’ll start noticing a difference in how you look at life in months, maybe even sooner. ",
+      page: 260,
+    },
+    {
+      quote: "Abraham Lincoln spoke about taking twice as long to sharpen the axe as to hack at the tree. In your life, you are the axe; the slight edge is how you sharpen it. Sharpen yourself and pursue your path through those simple, small, easy disciplines, and compounded over time, they will take you to the top.",
+      page: 269,
+    },  ]
+
+- title: "The 10X Rule"
+  quotes: [
+    {
+      quote: "We are told what is considered to be “a lot of money”—what is rich, poor, or middle class. We have predetermined notions about what is fair, what is difficult, what is possible, what is ethical, what is good, what is bad, what is ugly, what tastes good, what looks good, and on and on. ",
+      page: 8,
+    },
+    {
+      quote: "Anyone who minimizes the importance of success to your future has given up on his or her own chances of accomplishment and is spending his or her life trying to convince others to do the same. ",
+      page: 22,
+    },
+    {
+      quote: "Success is not a lottery, bingo, a horse race, or a card game that allows for only one winner. ",
+      page: 33,
+    },
+    {
+      quote: "Great ideas, new technologies, innovative products, and fresh solutions to old problems are all things that will never exist in shortages. ",
+      page: 34,
+    },
+    {
+      quote: "No game in life is truly enjoyable without first accepting control over your understanding of the game, how you play the game, and then the outcome of the game. ",
+      page: 40,
+    },
+    {
+      quote: "It was only until I truly started to believe that nothing happens to me; it happens because of me that I was able to start operating at 10X levels. ",
+      page: 45,
+    },
+    {
+      quote: "The second you start hitting it big, you will immediately be judged by the mediocre. People who operate at the other three levels of action will be threatened by your activity level and will often make it seem somehow “wrong” in order to make themselves right. These people cannot stand seeing others succeed at these levels and will do everything to stop them. ",
+      page: 57,
+    },
+    {
+      quote: "Consider the following statistics: The average worker reads an average of less than one book a year and works an average of 37.5 hours per week. This same person makes 319 times less money than the top U.S. CEOs, who claim to read more than 60 books a year. Many of these financially successful executives are maligned for the huge sums of money they receive; however, we often fail to appreciate what these people have done to get where they are today. ",
+      page: 61,
+    },
+    {
+      quote: "The things upon which your life depends most are based on the actions you take daily. That is why I make sure to always do two things: (1) I write my goals down every day and (2) I choose objectives that are just out of reach. ",
+      page: 70,
+    },
+    {
+      quote: "Though I am always ethical, I never play fair. I seek out ways in which I can get an unfair advantage—and one surefire way to do this is to do what others won't. ",
+      page: 78,
+    },
+    {
+      quote: "Market conditions won't improve until you improve the way you think and approach the market. ",
+      page: 83,
+    },
+    {
+      quote: "And for the first time in our history, we are seeing more men lose jobs than women because higher-paid males are being let go in favor of keeping their less expensive counterparts. At the same time, the prices of necessary items—such as energy, education, housing, and insurance—continue to increase while wages decrease. This kind of squeeze always affects the largest groups of people in a given population. The wealthy don't depend on income and debt, and the poor will receive help for which the middle class don't qualify. ",
+      page: 89,
+    },
+    {
+      quote: "You never want to blindly follow the masses; they are almost always wrong. Instead of following the pack, lead them! ",
+      page: 105,
+    },
+    {
+      quote: "I handle this dilemma myself by omitting time from the equation—since time is what drives fear. The more time you devote to the object of your apprehension, the stronger it becomes. So starve the fear of its favorite food by removing time from its menu. ",
+      page: 116,
+    },
+    {
+      quote: "Fear doesn't just tell you what to do; it also tells you when to do it. Ask yourself what time it is at any point in the day, and the answer is always the same: now. The time is always now—and when you experience fear, it's a sign that the best time to take action is at that very moment. ",
+      page: 117,
+    },
+    {
+      quote: "If you listen to people discuss the topic of time—especially in regards to the amount they have at work—you'll probably hear a lot of complaining. ",
+      page: 124,
+    },
+    {
+      quote: "Most people only work enough so that it feels like work, whereas successful people work at a pace that gets such satisfying results that work is a reward. ",
+      page: 124,
+    },
+    {
+      quote: "Remember: Success is not a popularity contest. It is your duty, obligation, and responsibility. ",
+      page: 130,
+    },
+    {
+      quote: "Because the lower performers are not willing to step up and take responsibility to increase their production, they can only seek to tear down those who are performing at higher levels. ",
+      page: 132,
+    },
+    {
+      quote: "Customer service is the wrong target; increasing customers is the right target. This doesn't mean customer satisfaction isn't important. Everyone knows that customers have to be satisfied and happy in order for them to return and give positive word of mouth. If your service or product or investment isn't built to satisfy, then you are a criminal, and this book will only land you in jail sooner. ",
+      page: 136,
+    },
+    {
+      quote: "Make your primary focus commanding attention and generating customers before you worry about making them happy. ",
+      page: 136,
+    },
+    {
+      quote: "We don't even talk about customer satisfaction in my office. We do talk a lot about how to get more customers because attracting customers to our program is the only way to increase customer satisfaction. ",
+      page: 136,
+    },
+    {
+      quote: "Brands that truly deliver customer satisfaction do not talk about customer service; they focus on customer acquisition. ",
+      page: 138,
+    },
+    {
+      quote: "You will not get to quality without seeking quantity. ",
+      page: 141,
+    },
+    {
+      quote: "Complaints and problems are opportunities to do more business and solve more issues—and to give your customers the chance to spread the word about how great you are at making their problems go away! ",
+      page: 143,
+    },
+    {
+      quote: "Remember the operative order of importance: customer acquisition is the primary target, followed by customer loyalty, followed by customers who spread the word about you. This approach allows a company to continue to invest in product development and improvement, enhance processes, and increase promotion—which ultimately creates real customer satisfaction. ",
+      page: 146,
+    },
+    {
+      quote: "The things that are assigned the most value on this planet are believed to be available everywhere. ",
+      page: 147,
+    },
+    {
+      quote: "You must first make a vow to have your brand, idea, concept, company, product, or service make a footprint on the planet. To do so, you have to get involved with your community, school system, neighborhood, and local politics. You have to attend and be seen at events, write in the local paper, and get connected to the players in your community. Once involved do everything possible to stay active, have people see you, read you, hear you, and think about you. Say yes to every opportunity to get your word out. Write about it, talk about it, give lectures on what you do, and even bark on the street corners if you have to. Commit to omnipresence! ",
+      page: 151,
+    },
+    {
+      quote: "Excuses are never the reason for why you did or didn't do something. They're just a revision of the facts that you make up in order to help yourself feel better about what happened (or didn't). ",
+      page: 154,
+    },
+    {
+      quote: "The first thing to know about excuses is that they never improve your situation. ",
+      page: 156,
+    },
+    {
+      quote: "“Nothing happens to you; it happens because of you.” ",
+      page: 157,
+    },
+    {
+      quote: "One of the fastest and best ways to separate yourself from the masses is to establish yourself as someone who makes situations better, not worse. ",
+      page: 163,
+    },
+    {
+      quote: "Successful people invest time, energy, and money in improving themselves. As a result, they don't focus on how hard the work is but rather on how rewarding the results are! ",
+      page: 175,
+    },
+    {
+      quote: "Far too many folks spend more time planning what they will get at the grocery store than they do setting the most important goals of their lives. ",
+      page: 176,
+    },
+    {
+      quote: "If you don't stay focused on your goals, you will spend your life achieving the objectives of other people—particularly those who are goal-oriented. ",
+      page: 176,
+    },
+    {
+      quote: "Whereas the unsuccessful spend their lives thinking in terms of a job, successful people approach their activities as though they are on a religious mission—not as work or merely “a job.” ",
+      page: 176,
+    },
+    {
+      quote: "Whether it is a salesperson, an athlete, an artist, a politician, or an inventor, greatness is achieved by those who think nothing of being practical and are instead obsessed with the idea of creating the reality they want to make. ",
+      page: 180,
+    },
+    {
+      quote: "The most successful CEOs are reported to read an average of 60 books and attend more than six conferences per year—whereas the average American worker reads an average of less than one book and makes 319 times less income. ",
+      page: 183,
+    },
+    {
+      quote: "Discipline is what you use to complete any activity until the activity—regardless of how uncomfortable—becomes your normal operating procedure. ",
+      page: 185,
+    },
+    {
+      quote: "Others feel the need to criticize other peoples' ventures as a way to justify giving up on their own. ",
+      page: 201,
+    },
+    {
+      quote: "Success is not a choice or an option; it's your duty to operate at the right level of thoughts and actions.",
+      page: 203,
+    },
+  ]
+
 - title: "The Dip"
   quotes: [
     {
