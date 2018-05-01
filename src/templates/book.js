@@ -6,7 +6,7 @@ import Highlight from '../components/highlight'
 
 export default function BookTemplate({ data }) {
   const { markdownRemark: post } = data
-  const { title, author, poster } = post.frontmatter
+  const { title, author, poster, url } = post.frontmatter
   const { allHighlightsYaml: highlight } = data
 
   return (
@@ -27,6 +27,13 @@ export default function BookTemplate({ data }) {
             className="book-cover__image"
           />
         )}
+        <ul className="book-meta">
+          <li className="book-meta__item">
+            <a href={url} className="book-meta__link">
+              On Goodreads
+            </a>
+          </li>
+        </ul>
       </div>
       <div className="main-content">
         <div className="page-header">
@@ -79,6 +86,7 @@ export const bookQuery = graphql`
         title
         subtitle
         author
+        url
         poster {
           childImageSharp {
             sizes(maxWidth: 400) {

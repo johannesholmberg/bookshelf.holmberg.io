@@ -13,3 +13,14 @@
 .book-cover__image {
   border: 1px solid #ddd;
 }
+
+.book-meta {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.book-meta__link {
+  display: inline-block;
+  padding: 0.3em;
+}
