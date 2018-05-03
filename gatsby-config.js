@@ -1,4 +1,7 @@
 /* global __dirname */
+const autoprefixer = require('autoprefixer')
+const browserslist = require('browserslist')
+
 module.exports = {
   siteMetadata: {
     title: 'My Bookshelf | Johannes Holmberg',
@@ -8,10 +11,15 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-plugin-postcss-sass`,
+      options: {
+        postCssPlugins: [autoprefixer({ browsers: browserslist() })],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
