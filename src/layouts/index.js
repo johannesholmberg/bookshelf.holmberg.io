@@ -30,7 +30,7 @@ const Layout = ({ children, data }) => (
       <Icons />
     </div>
     <Link to="/" className="site-header">
-      highlights.holmberg.io
+      bookshelf.holmberg.io
     </Link>
     <main id="main">{children()}</main>
     <footer className="site-footer">
