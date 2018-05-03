@@ -1,6 +1,6 @@
 {
   "name": "bookshelf.holmberg.io",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "author": "Johannes Holmberg <johannes@holmberg.io>",
   "dependencies": {
     "autoprefixer": "^8.4.1",
@@ -20,7 +20,9 @@
     "react-helmet": "^5.2.0",
     "react-typekit": "^1.1.3"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
