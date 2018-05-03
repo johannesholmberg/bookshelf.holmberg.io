@@ -1,0 +1,3 @@
+# Redirect domain aliases to primary domain
+https://highlights.holmberg.io/* https://bookshelf.holmberg.io/:splat 301!
+http://highlights.holmberg.io/* https://bookshelf.holmberg.io/:splat 301!
