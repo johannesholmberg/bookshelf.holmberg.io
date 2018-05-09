@@ -1,3 +1,236 @@
+- title: "Never Split the Difference"
+  quotes: [
+    {
+      quote: "Answering my calibrated questions demanded deep emotional strengths and tactical psychological insights that the toolbox they’d been given did not contain.",
+      page: 7,
+    },
+    {
+      quote: "One, separate the person—the emotion—from the problem; two, don’t get wrapped up in the other side’s position (what they’re asking for) but instead focus on their interests (why they’re asking for it) so that you can find what they really want; three, work cooperatively to generate win-win options; and, four, establish mutually agreed-upon standards for evaluating those possible solutions.",
+      page: 11,
+    },
+    {
+      quote: "There’s the Framing Effect, which demonstrates that people respond differently to the same choice depending on how it is framed (people place greater value on moving from 90 percent to 100 percent—high probability to certainty—than from 45 percent to 55 percent, even though they’re both ten percentage points).",
+      page: 12,
+    },
+    {
+      quote: "The whole concept, which you’ll learn as the centerpiece of this book, is called Tactical Empathy. This is listening as a martial art, balancing the subtle behaviors of emotional intelligence and the assertive skills of influence, to gain access to the mind of another person. Contrary to popular opinion, listening is not a passive activity. It is the most active thing you can do.",
+      page: 16,
+    },
+    {
+      quote: "In this world, you get what you ask for; you just have to ask correctly. So claim your prerogative to ask for what you think is right.",
+      page: 18,
+    },
+    {
+      quote: "Calibrated Questions, the queries that begin with “How?” or “What?” By eliminating “Yes” and “No” answers they force your counterpart to apply their mental energy to solving your problems.",
+      page: 20,
+    },
+    {
+      quote: "Good negotiators, going in, know they have to be ready for possible surprises; great negotiators aim to use their skills to reveal the surprises they are certain exist.",
+      page: 24,
+    },
+    {
+      quote: "Instead of prioritizing your argument—in fact, instead of doing any thinking at all in the early goings about what you’re going to say—make your sole and all-encompassing focus the other person and what they have to say. In that mode of true active listening—aided by the tactics you’ll learn in the following chapters—you’ll disarm your counterpart.",
+      page: 28,
+    },
+    {
+      quote: "The approach was half MSU—Making Shit Up—and half a sort of sales approach—basically trying to persuade, coerce, or manipulate in any way possible.",
+      page: 30,
+    },
+    {
+      quote: "Smile at someone on the street, and as a reflex they’ll smile back. Understanding that reflex and putting it into practice is critical to the success of just about every negotiating skill there is to learn.",
+      page: 32,
+    },
+    {
+      quote: "When people are in a positive frame of mind, they think more quickly, and are more likely to collaborate and problem-solve (instead of fight and resist).",
+      page: 33,
+    },
+    {
+      quote: "Talking slowly and clearly you convey one idea: I’m in control.",
+      page: 33,
+    },
+    {
+      quote: "By repeating back what people say, you trigger this mirroring instinct and your counterpart will inevitably elaborate on what was just said and sustain the process of connecting.",
+      page: 36,
+    },
+    {
+      quote: "One group of waiters, using positive reinforcement, lavished praise and encouragement on patrons using words such as “great,” “no problem,” and “sure” in response to each order. The other group of waiters mirrored their customers simply by repeating their orders back to them. The results were stunning: the average tip of the waiters who mirrored was 70 percent more than of those who used positive reinforcement.",
+      page: 36,
+    },
+    {
+      quote: "I always try to reinforce the message that being right isn’t the key to a successful negotiation—having the right mindset is.",
+      page: 43,
+    },
+    {
+      quote: "If you take a pit bull approach with another pit bull, you generally end up with a messy scene and lots of bruised feelings and resentment.",
+      page: 44,
+    },
+    {
+      quote: "The intention behind most mirrors should be “Please, help me understand.” Every time you mirror someone, they will reword what they’ve said.",
+      page: 45,
+    },
+    {
+      quote: "When another person’s tone of voice or body language is inconsistent with his words, a good mirror can be particularly useful.",
+      page: 45,
+    },
+    {
+      quote: "Don’t commit to assumptions; instead, view them as hypotheses and use the negotiation to test them rigorously.",
+      page: 47,
+    },
+    {
+      quote: "Negotiation is not an act of battle; it’s a process of discovery.",
+      page: 47,
+    },
+    {
+      quote: "How can you separate people from the problem when their emotions are the problem? Especially when they are scared people with guns. Emotions are one of the main things that derail communication. Once people get upset at one another, rational thinking goes out the window.",
+      page: 49,
+    },
+    {
+      quote: "empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world. Notice I didn’t say anything about agreeing with the other person’s values and beliefs or giving out hugs. That’s sympathy.",
+      page: 52,
+    },
+    {
+      quote: "Tactical empathy is understanding the feelings and mindset of another in the moment and also hearing what is behind those feelings so you increase your influence in all the moments that follow.",
+      page: 52,
+    },
+    {
+      quote: "Labeling is a way of validating someone’s emotion by acknowledging it. Give someone’s emotion a name and you show you identify with how that person feels. It gets you close to someone without asking about external factors you know nothing about (“How’s your family?”). Think of labeling as a shortcut to intimacy, a time-saving emotional hack.",
+      page: 54,
+    },
+    {
+      quote: "I’ve found the phrase “Look, I’m an asshole” to be an amazingly effective way to make problems go away.",
+      page: 59,
+    },
+    {
+      quote: "Imagine yourself in your counterpart’s situation. The beauty of empathy is that it doesn’t demand that you agree with the other person’s ideas (you may well find them crazy). But by acknowledging the other person’s situation, you immediately convey that you are listening. And once they know that you are listening, they may tell you something that you can use.",
+      page: 72,
+    },
+    {
+      quote: "“No” is the start of the negotiation, not the end of it. We’ve been conditioned to fear the word “No.” But it is a statement of perception far more often than of fact. It seldom means, “I have considered all the facts and made a rational choice.” Instead, “No” is often a decision, frequently temporary, to maintain the status quo. Change is scary, and “No” provides a little protection from that scariness.",
+      page: 78,
+    },
+    {
+      quote: "In fact, your invitation for the other side to say “No” has an amazing power to bring down barriers and allow for beneficial communication.",
+      page: 79,
+    },
+    {
+      quote: "There are actually three kinds of “Yes”: Counterfeit, Confirmation, and Commitment.",
+      page: 80,
+    },
+    {
+      quote: "As an exercise, the next time you get a telemarketing call, write down the questions the seller asks. I promise you’ll find that your level of discomfort correlates directly to how quickly he pushes you for “Yes.”",
+      page: 86,
+    },
+    {
+      quote: "Driving toward “that’s right” is a winning strategy in all negotiations. But hearing “you’re right” is a disaster.",
+      page: 105,
+    },
+    {
+      quote: "Whenever someone is bothering you, and they just won’t let up, and they won’t listen to anything you have to say, what do you tell them to get them to shut up and go away? “You’re right.”",
+      page: 106,
+    },
+    {
+      quote: "Know the emotional drivers and you can frame the benefits of any deal in language that will resonate.",
+      page: 126,
+    },
+    {
+      quote: "In a tough negotiation, it’s not enough to show the other party that you can deliver the thing they want. To get real leverage, you have to persuade them that they have something concrete to lose if the deal falls through.",
+      page: 128,
+    },
+    {
+      quote: "Whether we like to recognize it or not, a universal rule of human nature, across all cultures, is that when somebody gives you something, they expect something in return.",
+      page: 148,
+    },
+    {
+      quote: "Our job as persuaders is easier than we think. It’s not to get others believing what we say. It’s just to stop them unbelieving. Once we achieve that, the game’s half-won.",
+      page: 150,
+    },
+    {
+      quote: "What’s so powerful about the senior doctor’s technique is that he took what was a showdown—“I’m going to leave” versus “You can’t leave”—and asked questions that led the patient to solve his own problem … in the way the doctor wanted.",
+      page: 150,
+    },
+    {
+      quote: "“He who has learned to disagree without being disagreeable has discovered the most valuable secret of negotiation.”",
+      page: 151,
+    },
+    {
+      quote: "But calibrated questions are not just random requests for comment. They have a direction: once you figure out where you want a conversation to go, you have to design the questions that will ease the conversation in that direction while letting the other guy think it’s his choice to take you there.",
+      page: 153,
+    },
+    {
+      quote: "First off, calibrated questions avoid verbs or words like “can,” “is,” “are,” “do,” or “does.” These are closed-ended questions that can be answered with a simple “yes” or a “no.”",
+      page: 153,
+    },
+    {
+      quote: "Regardless of what language the word “why” is translated into, it’s accusatory. There are very rare moments when this is to your advantage.",
+      page: 153,
+    },
+    {
+      quote: "He visibly relaxed as he sat back in his chair and brought the top of his fingers and thumbs together in the shape of a steeple. Generally this is a body language that means the person feels superior and in charge.",
+      page: 156,
+    },
+    {
+      quote: "Even with all the best techniques and strategy, you need to regulate your emotions if you want to have any hope of coming out on top.",
+      page: 158,
+    },
+    {
+      quote: "Negotiators have to be decision architects: they have to dynamically and adaptively design the verbal and nonverbal elements of the negotiation to gain both consent and execution.",
+      page: 163,
+    },
+    {
+      quote: "The trick to “How” questions is that, correctly used, they are gentle and graceful ways to say “No” and guide your counterpart to develop a better solution—your solution.",
+      page: 167,
+    },
+    {
+      quote: "By making your counterparts articulate implementation in their own words, your carefully calibrated “How” questions will convince them that the final solution is their idea. And that’s crucial. People always make more effort to implement a solution when they think it’s theirs. That is simply human nature. That’s why negotiation is often called “the art of letting someone else have your way.”",
+      page: 169,
+    },
+    {
+      quote: "UCLA psychology professor Albert Mehrabian created the 7-38-55 rule. That is, only 7 percent of a message is based on the words while 38 percent comes from the tone of voice and 55 percent from the speaker’s body language and face.",
+      page: 176,
+    },
+    {
+      quote: "there are actually three kinds of “Yes”: Commitment, Confirmation, and Counterfeit.",
+      page: 177,
+    },
+    {
+      quote: "There’s a critical lesson there: The art of closing a deal is staying focused to the very end. There are crucial points at the finale when you must draw on your mental discipline.",
+      page: 185,
+    },
+    {
+      quote: "Is the “Yes” real or counterfeit? Test it with the Rule of Three: use calibrated questions, summaries, and labels to get your counterpart to reaffirm their agreement at least three times. It’s really hard to repeatedly lie or fake conviction.",
+      page: 186,
+    },
+    {
+      quote: "The Black Swan rule is don’t treat others the way you want to be treated; treat them the way they need to be treated.",
+      page: 198,
+    },
+    {
+      quote: "The person across the table is never the problem. The unsolved issue is. So focus on the issue.",
+      page: 204,
+    },
+    {
+      quote: "Set boundaries, and learn to take a punch or punch back, without anger. The guy across the table is not the problem; the situation is.",
+      page: 212,
+    },
+    {
+      quote: "We must let what we know—our known knowns—guide us but not blind us to what we do not know; we must remain flexible and adaptable to any situation; we must always retain a beginner’s mind; and we must never overvalue our experience or undervalue the informational and emotional realities served up moment by moment in whatever situation we face.",
+      page: 218,
+    },
+    {
+      quote: "Don’t look to verify what you expect. If you do, that’s what you’ll find. Instead, you must open yourself up to the factual reality that is in front of you.",
+      page: 219,
+    },
+    {
+      quote: "Who has leverage in a kidnapping? The kidnapper or the victim’s family? Most people think the kidnapper has all the leverage. Sure, the kidnapper has something you love, but you have something they lust for. Which is more powerful? Moreover, how many buyers do the kidnappers have for the commodity they are trying to sell? What business is successful if there’s only one buyer?",
+      page: 221,
+    },
+    {
+      quote: "Every negotiation, every conversation, every moment of life, is a series of small conflicts that, managed well, can rise to creative beauty.",
+      page: 243
+    },
+  ]
+
+
 - title: "Tools of Titans"
   quotes: [
     {
